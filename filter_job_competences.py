@@ -1,6 +1,19 @@
 """a first try to filter the job competences out of a text"""
-from collect_words import filter_string
+# from collect_words import filter_string
 import csv
+import os
+import re
+
+os.chdir("c:/Users/danie/Documents/Software/projects/job_competences")
+
+
+def filter_string(string):
+    string = re.sub(r'[^a-zA-Z\säöüÄÖÜß-]', '', string)
+    string = string.replace('--', '-')
+    string = re.sub(r'[\n\t\xa0]+', ' ', string)
+    string = string.lower()
+    return string
+
 
 with open("job_descriptions.txt", "r") as f:
     jdescription = filter_string(f.read())
@@ -11,6 +24,9 @@ with open("usual_words_de.csv", "r") as g:
 with open("competences.csv", "r") as h:
     # str_comp = h.read()
     competences = list(csv.reader(h, delimiter=','))
+
+print(f"list of competences: \n{competences}")
+print(f"job description: {jdescription}")
 
 # all this could run with a .. decorator(?) to ensure that the progress is
 # saved, even if it is interrupted.
@@ -24,6 +40,7 @@ for word in jdes:
     if word not in usual_words and len(word) > 1:
         if word in competences:
             # add to competence list
+            print(f"'{word}' should be added to list.")
 
         else:
             # ask to either add to job competences
@@ -31,11 +48,14 @@ for word in jdes:
             sorted = False
             while not sorted:
                 answer = input(f"is {word} a competence? [y/n]: ")
-                if answer = "y":
+                if answer == "y":
                     competences.append(word)
+                    print(f"'{word}' added to competences.")
+                    print(f"'{word}' should also be added to list.")
                     sorted = True
-                elif answer = "n":
+                elif answer == "n":
                     usual_words.append(word)
+                    print(f"'{word}' added to usual_words.")
                     sorted = True
                 else:
                     print("Please choose 'y' or 'n'.")
