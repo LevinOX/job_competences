@@ -4,8 +4,6 @@ import csv
 import os
 import re
 
-os.chdir("c:/Users/danie/Documents/Software/projects/job_competences")
-
 
 def filter_string(string):
     string = re.sub(r'[^a-zA-Z\säöüÄÖÜß-]', '', string)
@@ -16,7 +14,7 @@ def filter_string(string):
 
 
 with open("job_description.txt", "r", encoding='utf-8') as f:
-    jdescription = filter_string(f.read(500))
+    jdescription = filter_string(f.read(50))
     jdes = tuple(jdescription.split(sep=' '))
 with open("usual_words_de.csv", "r") as g:
     usual_words = list(csv.reader(g, delimiter=','))[0]
@@ -36,6 +34,7 @@ print("count('http'): ", jdes.count('http'))
 job_data = [[None, None, []]
             for i in range(jdes.count('http'))]  # count number of URLs in 'jdes'
 new_words = []
+new_competences = []
 
 # job_data[0][0] = 'URL'
 # job_data[0][1] = 'job_title'
@@ -54,9 +53,13 @@ for word in jdes:
     if word in usual_words:
         print(f"'{word}' in usual_words!")
     if (word not in usual_words) and (word not in new_words):  # and len(word) > 1:
-        if word in competences:
-            # add to competence list
-            print(f"'{word}' should be added to list.")
+        if word in competences or word in new_competences:
+            if word not in job_data[0][2]:
+                # add to competence list
+                job_data[0][2].append(word)
+                print(f"'{word}' added to job_data.")
+            else:
+                print(f"'{word}' already listed in job_data")
 
         else:
             # ask to either add to job competences
@@ -65,9 +68,9 @@ for word in jdes:
             while not sorted:
                 answer = input(f"is '{word}' a competence? [y/n]: ")
                 if answer == "y":
-                    competences.append(word)
+                    new_competences.append(word)
                     job_data[0][2].append(word)
-                    print(f"'{word}' added to competences.")
+                    print(f"'{word}' added to new_competences.")
                     print(f"'{word}' added to job_data.")
                     sorted = True
                 elif answer == "n":
@@ -77,3 +80,20 @@ for word in jdes:
                 else:
                     print("Please choose 'y' or 'n'.")
     print("new_words: ", new_words)
+    print("new_competences: ", new_competences)
+
+
+with open("usual_words_de.csv", "a") as g:
+    writer = csv.writer(g)
+    writer.writerow(new_words)
+    # usual_words = list(csv.writer(g, delimiter=','))
+    # usual_words = g.read()  # <-- list
+with open("competences.csv", "a") as h:
+    writer = csv.writer(h)
+    writer.writerow(new_competences)
+    # str_comp = h.read()
+    # competences = list(csv.reader(h, delimiter=','))
+
+with open("job_data.csv", "a") as i:
+    writer = csv.writer(i)
+    writer.writerow(job_data)
