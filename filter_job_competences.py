@@ -17,7 +17,7 @@ with open("job_description.txt", "r", encoding='utf-8') as f:
     jdescription = filter_string(f.read(50))
     jdes = tuple(jdescription.split(sep=' '))
 with open("usual_words_de.csv", "r") as g:
-    usual_words = list(csv.reader(g, delimiter=','))[0]
+    usual_words = sum(list(csv.reader(g, delimiter=',')), [])
     # usual_words = g.read()  # <-- list
 with open("competences.csv", "r") as h:
     # str_comp = h.read()
@@ -31,7 +31,7 @@ print(usual_words[:20])
 #                       ['URL2', 'job_title2', ['comp1', 'comp2', 'comp3']],
 #                       ['URL3', ..., [...]]] and so forth.
 print("count('http'): ", jdes.count('http'))
-job_data = [[None, None, []]
+job_data = [[None, None, set()]
             for i in range(jdes.count('http'))]  # count number of URLs in 'jdes'
 new_words = []
 new_competences = []
@@ -54,12 +54,9 @@ for word in jdes:
         print(f"'{word}' in usual_words!")
     if (word not in usual_words) and (word not in new_words):  # and len(word) > 1:
         if word in competences or word in new_competences:
-            if word not in job_data[0][2]:
-                # add to competence list
-                job_data[0][2].append(word)
-                print(f"'{word}' added to job_data.")
-            else:
-                print(f"'{word}' already listed in job_data")
+            # add to job_data set
+            job_data[0][2].add(word)
+            print(f"'{word}' added to job_data.")
 
         else:
             # ask to either add to job competences
@@ -69,7 +66,7 @@ for word in jdes:
                 answer = input(f"is '{word}' a competence? [y/n]: ")
                 if answer == "y":
                     new_competences.append(word)
-                    job_data[0][2].append(word)
+                    job_data[0][2].add(word)
                     print(f"'{word}' added to new_competences.")
                     print(f"'{word}' added to job_data.")
                     sorted = True
