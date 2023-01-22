@@ -4,11 +4,12 @@ Fills words from text document into unique set and saves in csv-file.
 
 # open file
 import re
+# with open(....) as myfile:
+#   string = readlines()
+
 f = open("random_text_de.txt", "r", encoding='utf-8')
 text = f.read()
 f.close()
-
-# preparing string and store in list
 
 
 def filter_string(string):
@@ -19,6 +20,7 @@ def filter_string(string):
     return string
 
 
+# preparing string and store in list
 text = filter_string(text)
 usual_words = sorted(list(set(text.split(sep=' '))))
 
