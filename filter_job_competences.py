@@ -1,7 +1,14 @@
 """a first try to filter the job competences out of a text"""
+# nltk-library may help with stemming and more
+# For stemming, check out: PorterStemmer, WordNetLemmatizer,
+# SnowballStemmer (german & english) from nltk or Spacy
+# For many words see "nltk words" (though maybe only english)
 # from collect_words import filter_string
+# NLTK seems to be the best, but do not have words for german.
+# check out "GermaNLTK" implementation or PyGermanet:
+# https://pypi.org/project/pygermanet/
 import csv
-import os
+# import os
 import re
 
 
@@ -14,14 +21,14 @@ def filter_string(string):
 
 
 with open("job_description.txt", "r", encoding='utf-8') as f:
-    jdescription = filter_string(f.read(50))
+    jdescription = filter_string(f.read(1000))
     jdes = tuple(jdescription.split(sep=' '))
 with open("usual_words_de.csv", "r") as g:
     usual_words = sum(list(csv.reader(g, delimiter=',')), [])
     # usual_words = g.read()  # <-- list
 with open("competences.csv", "r") as h:
     # str_comp = h.read()
-    competences = list(csv.reader(h, delimiter=','))
+    competences = sum(list(csv.reader(h, delimiter=',')), [])
 
 print(f"list of competences: \n{competences}")
 print(f"job description: {jdescription}")
