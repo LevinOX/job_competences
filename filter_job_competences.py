@@ -16,6 +16,7 @@ with open("job_description.txt", "r", encoding='utf-8') as f:
     jdes = tuple(filter(None, jdescription.split(sep=' ')))
 with open("usual_words_de.csv", "r") as g:
     usual_words = sum(list(csv.reader(g, delimiter=',')), [])
+    usual_words = [word.lower() for word in usual_words]
 with open("competences.csv", "r") as h:
     competences = sum(list(csv.reader(h, delimiter=',')), [])
 

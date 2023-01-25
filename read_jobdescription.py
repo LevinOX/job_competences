@@ -20,6 +20,7 @@ the jobs_table - which can be used to fill a database, showing which
 competences are requested for which positions.
 """
 import functions2
+import csv
 # load files: job_competences, usual_words, job_descriptions
 # f = open("job_descriptions.txt", "r")
 # file = f.read()
@@ -29,6 +30,7 @@ with open("job_descriptions.txt", "r", encoding='utf-8') as f:
     jdess = jdescriptions  # should result in lines tuple/list
 with open("usual_words_de.csv", "r") as g:
     usual_words = sum(list(csv.reader(g, delimiter=',')), [])
+    usual_words = [word.lower() for word in usual_words]
 with open("competences.csv", "r") as h:
     competences = sum(list(csv.reader(h, delimiter=',')), [])
 
@@ -38,7 +40,9 @@ with open("competences.csv", "r") as h:
 #                       ['URL2', 'job_title2', ['comp1', 'comp2', 'comp3']],
 #                       ['URL3', ..., [...]]] and so forth.
 job_data = [[None, None, set()]
-            for i in range(jdes.count('http'))]
+            for i in range(jdess.count('http'))]
+new_words = []
+new_competences = []
 
 ad_counter = 0
 ad_start = False
@@ -48,18 +52,21 @@ for line in jdess:
         ad_counter += 1
         ad_start = True
     elif ad_start:
+        # the line after 'http' holds the job title
         job_data[ad_counter][1] = line
         ad_start = False
     else:
-        # step through job description and identify not usual words, i.e.
-        # job competences.
+        # filter competences in job description
+        job_data[ad_counter][2], new_words, new_competences = find_competences(
+            line, usual_words, competences, new_words, new_competences)
 
-        # see filter_job_competences.py
-        job_data, new_words, new_competences = find_competences(
-            jdes, usual_words, competences, job_data)
+print("job_data: ", job_data)
+print("new_competences: ", new_competences)
+print("new_words: ", new_words)
 
-    if f.readline() == end of line:
-        break
+fu.append_to_file("usual_words_de.csv", new_words)
+fu.append_to_file("competences.csv", new_competences)
+fu.append_to_file("job_data.csv", job_data)
 
 
 """
