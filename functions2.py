@@ -3,12 +3,23 @@ import re
 
 
 def filter_string(string):
-    string = re.sub(r'[^a-zA-Z\säöüÄÖÜß-]', '', string)
+    string = re.sub(r'[^a-zA-Z\säöüÄÖÜß/-]', '', string)
+    # string = re.sub(r'(?<=\S)\.(?=\s)', ' ', string)
+    # string = re.sub(r'[^a-zA-Z\säöüÄÖÜß/-]|(?<=\S)\.(?=\s|$|\b)', ' ', string)
+    # string = re.sub(
+    #     r'(?i)(?<![a-zäöüß])[^a-z\säöüÄÖÜß/-]|\.(?=[\s\n])', '', string)
+    # string = re.sub(r'(?<![a-zA-ZäöüÄÖÜß])\.(?=[\s\n])', '', string)
+    # string = re.sub(
+    #     r'(?<=[a-zA-ZäöüÄÖÜß])[^a-zA-Z\säöüÄÖÜß/](?=[a-zA-ZäöüÄÖÜß])', '', string)
+    # string = re.sub(
+    #     r'(?<=[a-zA-ZäöüÄÖÜß])[^a-zA-Z\säöüÄÖÜß/.](?=[a-zA-ZäöüÄÖÜß])|[^a-zA-Z\säöüÄÖÜß/.]+', '', string)
+
+    # current "best" option, remaining full stops:
+    # string = re.sub(r'[^a-zA-Z\säöüÄÖÜß/.-]', '', string)
+    # string = re.sub(r'(?<=\S)\.(?=\S)', '', string)
+    string = string.replace('/', ' ')
     string = string.replace('--', '-')
     string = re.sub(r'[\n\t\xa0]+', ' ', string)
-    # TODO: allow capitalized words in competences -> move this to the check
-    # of allowed words.
-    # string = string.lower()
     # TODO: consider to allow stops (,) as well
     return string
 

@@ -25,7 +25,7 @@ import datetime
 import functions2 as fu
 
 with open("job_descriptions.txt", "r", encoding='utf-8') as f:
-    jdescriptions = f.read().split(sep='\n')
+    jdescriptions = f.read(500).split(sep='\n')
     jdess = jdescriptions
 with open("usual_words_de.csv", "r") as g:
     # the reader creates a list of lists, the sum makes a list of
@@ -70,7 +70,9 @@ for line in jdess:
         ad_start = 0
     else:
         # filter competences in job description
+        print("line: ", line)
         text_input = fu.filter_string(line)
+        print("filtered line: ", text_input)
         word_list = tuple(filter(None, text_input.split(sep=' ')))
         print("word_list: ", word_list)
         ad_competences, new_words, new_competences = fu.sort_competences(
