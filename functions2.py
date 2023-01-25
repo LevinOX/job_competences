@@ -13,7 +13,7 @@ def filter_string(string):
     return string
 
 
-def sort_competences(jdes, usual_words, competences, new_words, new_competences):
+def sort_competences(jdes, usual_words, competences, complex_competences, new_words, new_competences):
     """Two processes:
         1. sort known competences into a list to describe the job
         2. if word not known, ask if it is a competence or not, add it to list
@@ -23,26 +23,25 @@ def sort_competences(jdes, usual_words, competences, new_words, new_competences)
         jdes:           tuple of words in Job description
         usual_words:    tuple of usual used words
         competences:    tuple of known competences
+        complex_competences: complex competence names
     Output:
         ad_competences: set of requested competences for that job/ad
         new_words, new_competences
         """
     # TODO: This function could run with a .. decorator(?) to ensure that the progress is
     # saved, even if it is interrupted.
-    # TODO: Find double words like 'Pair Programming','lineare Algebra',
-    # CI/CD, clean code, design patterns, Fullstack Developer
     # TODO: allow '/'? What about 'vue.js' turning into 'vuejs'? Java/Kotlin
     # TODO: reduce words to stem
     ad_competences = set()
     print("jdes: ", jdes)
     for word in jdes:
-        print("word: ", word)
+        # print("word: ", word)
         # and len(word) > 1:
         if (word.lower() not in usual_words) and (word.lower() not in new_words):
             if word in competences or word in new_competences:
                 # add to ad_competences set
                 ad_competences.add(word)
-                print(f"'{word}' added to ad_competences.")
+                # print(f"'{word}' added to ad_competences.")
 
             else:
                 # ask to either add to job competences
@@ -63,9 +62,15 @@ def sort_competences(jdes, usual_words, competences, new_words, new_competences)
                     else:
                         print("Please choose 'y' or 'n'.")
         else:
-            print(f"'{word}' in usual_words! (or new_words)")
-        # print("new_words: ", new_words)
-        # print("new_competences: ", new_competences)
+            pass
+            # print(f"'{word}' in usual_words! (or new_words)")
+
+    # current solution for double words
+    matching_complex = {s for s in complex_competences if s in ' '.join(jdes)}
+    ad_competences.update(matching_complex)
+
+    # for comp in complex_competences:
+
     return ad_competences, new_words, new_competences
 
 

@@ -19,21 +19,23 @@ The script will sort the words accordingly and gather the information to fill
 the jobs_table - which can be used to fill a database, showing which 
 competences are requested for which positions.
 """
-import functions2 as fu
 import csv
 import datetime
 
+import functions2 as fu
 
 with open("job_descriptions.txt", "r", encoding='utf-8') as f:
     jdescriptions = f.read().split(sep='\n')
-    # .split(sep='\n')  # should result in lines tuple/list
     jdess = jdescriptions
 with open("usual_words_de.csv", "r") as g:
+    # the reader creates a list of lists, the sum makes a list of
+    # entries/lines:
     usual_words = sum(list(csv.reader(g, delimiter=',')), [])
     usual_words = [word.lower() for word in usual_words]
 with open("competences.csv", "r") as h:
     competences = sum(list(csv.reader(h, delimiter=',')), [])
-
+with open("complex_competences.csv", "r") as h:
+    complex_competences = set(sum(list(csv.reader(h, delimiter=',')), []))
 
 # define empty list of three lists for entries "job title, URL, competences"
 # job_data-structure: [['URL', 'job_title', ['comp1', 'comp2', 'comp3']],
@@ -44,37 +46,35 @@ for line in jdess:
     if 'http' in line:
         ad_counts += 1
 print("ad_counts: ", ad_counts)
-job_data = [[None, None, None, str(datetime.datetime.now()), set()]
+job_data = [[None, None, None, str(datetime.date.today()), set()]
             for i in range(ad_counts)]
 print("job_data: ", job_data)
-# TODO: Add company name in job_data
 new_words = []
 new_competences = []
 
 ad_counter = -1
 ad_start = 0
 for line in jdess:
-    # print("line: ", line)
     if line.startswith('http'):
+        # store URL
         ad_counter += 1
-        job_data[ad_counter][0] = line.replace('\n', '')
+        job_data[ad_counter][0] = line
         ad_start += 1
     elif ad_start == 1:
         # the line after 'http' holds the job title
-        job_data[ad_counter][1] = line.replace('\n', '')
+        job_data[ad_counter][1] = line
         ad_start += 1
     elif ad_start == 2:
         # name of company
-        job_data[ad_counter][2] = line.replace('\n', '')
+        job_data[ad_counter][2] = line
         ad_start = 0
     else:
         # filter competences in job description
         text_input = fu.filter_string(line)
         word_list = tuple(filter(None, text_input.split(sep=' ')))
-        # TODO: add replace of empty entries?
         print("word_list: ", word_list)
         ad_competences, new_words, new_competences = fu.sort_competences(
-            word_list, usual_words, competences, new_words, new_competences)
+            word_list, usual_words, competences, complex_competences, new_words, new_competences)
         print("ad_competences:", ad_competences)
         job_data[ad_counter][4].update(ad_competences)
 
@@ -85,35 +85,3 @@ print("new_words: ", new_words)
 fu.append_to_file("usual_words_de.csv", new_words)
 fu.append_to_file("competences.csv", new_competences)
 fu.append_to_file("job_data.csv", job_data)
-
-
-"""
-for line in text:
-    if 'http' in string: continue*2 (jump to next line with job title)
-    (and also jump over line with job title)
-    
-    list(string) and reduce to isalpha()-values (no other symbols): list(reduce(lambda str: isalpha(str),split(string)))
-        for word in line:
-            if word in usual: continue
-            elif word in competences
-            else append to weird_words    
-"""
-
-
-# if len(weird_words) > 0:
-#   safe to weird_words.csv and quit.
-
-"""
-while not text_end:
-    try to store URL in list (append)
-    and store job title in list (append?)
-
-    while URL not in string?
-        read line/string
-        (if 'http' in string: break)
-        put string in list and reduce to isalpha()-values (no other symbols)
-            for word in line:
-                if word in usual: continue
-                elif word in competences
-                else append to weird_words    
-"""
