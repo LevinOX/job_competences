@@ -29,8 +29,9 @@ def sort_competences(jdes, usual_words, competences, new_words, new_competences)
         """
     # TODO: This function could run with a .. decorator(?) to ensure that the progress is
     # saved, even if it is interrupted.
-    # TODO: Find double words like 'Pair Programming','lineare Algebra', CI/CD, clean code, design patterns, Fullstack Developer
-    # TODO: allow '/'? What about 'vue.js' turning into 'vuejs'?
+    # TODO: Find double words like 'Pair Programming','lineare Algebra',
+    # CI/CD, clean code, design patterns, Fullstack Developer
+    # TODO: allow '/'? What about 'vue.js' turning into 'vuejs'? Java/Kotlin
     # TODO: reduce words to stem
     ad_competences = set()
     print("jdes: ", jdes)

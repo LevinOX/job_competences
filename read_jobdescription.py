@@ -21,12 +21,10 @@ competences are requested for which positions.
 """
 import functions2 as fu
 import csv
-# load files: job_competences, usual_words, job_descriptions
-# f = open("job_descriptions.txt", "r")
-# file = f.read()
-# print(file)
-with open("job_descriptions_reduced.txt", "r", encoding='utf-8') as f:
-    jdescriptions = f.readlines(300)
+
+
+with open("job_descriptions.txt", "r", encoding='utf-8') as f:
+    jdescriptions = f.readlines()
     # .split(sep='\n')  # should result in lines tuple/list
     jdess = jdescriptions
 with open("usual_words_de.csv", "r") as g:
@@ -48,6 +46,7 @@ print("ad_counts: ", ad_counts)
 job_data = [[None, None, set()]
             for i in range(ad_counts)]
 print("job_data: ", job_data)
+# TODO: Add company name in job_data
 new_words = []
 new_competences = []
 
