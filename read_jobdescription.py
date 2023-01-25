@@ -21,10 +21,11 @@ competences are requested for which positions.
 """
 import functions2 as fu
 import csv
+import datetime
 
 
 with open("job_descriptions.txt", "r", encoding='utf-8') as f:
-    jdescriptions = f.readlines()
+    jdescriptions = f.read().split(sep='\n')
     # .split(sep='\n')  # should result in lines tuple/list
     jdess = jdescriptions
 with open("usual_words_de.csv", "r") as g:
@@ -43,7 +44,7 @@ for line in jdess:
     if 'http' in line:
         ad_counts += 1
 print("ad_counts: ", ad_counts)
-job_data = [[None, None, set()]
+job_data = [[None, None, None, str(datetime.datetime.now()), set()]
             for i in range(ad_counts)]
 print("job_data: ", job_data)
 # TODO: Add company name in job_data
@@ -51,17 +52,21 @@ new_words = []
 new_competences = []
 
 ad_counter = -1
-ad_start = False
+ad_start = 0
 for line in jdess:
     # print("line: ", line)
     if line.startswith('http'):
         ad_counter += 1
-        job_data[ad_counter][0] = line
-        ad_start = True
-    elif ad_start:
+        job_data[ad_counter][0] = line.replace('\n', '')
+        ad_start += 1
+    elif ad_start == 1:
         # the line after 'http' holds the job title
-        job_data[ad_counter][1] = line
-        ad_start = False
+        job_data[ad_counter][1] = line.replace('\n', '')
+        ad_start += 1
+    elif ad_start == 2:
+        # name of company
+        job_data[ad_counter][2] = line.replace('\n', '')
+        ad_start = 0
     else:
         # filter competences in job description
         text_input = fu.filter_string(line)
@@ -71,7 +76,7 @@ for line in jdess:
         ad_competences, new_words, new_competences = fu.sort_competences(
             word_list, usual_words, competences, new_words, new_competences)
         print("ad_competences:", ad_competences)
-        job_data[ad_counter][2].update(ad_competences)
+        job_data[ad_counter][4].update(ad_competences)
 
 print("job_data: ", job_data)
 print("new_competences: ", new_competences)
