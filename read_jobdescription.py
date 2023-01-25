@@ -26,7 +26,7 @@ import csv
 # file = f.read()
 # print(file)
 with open("job_descriptions_reduced.txt", "r", encoding='utf-8') as f:
-    jdescriptions = f.readlines(200)
+    jdescriptions = f.readlines(300)
     # .split(sep='\n')  # should result in lines tuple/list
     jdess = jdescriptions
 with open("usual_words_de.csv", "r") as g:
@@ -66,9 +66,13 @@ for line in jdess:
     else:
         # filter competences in job description
         text_input = fu.filter_string(line)
+        word_list = tuple(filter(None, text_input.split(sep=' ')))
+        # TODO: add replace of empty entries?
+        print("word_list: ", word_list)
         ad_competences, new_words, new_competences = fu.sort_competences(
-            text_input, usual_words, competences, new_words, new_competences)
-        job_data[ad_counter][2].add(ad_competences)
+            word_list, usual_words, competences, new_words, new_competences)
+        print("ad_competences:", ad_competences)
+        job_data[ad_counter][2].update(ad_competences)
 
 print("job_data: ", job_data)
 print("new_competences: ", new_competences)

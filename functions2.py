@@ -9,6 +9,7 @@ def filter_string(string):
     # TODO: allow capitalized words in competences -> move this to the check
     # of allowed words.
     # string = string.lower()
+    # TODO: consider to allow stops (,) as well
     return string
 
 
@@ -19,7 +20,7 @@ def sort_competences(jdes, usual_words, competences, new_words, new_competences)
         'usual_words' or 'competences' and, in latter case, add to list to
         describe the job.
     Input:
-        jdes:   Job description
+        jdes:           tuple of words in Job description
         usual_words:    tuple of usual used words
         competences:    tuple of known competences
     Output:
@@ -32,7 +33,9 @@ def sort_competences(jdes, usual_words, competences, new_words, new_competences)
     # TODO: allow '/'? What about 'vue.js' turning into 'vuejs'?
     # TODO: reduce words to stem
     ad_competences = set()
+    print("jdes: ", jdes)
     for word in jdes:
+        print("word: ", word)
         # and len(word) > 1:
         if (word.lower() not in usual_words) and (word.lower() not in new_words):
             if word in competences or word in new_competences:
