@@ -19,15 +19,16 @@ The script will sort the words accordingly and gather the information to fill
 the jobs_table - which can be used to fill a database, showing which 
 competences are requested for which positions.
 """
-import functions2
+import functions2 as fu
 import csv
 # load files: job_competences, usual_words, job_descriptions
 # f = open("job_descriptions.txt", "r")
 # file = f.read()
 # print(file)
-with open("job_descriptions.txt", "r", encoding='utf-8') as f:
-    jdescriptions = filter_string(f.read(100))
-    jdess = jdescriptions  # should result in lines tuple/list
+with open("job_descriptions_reduced.txt", "r", encoding='utf-8') as f:
+    jdescriptions = f.readlines(200)
+    # .split(sep='\n')  # should result in lines tuple/list
+    jdess = jdescriptions
 with open("usual_words_de.csv", "r") as g:
     usual_words = sum(list(csv.reader(g, delimiter=',')), [])
     usual_words = [word.lower() for word in usual_words]
@@ -39,17 +40,24 @@ with open("competences.csv", "r") as h:
 # job_data-structure: [['URL', 'job_title', ['comp1', 'comp2', 'comp3']],
 #                       ['URL2', 'job_title2', ['comp1', 'comp2', 'comp3']],
 #                       ['URL3', ..., [...]]] and so forth.
+ad_counts = 0
+for line in jdess:
+    if 'http' in line:
+        ad_counts += 1
+print("ad_counts: ", ad_counts)
 job_data = [[None, None, set()]
-            for i in range(jdess.count('http'))]
+            for i in range(ad_counts)]
+print("job_data: ", job_data)
 new_words = []
 new_competences = []
 
-ad_counter = 0
+ad_counter = -1
 ad_start = False
 for line in jdess:
+    # print("line: ", line)
     if line.startswith('http'):
-        job_data[ad_counter][0] = line
         ad_counter += 1
+        job_data[ad_counter][0] = line
         ad_start = True
     elif ad_start:
         # the line after 'http' holds the job title
@@ -57,8 +65,10 @@ for line in jdess:
         ad_start = False
     else:
         # filter competences in job description
-        job_data[ad_counter][2], new_words, new_competences = find_competences(
-            line, usual_words, competences, new_words, new_competences)
+        text_input = fu.filter_string(line)
+        ad_competences, new_words, new_competences = fu.sort_competences(
+            text_input, usual_words, competences, new_words, new_competences)
+        job_data[ad_counter][2].add(ad_competences)
 
 print("job_data: ", job_data)
 print("new_competences: ", new_competences)

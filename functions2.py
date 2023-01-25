@@ -36,9 +36,9 @@ def sort_competences(jdes, usual_words, competences, new_words, new_competences)
         # and len(word) > 1:
         if (word.lower() not in usual_words) and (word.lower() not in new_words):
             if word in competences or word in new_competences:
-                # add to job_data set
+                # add to ad_competences set
                 ad_competences.add(word)
-                print(f"'{word}' added to job_data.")
+                print(f"'{word}' added to ad_competences.")
 
             else:
                 # ask to either add to job competences
@@ -50,7 +50,7 @@ def sort_competences(jdes, usual_words, competences, new_words, new_competences)
                         new_competences.append(word)
                         ad_competences.add(word)
                         print(f"'{word}' added to new_competences.")
-                        print(f"'{word}' added to job_data.")
+                        print(f"'{word}' added to ad_competences.")
                         sortbool = True
                     elif answer == "n":
                         new_words.append(word)
