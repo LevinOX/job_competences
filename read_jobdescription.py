@@ -19,24 +19,44 @@ The script will sort the words accordingly and gather the information to fill
 the jobs_table - which can be used to fill a database, showing which 
 competences are requested for which positions.
 """
-
+import functions2
 # load files: job_competences, usual_words, job_descriptions
-f = open("job_descriptions.txt", "r")
+# f = open("job_descriptions.txt", "r")
 # file = f.read()
 # print(file)
+with open("job_descriptions.txt", "r", encoding='utf-8') as f:
+    jdescriptions = filter_string(f.read(100))
+    jdess = jdescriptions  # should result in lines tuple/list
+with open("usual_words_de.csv", "r") as g:
+    usual_words = sum(list(csv.reader(g, delimiter=',')), [])
+with open("competences.csv", "r") as h:
+    competences = sum(list(csv.reader(h, delimiter=',')), [])
+
 
 # define empty list of three lists for entries "job title, URL, competences"
-data = [[, , ]]
-while not end of file:
-    line = f.readline()
+# job_data-structure: [['URL', 'job_title', ['comp1', 'comp2', 'comp3']],
+#                       ['URL2', 'job_title2', ['comp1', 'comp2', 'comp3']],
+#                       ['URL3', ..., [...]]] and so forth.
+job_data = [[None, None, set()]
+            for i in range(jdes.count('http'))]
+
+ad_counter = 0
+ad_start = False
+for line in jdess:
     if line.startswith('http'):
-        data.append([[, , ]])
-        data[-1][0] = str(line)
-        data[-1][1] = str(f.readline())
+        job_data[ad_counter][0] = line
+        ad_counter += 1
+        ad_start = True
+    elif ad_start:
+        job_data[ad_counter][1] = line
+        ad_start = False
     else:
         # step through job description and identify not usual words, i.e.
         # job competences.
-        data[1][0] = str(line)
+
+        # see filter_job_competences.py
+        job_data, new_words, new_competences = find_competences(
+            jdes, usual_words, competences, job_data)
 
     if f.readline() == end of line:
         break
