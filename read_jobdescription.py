@@ -25,7 +25,7 @@ import datetime
 import functions2 as fu
 
 with open("job_descriptions.txt", "r", encoding='utf-8') as f:
-    jdescriptions = f.read(500).split(sep='\n')
+    jdescriptions = f.read().split(sep='\n')
     jdess = jdescriptions
 with open("usual_words_de.csv", "r") as g:
     # the reader creates a list of lists, the sum makes a list of
@@ -49,8 +49,10 @@ print("ad_counts: ", ad_counts)
 job_data = [[None, None, None, str(datetime.date.today()), set()]
             for i in range(ad_counts)]
 print("job_data: ", job_data)
-new_words = []
-new_competences = []
+new_words = set()
+# same like new_words just capital letters allowed.
+# new_words_to_save = set()
+new_competences = set()
 
 ad_counter = -1
 ad_start = 0
@@ -70,15 +72,20 @@ for line in jdess:
         ad_start = 0
     else:
         # filter competences in job description
-        print("line: ", line)
+        # print("line: ", line)
         text_input = fu.filter_string(line)
-        print("filtered line: ", text_input)
+        # print("filtered line: ", text_input)
         word_list = tuple(filter(None, text_input.split(sep=' ')))
-        print("word_list: ", word_list)
-        ad_competences, new_words, new_competences = fu.sort_competences(
+        # print("word_list: ", word_list)
+        print("new_words: ", new_words)
+        ad_competences, newest_words, newest_competences = fu.sort_competences(
             word_list, usual_words, competences, complex_competences, new_words, new_competences)
-        print("ad_competences:", ad_competences)
+        # new_words.update([word.lower() for word in newest_words])
+        new_words.update(newest_words)
+        new_competences.update(newest_competences)
         job_data[ad_counter][4].update(ad_competences)
+        print("ad_competences:", ad_competences)
+        print("newest_words: ", newest_words)
 
 print("job_data: ", job_data)
 print("new_competences: ", new_competences)
