@@ -99,9 +99,9 @@ def sort_competences(jdes, usual_words, competences, complex_competences, new_wo
     return ad_competences, new_words, new_competences
 
 
-def append_to_file(filename, content):
-    """function to append content to file"""
-    with open(filename, "a", newline='') as g:
-        # quoting=csv.QUOTE_NONE, escapechar=' '
-        writer = csv.writer(g, dialect='excel')
-        writer.writerows(content)
+# def append_to_file(filename, content):
+#     """function to append content to file"""
+#     with open(filename, "a", newline='') as g:
+#         # quoting=csv.QUOTE_NONE, escapechar=' '
+#         writer = csv.writer(g, dialect='excel')
+#         writer.writerows(content)

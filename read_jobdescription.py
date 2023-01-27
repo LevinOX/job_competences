@@ -91,6 +91,14 @@ print("job_data: ", job_data)
 print("new_competences: ", new_competences)
 print("new_words: ", new_words)
 
-fu.append_to_file("usual_words_de.csv", new_words)
-fu.append_to_file("competences.csv", new_competences)
+
+with open("usual_words_de.csv", "a") as g:
+    writer = csv.writer(g)
+    writer.writerow(new_words)
+
+# fu.append_to_file("competences.csv", new_competences)
+with open("competences.csv", "a") as g:
+    writer = csv.writer(g)
+    writer.writerow(new_competences)
+
 fu.append_to_file("job_data.csv", job_data)
