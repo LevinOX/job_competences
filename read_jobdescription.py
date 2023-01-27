@@ -43,12 +43,11 @@ with open("complex_competences.csv", "r") as h:
 #                       ['URL3', ..., [...]]] and so forth.
 ad_counts = 0
 for line in jdess:
-    if 'http' in line:
+    if line.startswith('http'):
         ad_counts += 1
-print("ad_counts: ", ad_counts)
 job_data = [[None, None, None, str(datetime.date.today()), set()]
             for i in range(ad_counts)]
-print("job_data: ", job_data)
+
 new_words = set()
 # same like new_words just capital letters allowed.
 # new_words_to_save = set()
@@ -56,6 +55,7 @@ new_competences = set()
 
 ad_counter = -1
 ad_start = 0
+
 for line in jdess:
     if line.startswith('http'):
         # store URL
@@ -101,4 +101,7 @@ with open("competences.csv", "a") as g:
     writer = csv.writer(g)
     writer.writerow(new_competences)
 
-fu.append_to_file("job_data.csv", job_data)
+with open("job_data.csv", "a", newline='') as g:
+    # quoting=csv.QUOTE_NONE, escapechar=' '
+    writer = csv.writer(g, dialect='excel')
+    writer.writerows(job_data)
