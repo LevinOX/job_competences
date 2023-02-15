@@ -1,9 +1,9 @@
 """
 This code is expected to read textfiles of job descriptions and search for 
-requested competences. The textfiles are expected to be structured with:
+listed competences. The textfiles are expected to be structured with:
 first line: URL
 second line: job title
-third line: job description
+followed by lines with job description until next URL
 
 Input files
 job_competences.csv        register of unique job competences
@@ -21,6 +21,7 @@ competences are requested for which positions.
 """
 import csv
 import datetime
+# if you need paths, try pathlib.
 
 import functions2 as fu
 
