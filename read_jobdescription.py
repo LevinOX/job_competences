@@ -25,7 +25,7 @@ import datetime
 
 import functions2 as fu
 
-with open("job_descriptions.txt", "r", encoding='utf-8') as f:
+with open("job_descriptions_arbeitsagentur.txt", "r", encoding='utf-8') as f:
     jdescriptions = f.read().split(sep='\n')
     jdess = jdescriptions
 with open("usual_words_de.csv", "r") as g:
@@ -72,21 +72,19 @@ for line in jdess:
         job_data[ad_counter][2] = line
         ad_start = 0
     else:
+        print("jdes line: ", line)
         # filter competences in job description
-        # print("line: ", line)
         text_input = fu.filter_string(line)
-        # print("filtered line: ", text_input)
         word_list = tuple(filter(None, text_input.split(sep=' ')))
-        # print("word_list: ", word_list)
-        print("new_words: ", new_words)
         ad_competences, newest_words, newest_competences = fu.sort_competences(
             word_list, usual_words, competences, complex_competences, new_words, new_competences)
-        # new_words.update([word.lower() for word in newest_words])
         new_words.update(newest_words)
         new_competences.update(newest_competences)
         job_data[ad_counter][4].update(ad_competences)
         print("ad_competences:", ad_competences)
         print("newest_words: ", newest_words)
+
+    # TODO: backup: if len new_words or new_competences > X: save to file.
 
 print("job_data: ", job_data)
 print("new_competences: ", new_competences)
@@ -94,15 +92,18 @@ print("new_words: ", new_words)
 
 
 with open("usual_words_de.csv", "a") as g:
+    # TODO: use utf8?
     writer = csv.writer(g)
     writer.writerow(new_words)
 
 # fu.append_to_file("competences.csv", new_competences)
 with open("competences.csv", "a") as g:
+    # TODO: use utf8?
     writer = csv.writer(g)
     writer.writerow(new_competences)
 
 with open("job_data.csv", "a", newline='') as g:
+    # TODO: use utf8
     # quoting=csv.QUOTE_NONE, escapechar=' '
     writer = csv.writer(g, dialect='excel')
     writer.writerows(job_data)
