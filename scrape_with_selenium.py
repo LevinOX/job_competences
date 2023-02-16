@@ -13,7 +13,7 @@ import csv
 import requests
 
 options = webdriver.ChromeOptions()
-wait_seconds = 5
+wait_seconds = 20
 # options.add_argument("--headless")
 # options.add_argument("--no-sandbox")
 # options.add_argument("--disable-gpu")
@@ -62,8 +62,12 @@ def arbeitsagentur_scraper():
         # clean for known urls
         with open('known_URLs.txt', 'r') as known:
             known_URLs = [line.strip() for line in known]
-            print("known_URLs: ", known_URLs)
-        urls = [item for item in urls if item not in known_URLs]
+        with open('bad_URLs.txt', 'r') as bad:
+            bad_URLs = [line.strip() for line in bad]
+
+        print("known_URLs: ", known_URLs)
+        print("bad_URLs: ", bad_URLs)
+        urls = [item for item in urls if item not in known_URLs or item not in bad_URLs]
 
         for i, url in enumerate(urls):
             print("i: ", i)
@@ -74,6 +78,10 @@ def arbeitsagentur_scraper():
 
             # gather information from page
             try:
+                if wait.until(EC.visibility_of_element_located(
+                        (By.CLASS_NAME, "externe-Beschreibung"))):
+                    raise TimeoutException
+
                 IDs = ("jobdetails-hauptberuf",
                        "jobdetails-titel",
                        "jobdetails-veroeffentlichungsdatum",
@@ -82,17 +90,18 @@ def arbeitsagentur_scraper():
                        "jobdetails-beschreibung")
                 data = [None]*len(IDs)
                 for j, id in enumerate(IDs):
-                    # print(f"searching {id}")
                     data[j] = wait.until(EC.visibility_of_element_located(
                         (By.ID, id))).text
 
                 write_content(url, data)
+                with open('known_URLs.txt', 'a') as known:
+                    print(url, file=known)
 
             except TimeoutException:
                 print("Element not found on the page")
                 # add url to known urls
-                with open('known_URLs.txt', 'a') as known:
-                    print(url, file=known)
+                with open('bad_URLs.txt', 'a') as bad:
+                    print(url, file=bad)
             if i > 4:
                 break
 

@@ -51,7 +51,6 @@ job_data = [[None, None, None, str(datetime.date.today()), set()]
 
 new_words = set()
 # same like new_words just capital letters allowed.
-# new_words_to_save = set()
 new_competences = set()
 
 ad_counter = -1
@@ -91,17 +90,17 @@ print("new_competences: ", new_competences)
 print("new_words: ", new_words)
 
 
-with open("usual_words_de.csv", "a") as g:
+with open("usual_words_de.csv", "a", encoding='utf-8') as g:
     # TODO: use utf8?
     writer = csv.writer(g)
     writer.writerow(new_words)
 
-with open("competences.csv", "a") as g:
+with open("competences.csv", "a", encoding='utf-8') as g:
     # TODO: use utf8?
     writer = csv.writer(g)
     writer.writerow(new_competences)
 
-with open("job_data.csv", "a", newline='') as g:
+with open("job_data.csv", "a", newline='', encoding='utf-8') as g:
     # TODO: use utf8
     writer = csv.writer(g, dialect='excel')
     writer.writerows(job_data)
