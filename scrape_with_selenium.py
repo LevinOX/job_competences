@@ -75,11 +75,28 @@ def arbeitsagentur_scraper():
 
             driver.implicitly_wait(wait_seconds)
             driver.get(url)
+            driver.execute_script("window.scrollBy(0, 500)")
 
+            logo_xpath = '//div[@class="ba-logo"]/a'
+            # logo_xpath = 'jobdetails-hauptberuf'
+            logo_element = wait.until(EC.visibility_of_element_located(
+                (By.XPATH, logo_xpath)))
+            # driver.find_element(By.XPATH, logo_xpath)
+            logo_title = logo_element.get_attribute('title')
+            print(logo_title)
+
+            # <button class="ba-btn ba-btn-contrast" aria-label="Auswahl bestätigen – Ausgewählte Cookies werden akzeptiert"><bahf-i18n class="hydrated">Auswahl bestätigen</bahf-i18n></button>
+            # button = wait.until(EC.presence_of_element_located(
+            #     (By.XPATH, "ba-btn ba-btn-contrast")))
+            # button.click()
+
+            break
             # gather information from page
             try:
-                if wait.until(EC.visibility_of_element_located(
+
+                if wait.until(EC.presence_of_element_located(
                         (By.CLASS_NAME, "externe-Beschreibung"))):
+                    print("extern job ad.")
                     raise TimeoutException
 
                 IDs = ("jobdetails-hauptberuf",
@@ -90,7 +107,7 @@ def arbeitsagentur_scraper():
                        "jobdetails-beschreibung")
                 data = [None]*len(IDs)
                 for j, id in enumerate(IDs):
-                    data[j] = wait.until(EC.visibility_of_element_located(
+                    data[j] = wait.until(EC.presence_of_element_located(
                         (By.ID, id))).text
 
                 write_content(url, data)
