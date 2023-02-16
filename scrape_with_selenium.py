@@ -9,10 +9,11 @@ from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import TimeoutException
 from bs4 import BeautifulSoup
+import csv
 import requests
 
 options = webdriver.ChromeOptions()
-
+wait_seconds = 5
 # options.add_argument("--headless")
 # options.add_argument("--no-sandbox")
 # options.add_argument("--disable-gpu")
@@ -39,9 +40,9 @@ def write_content(url, data):
 def arbeitsagentur_scraper():
     URL = "https://www.arbeitsagentur.de/jobsuche/suche?angebotsart=1&was=aws%20python"
     with chrome_driver as driver:
-        driver.implicitly_wait(5)
+        driver.implicitly_wait(wait_seconds)
         driver.get(URL)
-        wait = WebDriverWait(driver, 5)
+        wait = WebDriverWait(driver, wait_seconds)
 
         # wait until this element is visible
         wait.until(EC.visibility_of_element_located(
@@ -59,17 +60,17 @@ def arbeitsagentur_scraper():
             urls.append(url)
 
         # clean for known urls
-        with open(known_URLs.txt, 'r') as known:
-            known_URLs = list(known.readlines())
+        with open('known_URLs.txt', 'r') as known:
+            known_URLs = [line.strip() for line in known]
+            print("known_URLs: ", known_URLs)
+        urls = [item for item in urls if item not in known_URLs]
 
         for i, url in enumerate(urls):
             print("i: ", i)
             print(f"{url}")
 
-            driver.implicitly_wait(5)
+            driver.implicitly_wait(wait_seconds)
             driver.get(url)
-            # wait.until(EC.visibility_of_element_located(
-            #     (By.CSS_SELECTOR, '.liste-container')))
 
             # gather information from page
             try:
@@ -85,22 +86,15 @@ def arbeitsagentur_scraper():
                     data[j] = wait.until(EC.visibility_of_element_located(
                         (By.ID, id))).text
 
-                # element = driver.find_element(
-                #     By.ID, 'jobdetails-beschreibung')
-                print("url: ", url)
-                for j in range(5):
-                    print(f"{IDs[j]}: {data[j]}")
-
-                # print("X: ", data[-1])
-
                 write_content(url, data)
-                # res = driver.page_source  # requests.get(URL)
-                # soup = BeautifulSoup(res, 'html.parser')
-                # print(soup.prettify())
+
             except TimeoutException:
                 print("Element not found on the page")
-            # if i > 0:
-            #     break
+                # add url to known urls
+                with open('known_URLs.txt', 'a') as known:
+                    print(url, file=known)
+            if i > 4:
+                break
 
 
 arbeitsagentur_scraper()
