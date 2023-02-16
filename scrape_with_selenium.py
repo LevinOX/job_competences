@@ -24,19 +24,6 @@ chrome_driver = webdriver.Chrome(
 )
 
 
-def write_content(URL):
-    # URL = "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-2839234052-S"
-    with chrome_driver as driver:
-        driver.implicitly_wait(15)
-        driver.get(URL)
-        # wait = WebDriverWait(driver, 10)
-        # wait.until(EC.visibility_of_element_located(
-        #     (By.CSS_SELECTOR, '.liste-container')))
-        # element = driver.find_element(By.ID, 'jobdetails-beschreibung')
-        # text = element.text
-        # print(text)
-
-
 def arbeitsagentur_scraper():
     URL = "https://www.arbeitsagentur.de/jobsuche/suche?angebotsart=1&was=aws%20python"
     with chrome_driver as driver:
@@ -51,10 +38,8 @@ def arbeitsagentur_scraper():
         elem = driver.find_element(By.XPATH,
                                    '/html/body/jb-root/main/jb-jobsuche/jb-jobsuche-suche/div[1]/div/jb-h1zeile/h2')
         print(elem.text)
-        # res = driver.page_source  # requests.get(URL)
-        # soup = BeautifulSoup(res, 'html.parser')
-        # print(soup.prettify())
-        # user_message = chrome_browser.find_element(By.ID, 'user-message')
+
+        # create list of job description urls
         elements = driver.find_elements(By.CLASS_NAME, 'ergebnisliste-item')
         urls = []
         for elem in elements:
@@ -63,38 +48,28 @@ def arbeitsagentur_scraper():
 
         for i, url in enumerate(urls):
             print("i: ", i)
-            # url = elem.get_attribute('href')
-            # description = elem.get_attribute('aria-label')
             print(f"{url}")
-            # time.sleep(1)
-            # wait until this element is visible'
+
             driver.implicitly_wait(15)
             driver.get(url)
             # wait.until(EC.visibility_of_element_located(
             #     (By.CSS_SELECTOR, '.liste-container')))
-            # wait.until(EC.visibility_of_element_located(
-            #     (By.ID, "jobdetails-beschreibung")))
-            # wait = WebDriverWait(driver, 10)
+
+            # gather information from page
             try:
-                element2 = wait.until(EC.visibility_of_element_located(
+                element = wait.until(EC.visibility_of_element_located(
                     (By.ID, "jobdetails-beschreibung")))
                 # element = driver.find_element(
                 #     By.ID, 'jobdetails-beschreibung')
-                print(element2.text)
+                print(element.text)
+
+                # res = driver.page_source  # requests.get(URL)
+                # soup = BeautifulSoup(res, 'html.parser')
+                # print(soup.prettify())
             except TimeoutException:
                 print("Element not found on the page")
-        # write_content(url)
-        # if i > 0:
-        #     break
-        # URL2 = "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-2839234052-S"
-        # URL2 = "https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-260461_JB3578034-S"
-        # https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1193203999-S
-        # https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-890003-1-S
-
-        # wait until this element is visible
-        # wait.until(EC.visibility_of_element_located(
-        #     (By.CSS_SELECTOR, '.liste-container')))
+            if i > 0:
+                break
 
 
 arbeitsagentur_scraper()
-# write_content()
