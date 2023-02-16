@@ -96,7 +96,6 @@ with open("usual_words_de.csv", "a") as g:
     writer = csv.writer(g)
     writer.writerow(new_words)
 
-# fu.append_to_file("competences.csv", new_competences)
 with open("competences.csv", "a") as g:
     # TODO: use utf8?
     writer = csv.writer(g)
@@ -104,6 +103,5 @@ with open("competences.csv", "a") as g:
 
 with open("job_data.csv", "a", newline='') as g:
     # TODO: use utf8
-    # quoting=csv.QUOTE_NONE, escapechar=' '
     writer = csv.writer(g, dialect='excel')
     writer.writerows(job_data)

@@ -31,6 +31,6 @@ for i, word in enumerate(usual_words):
 print(len(usual_words))
 joinstring = ','.join(usual_words)
 
-f2 = open("usual_words_de.csv", "w")
+f2 = open("usual_words_de.csv", "w", encoding='utf-8')
 f2.write(joinstring)
 f2.close()
