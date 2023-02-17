@@ -107,6 +107,7 @@ def arbeitsagentur_scraper():
                     html = driver.page_source
                     soup = BeautifulSoup(html, 'html.parser')
 
+                    # find the requested elements like job title, company name, etc
                     for j, id in enumerate(IDs):
                         element = soup.find(id=id)
                         data[j] = element.text
@@ -123,8 +124,8 @@ def arbeitsagentur_scraper():
                         file.write(html)
                     with open('bad_URLs.txt', 'a') as bad:
                         print(url, file=bad)  # TODO: replace with file.write
-            if i >= 4:
-                break
+            # if i >= 4:
+            #     break
 
 
 arbeitsagentur_scraper()
