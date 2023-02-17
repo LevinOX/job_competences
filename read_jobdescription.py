@@ -22,6 +22,7 @@ competences are requested for which positions.
 import csv
 import datetime
 # if you need paths, try pathlib.
+# TODO: remove stop words and use nltk
 
 import functions2 as fu
 

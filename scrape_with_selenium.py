@@ -26,6 +26,11 @@ chrome_driver = webdriver.Chrome(
 )
 
 
+def read_file(file_path):
+    with open(file_path, 'r') as file:
+        return [line.strip() for line in file]
+
+
 def write_content(url, data):
     """write job data to file"""
     f = open("job_descriptions_arbeitsagentur.txt",
@@ -37,39 +42,67 @@ def write_content(url, data):
     f.close()
 
 
-def arbeitsagentur_scraper():
+def store_url(url):
+    with open('known_URLs.txt', 'a') as known:
+        print(url, file=known)
 
+
+def get_ad_number(wait, driver):
+    # wait until this element is visible
+    wait.until(EC.visibility_of_element_located(
+        (By.CSS_SELECTOR, '.liste-container')))
+    elem = driver.find_element(By.XPATH,
+                               '/html/body/jb-root/main/jb-jobsuche/jb-jobsuche-suche/div[1]/div/jb-h1zeile/h2')
+
+
+def create_url_list(driver):
+    elements = driver.find_elements(By.CLASS_NAME, 'ergebnisliste-item')
+    urls = []
+    for elem in elements:
+        url = elem.get_attribute('href')
+        urls.append(url)
+    return urls
+
+
+def clean_urls(urls):
+    known_URLs = read_file('known_URLs.txt')
+    bad_URLs = read_file('bad_URLs.txt')
+    clean_urls = [
+        item for item in urls if item not in known_URLs and item not in bad_URLs]
+    return clean_urls
+
+
+def scrape_selenium(wait, IDs, url, data):
+    # in case it's not on the page, but external
+    if wait.until(EC.presence_of_element_located(
+            (By.CLASS_NAME, "externe-Beschreibung"))):
+        print("extern job ad.")
+        raise TimeoutException
+
+    # requesting the data via Selenium, waiting a bit
+    for j, id in enumerate(IDs):
+        data[j] = wait.until(EC.visibility_of_element_located(
+            (By.ID, id))).text
+    write_content(url, data)
+    store_url(url)
+
+
+def arbeitsagentur_scraper():
+    """docstring"""
     URL = "https://www.arbeitsagentur.de/jobsuche/suche?angebotsart=1&was=aws%20python"
     with chrome_driver as driver:
         driver.implicitly_wait(wait_seconds)
         driver.get(URL)
         wait = WebDriverWait(driver, wait_seconds)
 
-        # wait until this element is visible
-        wait.until(EC.visibility_of_element_located(
-            (By.CSS_SELECTOR, '.liste-container')))
-
-        elem = driver.find_element(By.XPATH,
-                                   '/html/body/jb-root/main/jb-jobsuche/jb-jobsuche-suche/div[1]/div/jb-h1zeile/h2')
-        print(elem.text)
+        # get number of ads
+        print(get_ad_number(wait, driver))
 
         # create list of job description urls
-        elements = driver.find_elements(By.CLASS_NAME, 'ergebnisliste-item')
-        urls = []
-        for elem in elements:
-            url = elem.get_attribute('href')
-            urls.append(url)
+        urls = create_url_list(driver)
 
         # clean for known urls
-        with open('known_URLs.txt', 'r') as known:
-            known_URLs = [line.strip() for line in known]
-        with open('bad_URLs.txt', 'r') as bad:
-            bad_URLs = [line.strip() for line in bad]
-
-        print("known_URLs: ", known_URLs)
-        print("bad_URLs: ", bad_URLs)
-        urls = [
-            item for item in urls if item not in known_URLs and item not in bad_URLs]
+        urls = clean_urls(urls)
 
         for i, url in enumerate(urls):
             print("i: ", i)
@@ -88,18 +121,7 @@ def arbeitsagentur_scraper():
                    "jobdetails-beschreibung")
             data = [None]*len(IDs)
             try:
-                if wait.until(EC.presence_of_element_located(
-                        (By.CLASS_NAME, "externe-Beschreibung"))):
-                    print("extern job ad.")
-                    raise TimeoutException
-
-                for j, id in enumerate(IDs):
-                    data[j] = wait.until(EC.presence_of_element_located(
-                        (By.ID, id))).text
-
-                write_content(url, data)
-                with open('known_URLs.txt', 'a') as known:
-                    print(url, file=known)
+                data = scrape_selenium(wait, IDs, url, data)
 
             except TimeoutException:
                 # grab it with BeautifulSoup, if Selenium doesn't
@@ -112,20 +134,21 @@ def arbeitsagentur_scraper():
                         element = soup.find(id=id)
                         data[j] = element.text
                     write_content(url, data)
-                    with open('known_URLs.txt', 'a') as known:  # TODO: externalize in func
-                        print(url, file=known)
+                    store_url(url)
 
                     print("Elements found with BeautifulSoup")
+                # if BeautifulSoup isn't able either
                 except:
-                    # add url to bad urls
                     print("Elements not found")
+                    # store it to file to check later
                     with open(f'page{i}.html', 'w', encoding='utf-8') as file:
                         file.write(url + "\n")
                         file.write(html)
+                    # add url to bad urls
                     with open('bad_URLs.txt', 'a') as bad:
                         print(url, file=bad)  # TODO: replace with file.write
-            # if i >= 4:
-            #     break
+            if i >= 1:
+                break
 
 
 arbeitsagentur_scraper()
