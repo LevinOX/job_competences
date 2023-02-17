@@ -33,10 +33,10 @@ def read_file(file_path):
 
 def write_file(file_path, data, mode):
     with open(file_path, mode, encoding='utf-8') as file:
-        file.write(data)
+        file.write(data + '\n')
 
 
-def write_content(url, data):
+def save_data(url, data):
     """write job data to file"""
     f = open("job_descriptions_arbeitsagentur.txt",
              "a", encoding='utf-8')
@@ -135,7 +135,8 @@ def arbeitsagentur_scraper():
             data = [None]*len(IDs)
             try:
                 data = scrape_selenium(wait, IDs, url, data)
-                write_content(url, data)
+                save_data(url, data)
+                # remember url
                 write_file('known_URLs.txt', url, 'a')
                 # store_url(url)
             except TimeoutException:
@@ -143,18 +144,18 @@ def arbeitsagentur_scraper():
                 try:
                     html = driver.page_source
                     scrape_beautiful_soup(html, IDs, url, data)
-                    write_content(url, data)
+                    save_data(url, data)
+                    # remember url
                     write_file('known_URLs.txt', url, 'a')
-                    # store_url(url)
                     print("Elements found with BeautifulSoup")
                 # if BeautifulSoup isn't able either
                 except:
                     print("Elements not found")
                     # store it to file to check later
-                    error_data = url + "\n" + html + "\n"
+                    error_data = url + "\n" + html
                     write_file(f'page{i}.html', error_data, 'w')
                     # remember url
-                    write_file('bad_URLs.txt', url + '\n', 'a')
+                    write_file('bad_URLs.txt', url, 'a')
             if i >= 1:
                 break
 

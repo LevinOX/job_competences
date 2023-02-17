@@ -23,6 +23,7 @@ import csv
 import datetime
 # if you need paths, try pathlib.
 # TODO: remove stop words and use nltk
+# TODO: detect if english
 
 import functions2 as fu
 
