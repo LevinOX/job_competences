@@ -31,6 +31,11 @@ def read_file(file_path):
         return [line.strip() for line in file]
 
 
+def write_file(file_path, data, mode):
+    with open(file_path, mode, encoding='utf-8') as file:
+        file.write(data)
+
+
 def write_content(url, data):
     """write job data to file"""
     f = open("job_descriptions_arbeitsagentur.txt",
@@ -83,8 +88,16 @@ def scrape_selenium(wait, IDs, url, data):
     for j, id in enumerate(IDs):
         data[j] = wait.until(EC.visibility_of_element_located(
             (By.ID, id))).text
-    write_content(url, data)
-    store_url(url)
+    return data
+
+
+def scrape_beautiful_soup(html, IDs, url, data):
+    soup = BeautifulSoup(html, 'html.parser')
+    # find the requested elements like job title, company name, etc
+    for j, id in enumerate(IDs):
+        element = soup.find(id=id)
+        data[j] = element.text
+    return data
 
 
 def arbeitsagentur_scraper():
@@ -122,31 +135,26 @@ def arbeitsagentur_scraper():
             data = [None]*len(IDs)
             try:
                 data = scrape_selenium(wait, IDs, url, data)
-
+                write_content(url, data)
+                write_file('known_URLs.txt', url, 'a')
+                # store_url(url)
             except TimeoutException:
                 # grab it with BeautifulSoup, if Selenium doesn't
                 try:
                     html = driver.page_source
-                    soup = BeautifulSoup(html, 'html.parser')
-
-                    # find the requested elements like job title, company name, etc
-                    for j, id in enumerate(IDs):
-                        element = soup.find(id=id)
-                        data[j] = element.text
+                    scrape_beautiful_soup(html, IDs, url, data)
                     write_content(url, data)
-                    store_url(url)
-
+                    write_file('known_URLs.txt', url, 'a')
+                    # store_url(url)
                     print("Elements found with BeautifulSoup")
                 # if BeautifulSoup isn't able either
                 except:
                     print("Elements not found")
                     # store it to file to check later
-                    with open(f'page{i}.html', 'w', encoding='utf-8') as file:
-                        file.write(url + "\n")
-                        file.write(html)
-                    # add url to bad urls
-                    with open('bad_URLs.txt', 'a') as bad:
-                        print(url, file=bad)  # TODO: replace with file.write
+                    error_data = url + "\n" + html + "\n"
+                    write_file(f'page{i}.html', error_data, 'w')
+                    # remember url
+                    write_file('bad_URLs.txt', url + '\n', 'a')
             if i >= 1:
                 break
 
