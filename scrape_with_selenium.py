@@ -13,7 +13,7 @@ import csv
 import requests
 
 options = webdriver.ChromeOptions()
-wait_seconds = 20
+wait_seconds = 5
 # options.add_argument("--headless")
 # options.add_argument("--no-sandbox")
 # options.add_argument("--disable-gpu")
@@ -33,11 +33,12 @@ def write_content(url, data):
     f.writelines((url + '\n',
                   f"{data[0]}, {data[1]} \n",
                   data[3] + '\n',
-                  data[5] + '\n'))
+                  data[5].strip() + '\n'))
     f.close()
 
 
 def arbeitsagentur_scraper():
+
     URL = "https://www.arbeitsagentur.de/jobsuche/suche?angebotsart=1&was=aws%20python"
     with chrome_driver as driver:
         driver.implicitly_wait(wait_seconds)
@@ -67,7 +68,8 @@ def arbeitsagentur_scraper():
 
         print("known_URLs: ", known_URLs)
         print("bad_URLs: ", bad_URLs)
-        urls = [item for item in urls if item not in known_URLs or item not in bad_URLs]
+        urls = [
+            item for item in urls if item not in known_URLs and item not in bad_URLs]
 
         for i, url in enumerate(urls):
             print("i: ", i)
@@ -77,35 +79,20 @@ def arbeitsagentur_scraper():
             driver.get(url)
             driver.execute_script("window.scrollBy(0, 500)")
 
-            logo_xpath = '//div[@class="ba-logo"]/a'
-            # logo_xpath = 'jobdetails-hauptberuf'
-            logo_element = wait.until(EC.visibility_of_element_located(
-                (By.XPATH, logo_xpath)))
-            # driver.find_element(By.XPATH, logo_xpath)
-            logo_title = logo_element.get_attribute('title')
-            print(logo_title)
-
-            # <button class="ba-btn ba-btn-contrast" aria-label="Auswahl bestätigen – Ausgewählte Cookies werden akzeptiert"><bahf-i18n class="hydrated">Auswahl bestätigen</bahf-i18n></button>
-            # button = wait.until(EC.presence_of_element_located(
-            #     (By.XPATH, "ba-btn ba-btn-contrast")))
-            # button.click()
-
-            break
             # gather information from page
+            IDs = ("jobdetails-hauptberuf",
+                   "jobdetails-titel",
+                   "jobdetails-veroeffentlichungsdatum",
+                   "jobdetails-kopf-arbeitgeber",
+                   "jobdetails-arbeitsort",
+                   "jobdetails-beschreibung")
+            data = [None]*len(IDs)
             try:
-
                 if wait.until(EC.presence_of_element_located(
                         (By.CLASS_NAME, "externe-Beschreibung"))):
                     print("extern job ad.")
                     raise TimeoutException
 
-                IDs = ("jobdetails-hauptberuf",
-                       "jobdetails-titel",
-                       "jobdetails-veroeffentlichungsdatum",
-                       "jobdetails-kopf-arbeitgeber",
-                       "jobdetails-arbeitsort",
-                       "jobdetails-beschreibung")
-                data = [None]*len(IDs)
                 for j, id in enumerate(IDs):
                     data[j] = wait.until(EC.presence_of_element_located(
                         (By.ID, id))).text
@@ -115,11 +102,28 @@ def arbeitsagentur_scraper():
                     print(url, file=known)
 
             except TimeoutException:
-                print("Element not found on the page")
-                # add url to known urls
-                with open('bad_URLs.txt', 'a') as bad:
-                    print(url, file=bad)
-            if i > 4:
+                # grab it with BeautifulSoup, if Selenium doesn't
+                try:
+                    html = driver.page_source
+                    soup = BeautifulSoup(html, 'html.parser')
+
+                    for j, id in enumerate(IDs):
+                        element = soup.find(id=id)
+                        data[j] = element.text
+                    write_content(url, data)
+                    with open('known_URLs.txt', 'a') as known:  # TODO: externalize in func
+                        print(url, file=known)
+
+                    print("Elements found with BeautifulSoup")
+                except:
+                    # add url to bad urls
+                    print("Elements not found")
+                    with open(f'page{i}.html', 'w', encoding='utf-8') as file:
+                        file.write(url + "\n")
+                        file.write(html)
+                    with open('bad_URLs.txt', 'a') as bad:
+                        print(url, file=bad)  # TODO: replace with file.write
+            if i >= 4:
                 break
 
 
