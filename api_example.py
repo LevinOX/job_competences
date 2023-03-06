@@ -3,11 +3,7 @@ import base64
 import certifi
 #import urllib3
 requests.packages.urllib3.disable_warnings()
-# urllib3.disable_warnings()
-# http = urllib3.PoolManager(
-#     cert_reqs='CERT_REQUIRED',
-#     ca_certs=certifi.where()
-# )
+ad_number = 100
 
 print("\n\n# # # # # script starts here # # # # #\n")
 # http.request('GET', 'https://google.com')
@@ -39,7 +35,7 @@ def search(jwt, what, where):
         ('angebotsart', '1'),
         ('page', '1'),
         ('pav', 'false'),
-        ('size', '5'),
+        ('size', ad_number),
         ('umkreis', '25'),
         ('was', what),
         ('wo', where),
@@ -77,7 +73,36 @@ if __name__ == "__main__":
     print("I'm main.")
     jwt = get_jwt()
     result = search(jwt["access_token"], "bahn", "berlin")
-    print(result['stellenangebote'][0]["refnr"])
-    #for i in range(1):
-    print(job_details(jwt["access_token"], result['stellenangebote'][0]["refnr"])["stellenbeschreibung"])
-        #print("i is: ", i)
+
+
+    # save the data in txt-file with the lines:
+    #   URL             externeUrl
+    #   job title       titel
+    #   company:        arbeitgeber
+    #   job description:stellenbeschreibung
+    f = open("job_descriptions_arbeitsagentur_api.txt",
+             "w", encoding='utf-8')
+    for i in range(ad_number):
+        print("i is ", i)
+        source = "none"
+        try:
+            source = "externeUrl"
+            URL = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["externeUrl"]
+        except:
+            try:
+                source = "arbeitgeberdarstellungUrl"
+                URL = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["arbeitgeberdarstellungUrl"]
+            except:
+                source = "allianzpartnerUrl"
+                URL = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["allianzpartnerUrl"]
+        finally:
+            print(f"URL given by {source}.")
+        job_title = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["titel"]
+        profession = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["beruf"]
+        company = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["arbeitgeber"]
+        job_description = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["stellenbeschreibung"]
+        f.writelines((URL + '\n',
+                    f"{job_title}, {profession} \n",
+                    company + '\n',
+                    job_description.strip() + '\n\n'))
+    f.close()
