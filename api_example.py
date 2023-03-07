@@ -1,13 +1,25 @@
 import requests
 import base64
-import certifi
-#import urllib3
+
 requests.packages.urllib3.disable_warnings()
-ad_number = 100
+ad_number = 5
+writemode = 'w'
 
 print("\n\n# # # # # script starts here # # # # #\n")
-# http.request('GET', 'https://google.com')
-# http.request('GET', 'https://expired.badssl.com')
+
+def read_file(file_path):
+    with open(file_path, 'r') as file:
+        return [line.strip() for line in file]
+
+def store_refnr(refnr):
+    with open('known_refnrs.txt', writemode) as known:
+        print(refnr, file=known)
+
+def clean_refnrs(refnrs):
+    known_refnrs = read_file('known_refnrs.txt')
+    clean_numbers = [
+        nr for nr in refnrs if nr not in known_refnrs]
+    return clean_numbers
 
 def get_jwt():
     """fetch the jwt token object"""
@@ -72,7 +84,12 @@ def job_details(jwt, job_ref):
 if __name__ == "__main__":
     print("I'm main.")
     jwt = get_jwt()
-    result = search(jwt["access_token"], "bahn", "berlin")
+    result = search(jwt["access_token"], "python", "freiburg")
+
+    #refnrs = result['stellenangebote'][:]["refnr"]
+    refnrs = [job['refnr'] for job in result['stellenangebote']]
+    refnrs = clean_refnrs(refnrs)
+    print("len(refnrs): ", len(refnrs))
 
 
     # save the data in txt-file with the lines:
@@ -81,28 +98,39 @@ if __name__ == "__main__":
     #   company:        arbeitgeber
     #   job description:stellenbeschreibung
     f = open("job_descriptions_arbeitsagentur_api.txt",
-             "w", encoding='utf-8')
-    for i in range(ad_number):
+             writemode, encoding='utf-8')
+    # print(result['stellenangebote'][0])
+
+    for i in range(n := len(refnrs)):
         print("i is ", i)
+        j_details = job_details(jwt["access_token"], refnrs[i])
+        print(j_details)
         source = "none"
         try:
             source = "externeUrl"
-            URL = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["externeUrl"]
+            URL = j_details["externeUrl"]
         except:
             try:
                 source = "arbeitgeberdarstellungUrl"
-                URL = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["arbeitgeberdarstellungUrl"]
+                URL = j_details["arbeitgeberdarstellungUrl"]
             except:
                 source = "allianzpartnerUrl"
-                URL = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["allianzpartnerUrl"]
+                URL = j_details["allianzpartnerUrl"]
         finally:
             print(f"URL given by {source}.")
-        job_title = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["titel"]
-        profession = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["beruf"]
-        company = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["arbeitgeber"]
-        job_description = job_details(jwt["access_token"], result['stellenangebote'][i]["refnr"])["stellenbeschreibung"]
+        job_title = j_details["titel"]
+        profession = j_details["beruf"]
+        company = j_details["arbeitgeber"]
+        refnr = refnrs[i]
+        store_refnr(refnr) # TODO: collect a list of known ref_numbers and store to file
+        date = j_details["aktuelleVeroeffentlichungsdatum"]
+        place = j_details["arbeitgeberAdresse"]
+        job_description = j_details["stellenbeschreibung"]
         f.writelines((URL + '\n',
+                    refnr + '\n',
+                    date + '\n'
                     f"{job_title}, {profession} \n",
                     company + '\n',
+                    str(place) + '\n',
                     job_description.strip() + '\n\n'))
     f.close()

@@ -1,0 +1,920 @@
+https://www.smallcases.de/
+10000-1193410325-S
+2023-03-01
+Softwareentwickler (m/w/d) Python, Softwareentwickler/in 
+SmallCases GmbH Softwareberatung
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79106', 'ort': 'Freiburg im Breisgau', 'strasse': 'Wentzingerstr. 23'}
+Wir, die Smallcases Software GmbH, sind seit unserer Gründung im Jahr 2000 Softwarespezialisten für GIS-bezogene Anwendungen im Telekommunikations- und Versorgungsumfeld. Ausgangspunkt für unsere Lösungen ist das Smallworld GIS, seit 2015 haben wir unser Leistungsangebot Richtung webbasierte Anwendungen, Systemintegration und automatisierter Fttx-Planung erweitert. Unsere Leidenschaft ist die effiziente Erfüllung von Kundenanforderungen: von pfiffigen Produktanwendungen bis hin zu individuellen Projektlösungen.
+
+Als Teil der ITS Gruppe sind wir mit über 400 Mitarbeitern und 19 Standorten deutschlandweit und international vertreten und setzen auf ein arbeitnehmerfreundliches Umfeld und flache Hierarchien. 
+
+Du möchtest daran mitwirken die Planung von Glasfaserausbau effizienter zu gestalten? Dich interessiert, mit welchen Technologien sich smarte Software für Versorgungsunternehmen entwickeln lässt? Dann werde Teil der Smallcases Software GmbH und verstärke unser Team mit deinem Know-how. 
+
+Aktuell suchen wir einen
+
+Softwareentwickler (m/w/d)
+
+für unseren Standort in Freiburg. 
+
+Deine Aufgaben:
+- Programmierung mit Python und JavaScript
+- Mitarbeit in der agilen Softwareentwicklung in enger Zusammenarbeit mit dem Entwicklerteam
+
+Dein Profil:
+- Abgeschlossenes Studium oder Berufsausbildung im Informatik Umfeld
+- Programmierkenntnisse in Python und/oder JavaScript und Erfahrung mit GIT, Jira und Confluence
+- Bereitschaft zur Einarbeitung in eine neue fachliche Thematik und Interesse an der Arbeit mit GIS und Geodaten
+- Freude am Entwickeln und Spaß an der Arbeit im Team
+
+Deine Benefits bei der ITS Gruppe:
+- Ein intensives 6-monatiges Schulungsprogramm
+- Flexible Arbeitszeiten und Auszeitmodelle
+- Individuelle Homeoffice-Möglichkeiten
+- Weiterbildungsmöglichkeiten
+- Sportliche Teamevents
+- Eine leistungsgerechte, attraktive Vergütung
+- Unterstützung durch ein Mentoren-Programm
+- Arbeit in starken und dynamischen Teams
+- Eine wertschätzende Kommunikationskultur und flache Hierarchien
+
+Du willst Teil unseres Teams werden und hast Interesse an der Position des Softwareentwicklers (m/w/d)?
+Dann freuen wir uns über Deine Online-Bewerbung unter https://its-service.de/its-gruppe/karriere.
+
+https://www.get-in-it.de/jobsuche/p216543?utm_source=arbeitsagentur&utm_medium=cpc&utm_campaign=launch-basic
+13644-216543-S
+2023-03-01
+Python Softwareentwickler:in (m/w/d), Anwendungsprogrammierer/in 
+JobRad
+{}
+## Werde Teil der JobRad-Erfolgsgeschichte und bewirb dich jetzt!
+
+Wir haben das Rad nicht neu erfunden – aber das Dienstrad!  
+ JobRad ist Markt- und Qualitätsführer der boomenden Radleasing-Branche.   
+ An unserem Hauptsitz in Freiburg und in unserem Außendienst in ganz Deutschland setzen wir auf begeisterte Menschen, die mit ihrem Talent und ihren Ideen unser nachhaltiges und wachsendes Unternehmen weiter stärken und Menschen aufs Rad bringen.
+
+Von Anfang an bist du Teil des Teams – und voll dabei. Gemeinsam mit deinen Kolleg:innen wirst du digitale Berge versetzen und zentraler Teil unserer Digitalisierung sein. Bei uns bist du sofort wirksam. Du arbeitest in einem tollen Team, dass das gemeinsame Ziel hat, noch bessere Softwerker:innen zu werden. Dein Beitrag macht den Unterschied! Und: Jede Verbesserung macht die Welt ein Stück besser. Mehr Jobradler = bessere Umwelt und bessere Gesundheit.
+
+## Das erwartet dich
+
+- Du wirst Teil eines starken, begeisterten, agilen, cross-funktionalen Teams, das sich weiter im Aufbau befindet.
+- Nur die jeweils besten Technologien sind gut genug für unsere Anforderungen.  
+ Wir nutzen: Python, Webcomponents, JavaScript ES6+, CSS, HTML, nodejs, npm, git, Angular etc.
+- Wir sind überzeugt vom Open Source Mindset und arbeiten unter anderem mit Odoo und Magnolia.
+
+## Das bringst du mit
+
+Mit deiner Motivation und deinen Kenntnissen kannst du im Team Impulse setzen und regelmäßig für Aha-Effekte sorgen. Du arbeitest mit agilen Werten und dein Craftsmanship Mindset inspiriert andere. Zusammen stehst du mit deinem Team dafür ein, alles von Anfang an richtig zu machen.
+
+- Keine Hacks
+- Keine Workarounds
+- Keine technischen Schulden
+- Stattdessen: Clean Code & Clean Design
+- Erfahrung mit Odoo ist ein großes Plus
+
+Du bist ein starker Spieler auf dem digitalen Spielfeld und deine Meinung ist gefragt. Neben dem hohen technischen Anspruch stellst du dir auch die Frage “Is it good enough for now?” und willst den Sinn hinter den Features verstehen.
+
+## Wir bieten dir
+
+- Außergewöhnliche Leute und Technologie.
+- Die Möglichkeit, unsere Produkte maßgeblich mitzugestalten und am Erfolg eines jungen Unternehmens mit flachen Hierarchien mitzuwirken.
+- Ausprobieren und Einsatz der neuesten Technologien.
+- Eine gute Einarbeitung und ein tolles Arbeitsumfeld in einem stark wachsenden Unternehmen.
+- Dein eigenes JobRad und einen tollen Standort zum Leben, Arbeiten und Radfahren
+
+## Das bietet JobRad
+
+Sinn! Wir sind mit Überzeugung und Freude bei der (guten) Sache. Denn Radfahren nützt jeder:jedem Einzelnen, der Gesellschaft und der Umwelt. Wofür wir stehen, führt unser Leitbild auf.
+
+Clevere Mobilität: JobRad bringt natürlich auch die eigenen Beschäftigten aufs Rad: Wir geben bis zu 85 € monatlich zu deinem Dienstfahrrad (oder deinem ÖPNV-Ticket) dazu. Unter anderem wegen der Fahrradtiefgarage, der Umkleiden und Duschen, die dich darüber hinaus erwarten, wurde JobRad vom ADFC als fahrradfreundlicher Arbeitgeber ausgezeichnet (Kategorie Gold).
+
+Selbstbestimmtes Arbeiten: Bei JobRad gibt es Vertrauensarbeitszeit und Home Office – du sprichst dich ab und entscheidest dann, wann und wo du arbeitest.
+
+JobRad bewegt – und wir sind in Bewegung. Beim mittäglichen Lunch Ride oder der Laufrunde, bei Sport- und anderen Events über Hansefit ... oder natürlich beim Feierabendbier. :)
+
+Teilzeit = voll dabei! Arbeit ist wichtig, aber nicht alles – bei JobRad kannst du auch in Teilzeit weiterkommen und sogar Bereichs- oder Teamleiter:in sein.
+
+Wer gut arbeitet, soll gut speisen: frisches Obst, Kaffee & Tee sind selbstverständlich inklusive!
+
+Perspektiven: JobRad wächst und du wächst mit. Interne Workshops, Weiterbildungen und ein Mentoring-Programm helfen dir dabei, dich weiterzuentwickeln.
+
+## Wir sind stolz auf unsere Kultur des Vertrauens
+
+Neue Kolleg:innen begleiten wir umfassend mit Mentor:innen und Einführungsseminaren zu Leitbild, Produkten, Prozessen und Bereichen. Außerdem bieten wir viele interne und externe Workshops zu Themen wie wertschätzende Kommunikation, Train the Trainer, Achtsamkeit und Moderation an. Ein Angebot, das entscheidend zur Zufriedenheit der Beschäftigten beiträgt.
+
+Bei einer anonymen Umfrage von „Great Place to Work“, einem international tätigen Forschungs- und Befragungsinstitut, gaben 95% der teilnehmenden JobRad-Beschäftigten an, dass ihre Führungskräfte auf die gute Arbeit der Mitarbeitenden vertrauten. Ebenso positiv fiel die Bewertung der Willkommenskultur im Unternehmen aus. Seit dieser Befragung (2021) ist JobRad als attraktiver Arbeitgeber zertifiziert.
+
+http://www.continum.de
+10000-1191013711-S
+2023-01-16
+(Junior) Software Developer (m/w/d), Informatiker/in (Hochschule) 
+Continum AG
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79098', 'ort': 'Freiburg im Breisgau', 'strasse': 'Bismarckallee 17'}
+Zur Verstärkung unseres Teams Entwicklung und DevOps steht eine Karriere offen für eine/n engagierte/n Mitmacher/in als
+
+(Junior) Software Developer (m/w/d) 
+ 
+Als Software Developer entwickelst und pflegst Du technologisch spannende Projekte mit vielseitigen Schnittstellen. Agile Entwicklung mit Scrum, Tests und Code Review gehören zu deinem Alltag.
+
+Deine Aufgaben:
+ Weiterentwicklung von Web-Applikationen (Python / JavaScript) mit Schnittstellen zu vielen verschiedenen Systemen
+ Automatisierung von Prozessen (Python)
+ Enge Zusammenarbeit mit den Stakeholdern
+ Tech-Stack: Debian, Docker, Kubernetes, GitLab, Django, Ember.js
+
+Dein Profil:
+ Studium oder Ausbildung im Bereich Informatik, Anwendungsentwicklung oder ähnliches
+ Erfahrung in der Software Entwicklung mit Python
+ Schnelle Auffassungsgabe und Lernbereitschaft
+ Kommunikativ, kritikfähig, proaktiv und teamorientiert
+ Eigeninitiative sowie selbstständige Arbeitsweise
+ (Technisches) Englisch in Wort und Schrift
+
+Gefördert durch ein innovatives und dynamisches Umfeld erwartet Dich ein vertrauensvolles und professionelles Arbeitsumfeld mit viel Gestaltungsspielraum.  Du wirkst in und aus einem leistungsstarken und erfolgreichen Unternehmen, das von der hochwertigen Lösungsumsetzung für seine Kunden jeden Tag neu begeistert ist. Die Mitarbeit in einem engagierten und kreativen Team sowie gute Fortbildungsmöglichkeiten fördern Deine Weiterentwicklung. Eine leistungsgerechte Vergütung sowie soziale Leistungen, ein kollegiales Miteinander und ein reizvoller Standort in der Toskana Deutschlands tragen dazu bei, dass Du langjährig erfolgreich bei uns arbeiten wirst.
+Haben wir Dein Interesse geweckt?
+Dann sende uns bitte Deine aussagekräftigen Bewerbungsunterlagen mit Angaben zur Verfügbarkeit und Einkommensvorstellung, vorzugsweise im PDF Format an: bewerbung@continum.net
+
+Weitere Infos auf unserer Webseite unter www.continum.net
+
+Continum AG
+Bismarckallee 7b-d
+D-79098 Freiburg i.Br.
+Email: bewerbung@continum.net
+
+Ansprechpartner: Silvia Bühler
+Telefon (+49) 0761 / 4549-537
+
+Die Continum AG ist Spezialist für hochwertiges Enterprise- und Anwendungs-Hosting und unsere DNA ist IT-Sicherheit. Continum versteht sich als Anwalt des Kunden und unterstützt Unternehmen auf dem sicheren Weg in die Cloud. In modernen Rechenzentren in Deutschland, erbringen wir „Managed Services“ nach höchsten deutschen Datenschutzrichtlinien und nach der EU-DSGVO. 
+
+Anspruchsvolle Geschäftskunden aus Deutschland und Europa vertrauen dauerhaft auf unsere herausragende und zuverlässige Kompetenz und Leistung. Zertifizierungen nach ISO/IEC 27001 und nach PCI-DSS (Payment Card Industry Data Security Standard) testieren unsere hohen Sicherheitsbemühungen.
+
+Die Continum AG gehört zum starken Firmenverbund der Freicon Gruppe.
+
+http://www.sick.com
+10000-1191295107-S
+2023-02-08
+Embedded Software Engineer* Emerging Technologies, Informatiker/in (Hochschule) 
+SICK AG
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79183', 'ort': 'Waldkirch, Breisgau', 'strasse': 'Erwin-Sick-Str. 1'}
+Sie leben digitale Zukunft, wir leben intelligente Sensorkonzepte. Gemeinsam gestalten wir weltweit Industrie 4.0. Ihre Karriere: anspruchsvoll, abwechslungsreich und mit besten persönlichen Entwicklungschancen. Ihr Umfeld: hochprofessionell, international und inspirierend. Ihr neuer Arbeitgeber: ein Technologie- und Marktführer mit weltweit mehr als 11.000 Mitarbeitenden. Ihre Zukunftsadresse: sick.com/karriere
+  
+Embedded Software Engineer* Emerging Technologies
+SICK AG
+Freiburg, DE
+Vollzeit
+
+IHRE AUFGABEN:
+- Design und Implementierung moderner Algorithmen zur Auswertung von Sensordaten auf Embedded-Plattformen
+- Mitarbeit bei der Konzeption und Weiterentwicklung im Bereich Cloud- und Edge Computing 
+- Identifikation und Evaluation moderner algorithmischer Ansätze zur Messdatenverarbeitung mit konventionellen Methoden und künstlicher Intelligenz, insbesondere in Hinblick auf die Integrierbarkeit on Edge
+- Auswahl und Evaluation geeigneter Hard- und Software-Lösungen
+- Unterstützung bei der Spezifikation und Umsetzung erforderlicher Kommunikationsschnittstellen 
+- Mitgestaltung von Zukunftsthemen in einem innovativen Team zur Entwicklung neuer Technologiebereiche
+ 
+IHR PROFIL:
+- Abgeschlossenes Studium in Informatik, Physik, Mathematik oder vergleichbare Qualifikation
+- Berufserfahrung als C++/Embedded Systems-Entwickler*
+- Begeisterung für hardwarenahe Entwicklung und moderne Algorithmen im Bereich Sensordatenanalyse
+- Kenntnisse in den Skriptsprachen Lua oder Python von Vorteil
+- Idealerweise Kenntnisse in modernen Kommunikationstechnologien der Industrie 4.0
+- Begeisterung für die agile Softwareentwicklung im Team
+- Kreativität und Innovationsfreude
+ 
+IHRE BEWERBUNG:
+- Wir freuen uns auf Ihre Online-Bewerbung
+- Petra Kirner
+- Job-ID 31698 
+- Vertrauliche Behandlung wird zugesichert
+
+* Der Mensch zählt, nicht das Geschlecht. Wir setzen auf Vielfalt, lehnen Diskriminierung ab und denken nicht in Kategorien wie etwa Geschlecht, ethnische Herkunft, Religion, Behinderung, Alter oder sexuelle Identität.
+
+http://www.sick.com
+10000-1190678373-S
+2023-01-16
+Software Engineer* Embedded / Software Project Manager* Distance Sensors, Softwareentwickler/in 
+SICK AG
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79183', 'ort': 'Waldkirch, Breisgau', 'strasse': 'Erwin-Sick-Str. 1'}
+Sie leben digitale Zukunft, wir leben intelligente Sensorkonzepte. Gemeinsam gestalten wir weltweit Industrie 4.0. Ihre Karriere: anspruchsvoll, abwechslungsreich und mit besten persönlichen Entwicklungschancen. Ihr Umfeld: hochprofessionell, international und inspirierend. Ihr neuer Arbeitgeber: ein Technologie- und Marktführer mit weltweit mehr als 11.000 Mitarbeitenden. Ihre Zukunftsadresse: sick.com/karriere
+ 
+Software Engineer* Embedded / Software Project Manager* Distance Sensors
+SICK AG
+Waldkirch (bei Freiburg), DE, 79183
+Vollzeit
+
+IHRE AUFGABEN:
+- Software-Design, Implementierung, Analyse und Verifikation für Distanzsensoren
+- Projektleitung von Softwareprojekten im Produktentstehungsprozess
+- Begleitung des gesamten Entwicklungsprozesses vom ersten Konzept über das Design bis hin zu Tests zum zuverlässigen Einsatz der Produkte
+- Schnittstelle zu den Bereichen Produkt- und Projektmanagement sowie Fertigung und Entwicklung
+- Kompetenter Ansprechpartner* für Kunden, Lieferanten sowie für nationale und internationale Tochtergesellschaften
+ 
+IHR PROFIL:
+- Abgeschlossenes Studium in Informatik, Elektrotechnik oder vergleichbare Qualifikation
+- Erste Berufserfahrung in vergleichbarer Position
+- Sehr gute Programmierkenntnisse in C/C++ und Skriptsprachen wie Python oder Lua sowie Erfahrung im Umgang mit Entwicklungs- und Simulationstools
+- Erste Projektleitungserfahrung von Vorteil
+- Gute Englischkenntnisse
+- Systematische sowie strukturierte Denk- und Vorgehensweise
+- Kreativität in der Lösungsfindung sowie Innovationsfreude
+- Ausgeprägte Team- und Kommunikationsfähigkeit
+ 
+IHRE BEWERBUNG:
+- Wir freuen uns auf Ihre Online-Bewerbung
+- Stefanie Speil
+- Job-ID 30092 
+- Vertrauliche Behandlung wird zugesichert
+
+* Der Mensch zählt, nicht das Geschlecht.
+Wir setzen auf Vielfalt, lehnen Diskriminierung ab und denken nicht in Kategorien wie etwa Geschlecht, ethnische Herkunft, Religion, Behinderung, Alter oder sexuelle Identität.
+
+http://www.sick.com
+10000-1191536853-S
+2023-01-10
+Software Engineer* Embedded Systems - Full Stack, Informatiker/in (Hochschule) 
+SICK AG
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79183', 'ort': 'Waldkirch, Breisgau', 'strasse': 'Erwin-Sick-Str. 1'}
+Sie leben digitale Zukunft, wir leben intelligente Sensorkonzepte. Gemeinsam gestalten wir weltweit Industrie 4.0. Ihre Karriere: anspruchsvoll, abwechslungsreich und mit besten persönlichen Entwicklungschancen. Ihr Umfeld: hochprofessionell, international und inspirierend. Ihr neuer Arbeitgeber: ein Technologie- und Marktführer mit weltweit mehr als 11.000 Mitarbeitenden. Ihre Zukunftsadresse: sick.com/karriere
+  
+Software Engineer* Embedded Systems - Full Stack
+SICK AG
+Waldkirch (bei Freiburg), DE, 79183
+Vollzeit
+
+IHRE AUFGABEN:
+- Design, Implementierung und Pflege von Embedded Software-Komponenten und APIs
+- Umsetzung und Weiterentwicklung von C++-Feldbus-Komponenten
+- Integration, Inbetriebnahme und Verifikation von Feldbusstacks und SoCs
+- Mitarbeit in einem interdisziplinären, agilen Team
+- Weiterentwicklung einer firmenweit verwendeten Softwareplattform
+- Schnittstelle zu internen und externen Dienstleistern sowie Nutzern
+ 
+IHR PROFIL:
+- Abgeschlossenes Studium in (Angewandter/Technischer) Informatik oder vergleichbare Qualifikation
+- Experte* in objektorientierter Programmierung (u.a. C/C++) und Skriptsprachen (u.a. Python)
+- Kenntnisse im Bereich industriellen Feldbussen, API-Entwicklung und Embedded Linux 
+- Ausgeprägte Organisations-, Team- und Kommunikationsfähigkeit 
+- Analytische und strukturierte Denk- und Arbeitsweise sowie ein ausgeprägtes Qualitätsbewusstsein
+- Kreativität, agiles Mindset und Offenheit für neue Technologien sowie Ansätze
+ 
+IHRE BEWERBUNG:
+- Wir freuen uns auf Ihre Online-Bewerbung
+- Stefanie Speil
+- Job-ID 32852 
+- Vertrauliche Behandlung wird zugesichert
+
+* Der Mensch zählt, nicht das Geschlecht.
+Wir setzen auf Vielfalt, lehnen Diskriminierung ab und denken nicht in Kategorien wie etwa Geschlecht, ethnische Herkunft, Religion, Behinderung, Alter oder sexuelle Identität.
+
+http://www.sick.com
+10000-1190471885-S
+2022-12-28
+Software Engineer* Embedded - 3D Stereo Vision, Softwareentwickler/in 
+SICK AG
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79183', 'ort': 'Waldkirch, Breisgau', 'strasse': 'Erwin-Sick-Str. 1'}
+Sie leben digitale Zukunft, wir leben intelligente Sensorkonzepte. Gemeinsam gestalten wir weltweit Industrie 4.0. Ihre Karriere: anspruchsvoll, abwechslungsreich und mit besten persönlichen Entwicklungschancen. Ihr Umfeld: hochprofessionell, international und inspirierend. Ihr neuer Arbeitgeber: ein Technologie- und Marktführer mit weltweit mehr als 11.000 Mitarbeitenden. Ihre Zukunftsadresse: sick.com/karriere
+ 
+Software Engineer* Embedded - 3D Stereo Vision
+SICK AG
+Waldkirch (bei Freiburg), DE, 79183
+Vollzeit
+
+IHRE AUFGABEN:
+- Softwareentwicklung innovativer 3D-Stereo-Vision-Sensoren zur Lösung kundenspezifischer Problemstellungen für Applikationen mit AGVs, mobilen Robotern sowie Industrierobotern
+- Begleitung des gesamten Entwicklungsprozesses vom ersten Konzept über das Design bis hin zur Analyse, Integration und Tests zum zuverlässigen Einsatz in Produkten mit Ausrichtungen auf Robustheit und Präzision
+- Eigenverantwortliche Spezifikation, Modellierung, Implementierung sowie Qualifizierung von hardwarenaher Software, Treibern und Algorithmen
+- Aktive Mitarbeit an der Definition und der Umsetzung von geräteübergreifenden Softwareplattformen für 3D-Vision-Sensoren (Stereo, Time-of-Flight, Solid Start LiDAR)
+- Schnittstelle zu den Bereichen Produkt- und Projektmanagement sowie Produktion
+- Kompetenter Ansprechpartner* für Kunden sowie Forschungs- und Entwicklungspartner
+- Projektarbeit im agilen Umfeld 
+ 
+IHR PROFIL:
+- Abgeschlossenes Studium der Informatik oder vergleichbare Qualifikation
+- Mehrjährige Berufserfahrung im Bereich der Embedded Softwareentwicklung
+- Sehr gute Kenntnisse in objektorientierter Programmierung in C/C++ und Skriptsprachen wie Python, MATLAB oder Lua
+- Fundierte Kenntnisse in der Bildverarbeitung und im Umgang mit 2D- und 3D-Daten 
+- Erfahrung mit Build-Methoden (DevOps, Continuous Integration, Gitlab-CI, Jenkins) von Vorteil
+- Erfahrung mit Linux und Conan-Paketmanager von Vorteil
+- Sehr gute Englischkenntnisse
+- Kreativität in der Lösungsfindung sowie Innovationsfreude
+- Ausgeprägte Team- und Kommunikationsfähigkeit
+ 
+IHRE BEWERBUNG:
+- Wir freuen uns auf Ihre Online-Bewerbung
+- Stefanie Speil
+- Job-ID 31035 
+- Vertrauliche Behandlung wird zugesichert
+
+* Der Mensch zählt, nicht das Geschlecht.
+Wir setzen auf Vielfalt, lehnen Diskriminierung ab und denken nicht in Kategorien wie etwa Geschlecht, ethnische Herkunft, Religion, Behinderung, Alter oder sexuelle Identität.
+
+http://www.newtec.de
+15900-0029633621-S
+2023-03-06
+Test-Ingenieur (m/w/d) Automotive, Ingenieur/in - Elektrotechnik 
+NewTec GmbH
+{'land': 'Deutschland', 'region': 'Bayern', 'plz': '89284', 'ort': 'Pfaffenhofen an der Roth', 'strasse': 'Buchenweg 3'}
+Hast Du Lust auf spannende und vielfältige Projekte im Umfeld von Safety und Security in den Bereichen Medizintechnik, Avionik, Automotive oder Industrie 4.0? Dann bist Du bei NewTec genau richtig!
+Für unseren Standort in Freiburg i. B. suchen wir zum nächstmöglichen Zeitpunkt einen Test-Ingenieur (m/w/d).
+ 
+Welche Aufgaben bei NewTec auf Dich warten:
+* Analyse von Anforderungsdokumenten
+* Entwurf und Implementierung von Testkonzepten, Testspezifikationen und Testfällen für Integrationstests und Qualifikationstests im Bereich Software und System Testing
+* Erstellung und Wartung von Testumgebungen
+* Dokumentation der Testergebnisse nach Prozessvorgabe
+* Nutzung und Verbesserung von Continuous Integration Konzepten zur Testautomatisierung
+* Wissen teilen und erweitern bei der Umsetzung der Aufgaben im Team
+Was Du mitbringen solltest:
+* Idealerweise abgeschlossenes technisches oder naturwissenschaftliches Studium (z.B. Ingenieur Elektrotechnik, Informatik, Technische Informatik, Medizintechnik,  Informationstechnik, Mathematik, Physik, Biologie) oder vergleichbare Qualifikation
+* Erfahrung mit Vector oder dSpace Tools im Bereich Testing
+* Erste Erfahrung mit Entwurf und Umsetzung von Software- oder System-Tests
+* Erste Erfahrung mit dem Einsatz von Continuous Integration
+* Kenntnisse von Scriptsprachen wie Python oder Ruby von Vorteil
+* ISTQB&reg; Certified Tester - Foundation Level von Vorteil
+* Kenntnisse in der Programmiersprachen C von Vorteil
+* Spaß und Kreativität im Umgang mit Software
+* Kommunikationsfähigkeit, Team- und Kooperationsfähigkeit
+* Gute Deutsch- und Englischkenntnisse in Wort und Schrift
+Welche Benefits NewTec Dir bietet:
+* Individuelle Weiter-/Fortbildungsmaßnahmen
+Wir fördern deine fachlichen und persönlichen Potentiale
+* Freiraum und Eigenverantwortung
+Vertrauen ist Kernwert unserer Unternehmenskultur. Unsere KollegInnen sind eingeladen aktiv mitzugestalten und das Unternehmen mit zu entwickeln.
+* Flexible Arbeitszeiten und die Möglichkeit zum Mobile Office
+Unsere Gleitzeitregelung schafft Flexibilität, was Arbeit und Privatleben noch besser vereinen lässt.
+* Attraktive Bezahlung und Sozialleistungen
+Nutze die Vorteile beispielsweise durch vermögenswirksame Leistungen, betriebliche Altersvorsorge und Kindergartenzuschuss.
+* GesundheitsTicket und Möglichkeit zum Bikeleasing
+für mehr Wohlbefinden und Work-Life-Balance
+* Corporate Benefits
+Von Mitarbeiterrabatten bei namhaften Shops profitieren.
+Willst Du mehr über NewTec erfahren? Dann schau Dir unsere Success Stories an!
+
+http://www.ferchau.com
+10000-1193397978-S
+2023-02-28
+Ingenieur (m/w/d) Systemqualifizierung optische Systeme, Ingenieur/in - Optoelektronik 
+FERCHAU GmbH Niederlassung Freiburg
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79106', 'ort': 'Freiburg im Breisgau', 'strasse': 'Waldkircher Str. 28'}
+Leidenschaft für technologischen Fortschritt ausleben? Dabei sein, wenn Innovationen Wirklichkeit
+werden? Bei FERCHAU suchen wir Menschen mit dem gleichen Anspruch: als ambitionierter Kollege,
+der wie wir Technologien auf die nächste Stufe bringen möchte. Wir realisieren spannende Projekte
+für namhafte Kunden in allen Technologien und für alle Branchen und übernehmen Verantwortung
+für komplexe Entwicklungsprojekte. Sie möchten Ihr Potenzial vollständig entfalten können? Wir
+bieten Ihnen eine Umgebung mit vielfältigen Aufgaben, neuen Herausforderungen und permanenten
+Chancen, an denen Sie weiterwachsen und Ihr Profil schärfen können.
+
+Ingenieur (m/w/d) Systemqualifizierung optische
+Systeme
+Freiburg
+
+Das sind Ihre Aufgaben in unserem Team
+
+- Charakterisierung von optischen Systemen
+- Durchführung von Freigabemessungen für optische Systeme
+- Erstellung von Datenauswertungen mit Matlab
+- Durchführung von Freigabemessungen
+- Simulation von Strahlengängen
+- Toleranzbetrachtung mit Zemax
+- Optimierung von optischen Komponenten
+
+Ihre Vorteile bei uns
+
+- Unbefristeter Arbeitsvertrag
+- Flexible Arbeitszeitgestaltung durch Gleitzeitregelungen, Teilzeitmöglichkeiten und z. T.
+Vertrauensarbeitszeit
+- Fachliche und persönliche Weiterentwicklungsmöglichkeiten
+- Flexibilität durch die Möglichkeit mobil zu Arbeiten (abhängig vom Kundenunternehmen)
+- Ankommen und wohlfühlen mit unserem Onboarding-Programm
+
+Das bringen Sie mit
+
+- Abgeschlossenes Studium in Technischer Optik, Mechatronik, Physik mit Schwerpunkt Optik,
+Mikrosystemtechnik oder vergleichbarer Abschluss
+- Kenntnisse im Bereich MatLab, Python, Optik
+- Erste Erfahrungen mit Zemax sind von Vorteil
+- Sehr gutes Deutsch (C1) und gute englische Sprachkenntnisse (B2)
+
+Lust auf die nächste Herausforderung? Dann sollten wir uns unbedingt kennenlernen! Am
+schnellsten geht es, wenn Sie sich direkt bewerben - gerne online oder per E-Mail unter der
+Kennziffer VA91-79376-FR bei Herrn Rolf Albiez. Lassen Sie uns gemeinsam das nächste Level nehmen
+und Technologie nach vorne bringen!
+
+http://www.polysecure.eu
+10000-1193005390-S
+2023-02-01
+Techniker der Automatisierungstechnik (m/w/d), Techniker/in - Elektrotechnik (Automatisierungstechnik) 
+Polysecure GmbH
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79111', 'ort': 'Freiburg im Breisgau', 'ortsteil': 'Haslach', 'strasse': 'St. Georgener Str. 19'}
+Die Polysecure GmbH entwickelt, produziert und vertreibt sowohl innovative Materialmarker als auch passende Detektoren und Sortiermaschinen. Festkörperchemie, Materialentwicklung, Elektronik, Optik, Sortier- und Kunststofftechnik sind unter einem Dach vereint. Ziel ist es, Materialien und Produkte durch Marker erkennbar, verfolgbar und sortierbar zu machen. Anwendungen hierfür sind die Produktauthentifizierung (Plagiatschutz), die Produktverfolgung (Track & Trace) und Materialsortierung (Kreislaufwirtschaft).
+
+Für die Weiterentwicklung unserer Sortier- und Messtechnik suchen wir einen
+
+Techniker der Automatisierungstechnik (m/w/d)
+
+IHRE AUFGABEN BEI UNS: 
+Ihr Schwerpunkt liegt auf der Entwicklung und Inbetriebnahmen von Anlagen zur Sortierung und Vereinzelung von Materialströmen im Bereich des Produktrecyclings.
+Darüber hinaus gibt es noch weitere anspruchsvolle Aufgaben im Bereich der Automatisierung und der (optischen) Messtechnik
+Selbstständige Planung, Entwicklung & Umsetzung von Anlagensteuerungs- & Automatisierungskonzepten für Materialfluss und Handlings-Systeme
+Erstellung und Inbetriebnahme der SPS Steuerungssoftware
+Mitwirken beim Konzeptionieren, Durchführen und Auswerten von Versuchsreihen
+Entwickeln von Lösungen zur Prozessdatenerfassung und -visualisierung, sowie Aufbau und Betreuung ent-sprechender Datenbanken
+Erstellung von Dokumentationen und Benutzerhandbüchern
+
+DAS BRINGEN SIE IDEALERWEISE MIT:
+Abgeschlossene Technikerausbildung und ggf. Studium mit Schwerpunkt Automatisierungstechnik
+Programmierung von SPS-Steuerung
+Grundlegende Erfahrung in der Hochsprachenprogrammierung wie z.B. Python, C++, C#
+Kenntnisse der Feldbustechnik und in der Programmierung von Frequenzumrichtern
+Erfahrung im Bereich Robotik / Bildverarbeitung sind wünschenswert
+Begeisterung für die Entwicklung und Umsetzung von nachhaltigen Innovationen
+Gute Kenntnisse der deutschen und englischen Sprache in Wort und Schrift
+
+WIR BIETEN:
+Eine interessante und anspruchsvolle Tätigkeit in einem dynamischen, innovativen Team
+Innerhalb Ihres Aufgabengebietes haben Sie ein hohes Maß an vielseitigen Gestaltungsmöglichkeiten, Eigenverantwortung und Flexibilität
+Sie haben die Möglichkeit, eine neue, nachhaltige Technologie mitzugestalten und in den Markt zu bringen
+Bei Eignung und Interesse wäre eine Ausweitung der Verantwortung wünschenswert
+Sie erhalten eine leistungsgerechte Bezahlung mit Bonus
+
+KONTAKT:
+Bewerben Sie sich noch heute, wenn Sie Interesse an dieser besonderen Aufgabe in einem innovativen Technologieunternehmen haben! Senden Sie Ihre vollständigen Bewerbungsunterlagen, gerne auch mit Gehaltsvorstellung und dem möglichen Eintrittsdatum an: 
+david.hoefflin@polysecure.eu
+Tel.: +49 761 5579 785 17
+
+http://www.ferchau.com
+10000-1192598767-S
+2023-02-20
+Softwareentwickler (m/w/d) C++ Industrielle Bildverarbeitung, Softwareentwickler/in 
+FERCHAU GmbH Niederlassung Freiburg
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79106', 'ort': 'Freiburg im Breisgau', 'strasse': 'Waldkircher Str. 28'}
+Leidenschaft für technologischen Fortschritt ausleben? Dabei sein, wenn Innovationen Wirklichkeit
+werden? Bei FERCHAU suchen wir Menschen mit dem gleichen Anspruch: Als ambitionierter Kollege,
+der wie wir Technologien auf die nächste Stufe bringen möchte. Wir realisieren spannende Projekte
+für namhafte Kunden in allen Technologien und für alle Branchen für smarte Integration von ITTrends und etablierten Lösungen. Als Digital Native sind Sie mit digitalen Technologien
+aufgewachsen. Das Netz ist Ihr Wohnzimmer und Sie können sich schnell in neue Tools, Frameworks
+und Entwicklungstrends einarbeiten. Mit Ihrem sicheren Gespür dafür, wie man neue Ideen am
+besten mit Code und Hardware umsetzt, sind Sie bei uns genau richtig.
+
+Softwareentwickler (m/w/d) C++ Industrielle
+Bildverarbeitung
+Freiburg, Offenburg, Lörrach
+
+Spannende Aufgaben
+- Sie entwickeln Software im Bereich der Bildverarbeitung und Objekterkennung
+- Dazu gehören die Konzeption und Implementierung der Algorithmen in C++, MATLAB und Python
+- Die Applikation der Kamerasysteme (softwareseitig) sowie die Auslegung von Optik, Beleuchtung und
+Kameratechnik zählen dabei ebenfalls zu Ihren Aufgaben
+
+Das sind Ihre Perspektiven für die Zukunft
+- Unbefristeter Arbeitsvertrag
+- Flexible Arbeitszeitgestaltung durch Gleitzeitregelungen, Teilzeitmöglichkeiten und z. T.
+Vertrauensarbeitszeit
+- Networking und einfach Spaß haben bei Teamevents, Weihnachtsfeiern oder Sommerfesten
+- Vielfältige Weiterbildungsprogramme
+
+Ihr Profil
+- Sie haben ein Studium der Informatik, Mathematik, Medizininformatik oder vergleichbar erfolgreich abgeschlossen
+- Sie konnten bereits Erfahrungen in der Bildverarbeitung sammeln
+- Auch können Sie Kenntnisse in C++, MATLAB oder Python vorweisen
+- Ihre Arbeitsweise ist durch besondere Teamfähigkeit geprägt
+
+Das klingt nach einem "Perfect Fit" für Sie? Dann bewerben Sie sich bei uns - gerne online oder per EMail unter der Kennziffer VA82-09419-FR bei Herrn Rolf Albiez. Alles über unseren Bewerbungsprozess
+erfahren Sie auf unserer Website im Bewerberbereich. Wir freuen uns auf Sie!
+
+http://www.ferchau.com
+10000-1192596895-S
+2023-02-20
+Qualifizierungsingenieur (m/w/d) optische Sensoren, Ingenieur/in - Mechatronik 
+FERCHAU GmbH Niederlassung Freiburg
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79106', 'ort': 'Freiburg im Breisgau', 'strasse': 'Waldkircher Str. 28'}
+Technologien auf das nächste Level heben. Sich Herausforderungen stellen und an den Innovationen
+von morgen arbeiten - dafür benötigen wir bei FERCHAU Experten wie Sie: als ambitionierter
+Kollege, der wie wir Technologien auf die nächste Stufe bringen möchte. Wir realisieren spannende
+Projekte für namhafte Kunden in allen Technologien und für alle Branchen und übernehmen
+Verantwortung für komplexe Entwicklungsprojekte. Sie wissen genau, was Sie technologisch auf dem
+Kasten haben? Sie suchen einen Arbeitgeber, der das genau erkennt? Der Ihr Engagement
+wertschätzt und Ihnen regelmäßig Weiterbildungsmöglichkeiten anbietet? Dann bewerben Sie sich
+bei uns!
+
+Qualifizierungsingenieur (m/w/d) optische Sensoren
+Freiburg, Offenburg, Lörrach
+
+Spannende Aufgaben
+
+- Qualifikation von Objektiven in Funktionsmustern
+- Unterstützung der Freigabemessungen für optische Systeme
+- Anpassen von Messskripte für existierende Messschiene für 3D Geräte in Matlab
+- Analyse von Testdaten aus der Produktion zur Bewertung des Einflusses von
+Komponentenparametern auf Geräteparameter
+- Überarbeitung der Prüfspezifikation im Abgleich mit dem Prüfcode (Python)
+- Dokumentation der Ergebnisse
+
+Das erwartet Sie bei uns
+
+- Unbefristeter Arbeitsvertrag
+- Flexible Arbeitszeitgestaltung durch Gleitzeitregelungen, Teilzeitmöglichkeiten und z. T.
+Vertrauensarbeitszeit
+- Fachliche und persönliche Weiterentwicklungsmöglichkeiten
+- Mehr als der BAP, wir bieten Sonderurlaub, Kindergartenzuschuss, Jubiläumszuwendungen uvm.
+- Prämienprogramm für Empfehlungen von neuen Kollegen
+
+Womit Sie uns überzeugen
+
+- Hochschulabschluss in Technischer Optik, Mechatronik, Physik mit Schwerpunkt Optik,
+Mikrosystemtechnik oder vergleichbarer Abschluss
+- Berufserfahrung von Vorteil, engagierten Einsteigern geben wir auch gerne eine Chance
+- Kenntnisse im Bereich Optik und optische Systeme
+- Gute Kenntnisse in MatLab und Python
+- Strukturierte, selbstständige Arbeitsweise, Kreativität sowie ausgeprägte Team- und
+Kommunikationsfähigkeit
+
+Unser Team lebt von Vielfalt. Experten, die Ihre unterschiedlichen Stärken für die gemeinsamen Ziele
+einbringen möchten. Bewerben Sie sich! Entweder online oder per E-Mail unter der Kennziffer
+VA88-95946-FR bei Herrn Rolf Albiez. Das nächste Level wartet auf Sie!
+
+http://www.ferchau.com
+10000-1192598945-S
+2023-02-20
+Softwaretester / Software Test Engineer (m/w/d), Softwareentwickler/in 
+FERCHAU GmbH Niederlassung Freiburg
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79106', 'ort': 'Freiburg im Breisgau', 'strasse': 'Waldkircher Str. 28'}
+Technologien auf das nächste Level heben. Sich Herausforderungen stellen und an den Innovationen
+von morgen arbeiten - dafür benötigen wir bei FERCHAU Experten wie Sie: Als ambitionierter
+Kollege, der wie wir Technologien auf die nächste Stufe bringen möchte. Wir realisieren spannende
+Projekte für namhafte Kunden in allen Technologien und für alle Branchen und entwickeln für unsere
+Kunden vielfältige, maßgeschneiderte Anwendungen - von Websites, Desktop-Software bis zu nativen
+Apps oder Web-Apps. Als Digital Native sind Sie mit digitalen Technologien aufgewachsen. Das Netz
+ist Ihr Wohnzimmer und Sie können sich schnell in neue Tools, Frameworks und Entwicklungstrends
+einarbeiten. Mit Ihrem sicheren Gespür dafür, wie man neue Ideen am besten mit Code und Hardware
+umsetzt, sind Sie bei uns genau richtig.
+
+Softwaretester / Software Test Engineer (m/w/d)
+Freiburg, Offenburg, Lörrach
+
+Diese Herausforderungen übernehmen Sie
+- Sie erstellen automatisierte Softwaretests und dokumentieren die Testergebnisse
+- Große Softwareentwicklungsprojekte begleiten Sie gemeinsam mit dem SCRUM Team durch alle Phasen von Beginn an
+- Auch gehört die Überwachung der automatisierten Testsysteme und die Analyse der resultierenden Testergebnisse zu Ihren Aufgaben
+- Dabei arbeiten Sie in einem sehr modernen Umfeld (C#, .NET, JavaScript, Python, Visual Studio, Eclipse, Selenium. JIRA, Confluence, Bugzilla, SCRUM)
+
+Das erwartet Sie bei uns
+- Bei uns können Sie eigene Ideen einbringen und aktiv mitgestalten
+- Networking und einfach Spaß haben bei Teamevents, Weihnachtsfeiern oder Sommerfesten
+- Mehr als der BAP, wir bieten Sonderurlaub, Kindergartenzuschuss, Jubiläumszuwendungen uvm.
+- Flexible Arbeitszeitgestaltung durch  Gleitzeitregelungen, Teilzeitmöglichkeiten und z. T.
+Vertrauensarbeitszeit
+
+Das bringen Sie mit
+- Sie haben ein Studium (z.B. Informatik, Mathematik oder Physik) oder eine Ausbildung zum Fachinformatiker Anwendungsentwicklung erfolgreich abgeschlossen
+- Erste Erfahrungen in der Programmierung konnten Sie bereits sammeln
+- Sie haben Interesse an der Sicherstellung hoher Software-Qualität
+- Eine zuverlässige Arbeitsweise ist für Sie selbstverständlich
+
+Unser Team lebt von Vielfalt. Experten, die Ihre unterschiedlichen Stärken für die gemeinsamen Ziele
+einbringen möchten. Bewerben Sie sich! Entweder online oder per E-Mail unter der Kennziffer
+VA34-93110-FR bei Herrn Rolf Albiez. Das nächste Level wartet auf Sie!
+
+http://www.screensys.eu
+10000-1193373364-S
+2023-02-27
+Date Scientist: Focusing on Statistical Analysis and Visualisation of Biological and Chemical Data, Data Scientist 
+ScreenSYS GmbH
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79104', 'ort': 'Freiburg im Breisgau', 'strasse': 'Sonnenstraße 5'}
+About ScreenSYS GmbH
+ScreenSYS is a pioneering start-up company (founded in 2017) specialising in disruptive technologies within the global agribusiness market by accelerating  doubled haploid plant production, micropropagation and genome editing.  Unique technologies developed by ScreenSYS transform plant breeding with the power of robotics, microscopic phenotyping, artificial intelligence and chemical regulator discovery. ScreenSYS commercialises state-of-the-art research with products for the agricultural biotechnology and seed market. Our technologies support plant breeders towards sustainable supply of food, feed and plant derived materials.
+Role specification
+As a rapidly expanding start-up, ScreenSYS is seeking to employ a self-motivated, experienced, passionate and team-oriented professional to join our company in the role of Data Scientist (f/m/d). They will work closely together with a team of experts in plant biology, data science, software development and laboratory automation. 
+Your key responsibilities:
+Contribute statistical, visualisation, data analysis and other scientific expertise within a team of data scientists 
+Hands on coding (new development and refactoring) of pipelines for the analysis of mostly high throughput and high content data
+Contribute to experimental design
+Document, manage and maintain solutions 
+Batch processing of experimental data with quality inspection and assurance
+Requirements specification (with internal and external project partners)
+Communicating results and conclusions to project stakeholders
+Flexibility in applying expertise across a range of ongoing and emerging projects  
+Reports to the data science director and contributes widely in multidisciplinary teams  
+
+ Your ideal qualifications
+Master of Science/PhD degree in STEM (science, technology, engineering and mathematics) 
+Work experience in the application of statistics and visualisation
+Substantial hands-on coding experience with R and packages e.g. Tidyverse
+Excellent understanding of statistical science
+Development of modular code according to requirements and capacity to anticipate future requirements
+Familiarity with best practice, existing and emerging tools in data science
+Fundamentals of biology
+Experience of supporting primarily wet lab biological scientists 
+Software engineering methodology (design, code management, testing, refactoring)
+Ability to work effectively across multiple projects and deliverables according to dynamic prioritisation
+Excellent team spirit and communication skills in interdisciplinary team
+Problem-solution oriented attitude
+Fluency in written and spoken English (required) 
+
+Specific and advantageous skills 
+Candidates with at least some of the following demonstrable skills will be considered as a priority:
+Frequentist and Baysian statistics 
+Generalised Linear Models
+Longitudinal analysis
+Non-parametric tests
+Design of Experiments (DoE)
+Visualisation e.g. R ggplot2, Shiny
+Unsupervised Machine Learning
+Python, shell, perl, javascript 
+Relational (e.g. MySQL) and NoSQL databases 
+KNIME 
+DNA, RNA and protein sequence analysis
+Chemical informatics
+Biophysical methods
+Cell and Molecular Biology
+German language skills (written and spoken)
+
+Our offer:
+A permanent position within a dynamic and exciting R&D environment promoted by a start-up spirit
+Annual performance bonus
+Career development opportunities
+Interdisciplinary, multinational, and creative working environment
+30 days of paid leave
+If you are interested, please send your CV and covering letter as pdf to info@screensys.eu
+
+http://www.iomedico.com
+10000-1192294456-S
+2023-02-17
+Biostatistician / Data Scientist / Statistiker (m/w/d), Mathematiker/in 
+iOMEDICO AG
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79106', 'ort': 'Freiburg im Breisgau', 'strasse': 'Ellen-Gottlieb-Str. 19'}
+Zur Verstärkung unserer Abteilung Statistics suchen wir eine/n Biostatistician / Data Scientist (m/w/d).
+
+Aufgaben:
+• Eigenständige statistische Auswertung von Anwendungsbeobachtungen, Registern und Studien
+• Mathematische Modellierung
+• Anwenden von Algorithmen aus dem maschinellen Lernen auf große Registerplattformen
+• Programmierung u.a. in R, RMarkdown, RShiny 
+• Erstellung von SAPs (statistische Analysepläne)
+• Methodischer Input bei der Entwicklung neuer Projekte (Studiendesign, Fallzahlkalkulation, Auswahl von Zielparametern und Auswertungsmethoden, Recherchen)
+
+Wir bieten:
+• Spannende Aufgaben mit medizinisch-wissenschaftlichem Bezug und die Möglichkeit, Deine Stärken einzubringen und Deine Kenntnisse zu erweitern.
+• Eine sinnstiftende Tätigkeit mit hohem gesellschaftlichem Nutzen
+• Arbeitsvertrag unbefristet, Hybrides Arbeitsmodell (anteilig mobiles Arbeiten/anteilig im Office)
+• Sozialleistungen: Betriebliche Altersvorsorge, Zuschüsse zu Mobilität (Leasingfahrrad, Regiokarte) und Sport (Hansefit), Mitarbeiter-Events, Obst & Getränke, Parkplätze für PKW, Rad, Roller etc.
+• Flexible Gleitzeitregelungen zur besseren Vereinbarkeit von Familie & Beruf sowie einen zentrumsnahen Arbeitsplatz mit guter Anbindung an das öffentliche Verkehrsnetz 
+• Professionelles Onboarding
+
+In unserem Team sind wir Mathematiker, Informatiker, Bioinformatiker, Physiker und Quereinsteiger. Aber wir arbeiten nicht nur gerne zusammen, sondern verbringen miteinander Zeit beim Bogenschießen, Kartfahren, auf dem Weihnachtsmarkt, Cocktail mixen  etc.
+Dein Profil - was wir uns von Dir wünschen:
+• Studienabschluss (M.Sc., Dipl., PhD) in Statistik, Mathematik, Data Science, Bioinformatik oder vergleichbar 
+• Mindestens 2 Jahre Erfahrung in der Auswertung klinischer oder epidemiologischer Daten (bei entsprechendem Studienabschluss auch Berufsanfänger) 
+• Erfahrung in statistischer Programmierung mit R, idealer Weise auch RMarkdown und/oder RShiny; Kenntnisse von Python oder SAS sind von Vorteil 
+• Englisch in Wort und Schrift sowie sehr gute PC-Kenntnisse
+• Offenheit für neue Entwicklungen und Technologien
+
+Wenn das für Dich gut klingt, dann sende uns Deinen CV an bewerbung@iomedico.com oder über unser Bewerbungsformular auf www.iomedico.com. 
+
+Über iOMEDICO:  Wir forschen, um das Leben von Krebspatienten zu verbessern. Hierfür erfassen wir länderübergreifend Patientendaten und beantworten mit innovativen IT-Lösungen und Studienkonzepten praxisrelevante Fragestellungen, welche die Behandlung, Lebensqualität und onkologische Versorgung von Krebspatienten verbessern. Was uns antreibt? Wir bringen wissenschaftliche Erkenntnisse in die Behandlungspraxis, um die Perspektiven von Menschen mit Krebserkrankungen und deren Angehörigen zu verbessern. Wenn das auch Dich/Sie motiviert, dann werde Teil des Teams. Unser Ziel: Improve Oncology!
+
+http://www.fva-bw.de
+10000-1193352122-S
+2023-02-24
+Wissenschaftliche/r Mitarbeiter/in (w/m/d) WAI-KnotCT, Techniker/in - Forsttechnik 
+Forstliche Versuchs- und Forschungsanstalt Baden- Württemberg
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79100', 'ort': 'Freiburg im Breisgau', 'ortsteil': 'Wiehre', 'strasse': 'Wonnhaldestr. 4'}
+Die Forstliche Versuchs- und Forschungsanstalt (FVA) ist die Ressortforschungseinrichtung des Landes für den Wald. Sie ist dem Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden- Württemberg (MLR) zugeordnet.
+Gesetzlicher Auftrag der FVA ist es, durch anwendungsorientierte Forschung in allen waldbezogenen Belangen zur Sicherung einer nachhaltigen Waldwirtschaft auf wissenschaftlicher Basis beizutragen.
+Mit einem engagierten Team aus über dreihundert Beschäftigten greift die FVA praktische Fragen von Forstbetrieben ebenso auf wie Themen des Artenschutzes, der Walderhaltung oder des Konfliktmanagements in Erholungswäldern.
+
+Bei der Abteilung Waldnutzung ist zum 01.05.2023 vorbehaltlich der Finanzierungszusage durch den Mittelgeber am Standort Freiburg die Stelle als
+
+Wissenschaftliche/r Mitarbeiter/in (w/m/d)
+
+für das Verbundprojekt »WAI-KnotCT« (Wood Artificial Intelligence - Knot modelling by Computed Tomography) befristet für 3 Jahre in Teil- oder Vollzeit zu besetzen. Die Befristung erfolgt nach dem Wissenschaftszeitvertragsgesetz.
+Ziel des Vorhabens »WAI-KnotCT« ist die Weiterentwicklung innovativer Verfahren der Merkmalserkennung in CT-Aufnahmen von Fichtenstammholz, um den Einfluss der Astausprägung auf die Rundholzqualität und die industrielle Weiterverarbeitung präzise zu modellieren. Die Merkmalserkennung in computertomografischen Aufnahmen soll sich auf die innere Astarchitektur von waldfrischem Stammholz konzentrieren und mit Hilfe neuer, auf Künstlicher Intelligenz (KI) basierender Ansätze verbessert werden.
+Eingebettet ist das Projekt in die Fragestellungen um eine optimierte Rohholzbereitstellung. Die Beurteilung von Stammholz mittels CT-Technologie stellt eine innovative Schlüsseltechnologie in der Forst-Holzbranche dar, die einen wesentlichen Beitrag zum ressourcenschonenden Einsatz von Rohholz leisten wird und damit wesentlich zur nachhaltigen Weiterentwicklung der Prozesskette Wald-Holz beitragen kann. 
+Im Verbundprojekt sind neben der FVA Forschungs- und Industriepartner aus Deutschland, Schweden, Norwegen und Kanada beteiligt.
+Die Stelle eignet sich gut für Absolventen als Berufseinstieg, bei Interesse und Voraussetzung besteht die Möglichkeit zur Promotion.
+Die FVA bietet einen Arbeitsplatz, der fachlich sehr abwechslungsreich und vielseitig ist. Am Standort Freiburg besteht eine hervorragende Vernetzung im Wissenschaftsbereich und ein attraktives Umfeld.
+Aufgaben
+•	Selbständige wissenschaftlich-inhaltliche und organisatorische Projektbearbeitung, insbesondere
+o	Organisation und Strukturierung der Messdaten 
+o	Entwicklung eines KI-gestützten Ansatzes zur Bildsegmentierung von dreidimensionalen CT-Aufnahmen
+o	statistische Analyse und Modellbildung 
+o	Mitarbeit in weiteren Arbeitspaketen (koordiniert durch Projektpartner)
+•	Organisation und Durchführung von projektbezogenen Veranstaltungen
+•	Unterstützung der projektbezogenen Öffentlichkeitsarbeit
+•	Verfassen von Projektberichten und (populär-)wissenschaftlichen Publikationen
+•	Kommunikation und Zusammenarbeit mit Projektpartnern
+•	sonstige Projekttätigkeiten
+
+Anforderungen
+•	ein abgeschlossenes Studium in einem der folgenden Studiengängen oder eines vergleichbaren Studiengangs mit Diplom- oder Masterabschluss (Universität) oder akkreditiertem Masterabschluss (Hochschule, die Akkreditierung des Studiengangs ist von der Bewerberin/dem Bewerber nachzuweisen).
+o	Informatik, Mathematik, Physik, Elektrotechnik, Maschinenbau oder
+o	Forst-, Umwelt oder Geowissenschaften (hohe Affinität zu Technik, IT und Statistik) 
+•	Erfahrungen mit Machine Learning und Bildsegmentierung
+•	Gute Programmierkenntnisse, bevorzugt in Python
+•	Grundkenntnisse im Umgang mit Linux
+•	von Vorteil: Erfahrungen mit U-Net und PyTorch 
+•	von Vorteil: Kenntnisse in R oder C/C++/C#
+•	Neben Organisationtalent und Teamfähigkeit wird ein sicheres Auftreten, Flexibilität, Einsatz- und Verantwortungsbereitschaft sowie Eigeninitiative erwartet.
+•	sehr gute Kenntnisse der gängigen MS-Office-Anwendungen
+•	gültige Fahrerlaubnis für die Fahrzeugklasse B
+•	Englischkenntnisse
+
+Unser Angebot
+•	Bezahlung nach Entgeltgruppe 13 TV-L (Tarifvertrag für den öffentlichen Dienst der Länder)
+•	Die Vereinbarkeit von Beruf und Familie ist der FVA ein besonderes Anliegen. Neben flexiblen Arbeitszeiten und Homeoffice verfügt die FVA über eine waldpädagogisch ausgerichtete Kindertagesstätte.
+•	Ihre Mobilität unterstützen wir mit dem JobTicket BW.
+•	Die FVA strebt eine Erhöhung des Frauenanteils an und fordert Frauen ausdrücklich auf, sich zu bewerben. 
+•	Die zu besetzende Stelle ist grundsätzlich teilbar.
+•	Schwerbehinderte Menschen werden bei gleicher Eignung bevorzugt berücksichtigt.
+
+Die Stelle eignet sich gut für Absolventen als Berufseinstieg, bei Interesse und Voraussetzung besteht die Möglichkeit zur Promotion.
+Die FVA bietet einen Arbeitsplatz, der fachlich sehr abwechslungsreich und vielseitig ist. Am Standort Freiburg besteht eine hervorragende Vernetzung im Wissenschaftsbereich und ein attraktives Umfeld.
+
+Bewerbung
+Bitte bewerben Sie sich bis 20.03.2023 online über unser Bewerbungsportal.
+Ihre Unterlagen werden nach Abschluss des Bewerbungsverfahrens unter Beachtung datenschutzrechtlicher Bestimmungen vernichtet bzw. gelöscht.
+
+Ansprechpersonen
+Dr. Udo Hans Sauter (Abteilungsleitung)
+Tel. 0761 4018-237
+Udo.Sauter@forst.bwl.de
+
+Franka Brüchert
+Tel. 0761 4018-239
+Franka.Bruechert@forst.bwl.de
+
+http://www.imetron.de
+10000-1193055759-S
+2023-02-06
+Elektrokonstruktion / SPS Programmierer (w/m/d), Konstrukteur/in - Elektrotechnik 
+Imetron Ges. für industrielle Mechatronik mbH
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79224', 'ort': 'Umkirch', 'strasse': 'Stöckmatten 13'}
+imetron ist ein zukunftsorientiertes Unternehmen. Unser kontinuierliches Wachstum in den Bereichen der Herstellung mechatronischer Systeme, Automation, Schaltanlagen und Baugruppenfertigung sowie unser  innovatives und einzigartiges omnidirektionales Transportsystem Donkey Motion, fordert weiteren Einsatz von Spezialisten.
+
+Zur Verstärkung unseres Teams suchen wir Sie 
+
+Elektrokonstruktion / SPS Programmierer (w/m/d)
+
+Welche Aufgaben warten auf Sie?  
+•Elektrokonstruktion mit EPLAN
+•SPS-Programmierung und Human-Machine Interfaces
+•Auslegung und Projektierung von Schaltanlagen/Schaltschränken
+
+Was bietet Ihnen imetron?
+•Leistungsanerkennung und ein schöpferisches kollegiales Team mit Freude an der Aufgabe
+•Langfristige und entwicklungsfähige Anstellung
+•Spannende und abwechslungsreiche Projekte
+•Die Möglichkeit eigenverantwortlich zu arbeiten
+•Attraktive Sozialleistungen und Vergütung
+
+Was wünschen wir uns von Ihnen?
+•Gute Kenntnisse in Automatisierungstechnik, Elektrotechnik, Antriebstechnik
+•Simatic S7; HMI mit Siemens, Eaton
+•Feldbussysteme wie Profibus, Profinet, Ethernet, CANopen
+•Grundkenntnisse C / C++, Python
+•Gute MS-Office Kenntnisse
+
+Nehmen Sie an unserem Erfolg teil!
+Über unsere Leistungen und Ihre Perspektiven unterhalten wir uns gern in einem persönlichen Gespräch. 
+
+Sind Sie neugierig geworden? 
+Wenn ja, freuen wir uns auf Ihre Bewerbung unter Angabe Ihrer Gehaltsvorstellung und Verfügbarkeit.
+
+E-Mail oder per Post an:	 y.risch@imetron.de, Yvonne Risch Personalwesen
+imetron Gesellschaft f. ind. Mechatronik mbH 
+Stöckmatten 13, D-79224 Umkirch
+
+https://embedded.avnet.com/
+10000-1190323647-S
+2022-07-26
+System Engineer / Test Engineer Server (m/w/d), IT-Systemadministrator/in 
+Avnet Embedded (Freiburg) GmbH
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79111', 'ort': 'Freiburg im Breisgau', 'strasse': 'Munzinger Str. 3'}
+Avnet Integrated liefert die gesamte Palette an Embedded Modulen - von einfachen eingebauten Displays bis hin zu kompletten kundenspezifischen Serverlösungen für Rechenzentren - sowie kundenspezifische Moduldesigns für jedes Produkt oder jede Anwendung. Welche Technologien Kunden auch immer benötigen, um ihrem Produkt einen Wettbewerbsvorteil zu verschaffen - Avnet Integrated kann bei Design, Konfiguration, Fertigung und Installation unterstützen.
+
+Was Sie erwartet:
+
+Mitwirken bei der Einführung neuer Produkte in unserer Produktion für Server und IT-Systeme
+Aufbau von Mustergeräten in Zusammenarbeit mit dem Kunden
+Kommunikation mit Projektleitern, Kunden, unseren Kollegen in den USA sowie Teamarbeit in globalen Strukturen und Projekten
+Installation von Betriebssystemen auf Basis von Linux oder Microsoft
+Installation und Handhabung von Systemen im Umfeld der Virtualisierung (VMWare)
+Installation von Server- und Storage-Systemen, Parametrisierung von Netzwerkkomponenten (HP, DELL)
+Erstellung und Überwachung von Testprogrammen und Programmierung von Systemen (Shell-Skripte, Python, Powershell)
+Technische Betreuung der Systeme in der Produktion
+Schulung des Produktionspersonals auf neue Produkte und Geräte
+Erstellung von Arbeits- und Prüfanweisungen sowie Pflege der Dokumentation und Daten in SAP
+Mitarbeit an Qualitätssicherungsprozessen und neuen Projekten
+
+Wer Sie sind:
+
+Sie haben eine abgeschlossene Ausbildung im IT-Bereich, eine technische Ausbildung mit Berufserfahrung und IT-Affinität, eine Qualifikation als Techniker (m/w/d) / Ingenieur (m/w/d) oder eine vergleichbare Qualifikation
+Sie verfügen über Erfahrung in der Installation von PC-Hardware und Servern, IT-Administration, Installation und Wartung von IT-Systemen
+Kenntnisse in der Shell-Programmierung (z.B. Linux-Shell-Scripting) runden Ihr Profil ab und erleichtern Ihnen den Start
+Kenntnisse in der Einrichtung von IT-Racksystemen und Netzwerkkomponenten sowie im Bereich der Virtualisierung sind wünschenswert
+Sie waren bereits in der Lage, Ihr Englisch in Wort und Schrift in der täglichen Arbeit anzuwenden (B1/B2)
+Sie sind ein kommunikationsstarker Mensch
+Ein sicheres und serviceorientiertes Auftreten, Flexibilität und die Bereitschaft, sich in neue Themen einzuarbeiten, zeichnen Sie aus
+Sie verfügen über ein hohes Maß an Eigenmotivation sowie eine selbstständige und zielorientierte Arbeitsweise
+Idealerweise blicken Sie bereits auf erste Erfahrungen im Produktionsumfeld zurück
+
+Worauf Sie sich freuen können:
+
+Arbeiten Sie mit in unserem mittelständisch und familiär geprägten Hightech-Unternehmen "embedded" in die Struktur eines global agierenden Konzerns und freuen Sie sich auf flexible Arbeitszeiten und ein attraktives Vergütungsmodell, sowie verschiedene Benefits als add on. Profitieren Sie z.B. von einem Employee Assistance Program, Well Being Aktionen, einer vergünstigten Kantine und kostenfreien Getränken.
+
+Wie Wir uns kennenlernen:
+
+Als zukunftsorientiertes und technisch innovatives Unternehmen bauen wir auf unsere Mitarbeiter – werden Sie Teil der Avnet Embedded Familie! Sie möchten gemeinsam mit uns die Vision Engineering Leadership realisieren? Dann freuen wir uns über Ihre Bewerbung über unser Jobportal. Klicken Sie einfach auf „Bewerben“. Noch Fragen? Dann freut sich Herr Kurth(HR Generalist) unter der Telefonnummer +49 761 8819 222 über Ihren Anruf.
+
+http://www.z-laser.com
+10000-1192491223-S
+2022-12-22
+Software Engineer for Production Systems (m/w/d), Softwareentwickler/in 
+Z-Laser GmbH
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79100', 'ort': 'Freiburg im Breisgau', 'ortsteil': 'Wiehre', 'strasse': 'Merzhauser Str. 134'}
+Zur Verstärkung unseres Prozesstechnik-Teams in der Business Unit  Lasermodule suchen wir zum nächstmöglichen Zeitpunkt für den Standort Freiburg i. Br. (Deutschland) in Vollzeit einen 
+
+Software Engineer for Production Systems (m/w/d)
+
+In dieser Funktion bist du für die Entwicklung von Justagealgorithmen für Robotiksysteme verantwortlich, welche in den Herstellprozessen unserer Laserprodukte zum Einsatz kommen. 
+
+Diese Aufgaben erwarten dich:
+• Du entwickelst Test-, Kalibrier- und Abgleichalgorithmen zur Sicherstellung der Spezifikationen unserer Laserprodukte 
+innerhalb der Fertigung
+• Du wählst geeignete Sensorik, Aktorik und Steuerungstechnik aus und stellst die Einbindung dieser Komponenten in den 
+von dir entwickelten Programmen sicher
+• Du gestaltest nutzerfreundlich GUIs für unsere Produktionsmitarbeiter*innen
+• Du implementierst die entwickelte Software auf den Produktionssystemen und bist für den stabilen Betrieb
+verantwortlich. Ebenso zählen die Pflege und Anpassung der Algorithmen an neue Anforderungen zu deinen Aufgaben
+• Du leitest Entwicklungsprojekte im Bereich Production Engineering
+• Du stellst ein wichtiges Bindeglied zwischen der Produktentwicklung und Prozesstechnik her, indem du z. B. deine 
+entwickelten Kalibrier-, Mess- und Prüfalgorithmen an vorhandene Produktinterfaces anbindest
+• Du bist an der Gestaltung der firmenweiten Software- & Firmware-Tool-Chain beteiligt
+• Im Rahmen deiner Tätigkeit erstellst und pflegst du die notwendigen Entwicklungsdokumentationen
+
+Als idealer Kandidat bringst du diese Qualifikationen mit:
+• Erfolgreicher Fach-/Hochschulabschluss in einem technischen oder naturwissenschaftlichen Studiengang mit starkem 
+Software-Background
+• Erste Berufserfahrung als System- oder Software Engineer im industriellen Produktionsbereich
+• Kenntnisse und Erfahrungen im Bereich Maschinensteuerungen sowie im Bereich Sensorik / Aktorik
+• Gute Programmierkenntnisse (z.B. Python, LabView, C)
+• Praxiserfahrungen an der Schnittstelle von Entwicklung und Produktion
+• Strukturierte und eigenverantwortliche Arbeitsweise, hohes Maß an Zielstrebigkeit und Selbstorganisation
+• Du bist ein guter Kommunikator und stellst Verbindungen zwischen den einzelnen Entwicklungsbereichen her
+
+Folgende Kompetenzen runden dein Profil ab:
+• Sehr gute Sprachkenntnisse in Deutsch und Englisch 
+• Teamfähigkeit, Flexibilität und Lernbereitschaft
+• Deine Persönlichkeit passt zu unserer Z-LASER Firmenkultur: Du bist hungrig auf Herausforderungen, hast den Wunsch nach eigenem Handlungsspielraum, den du hands-on ausfüllst und fühlst dich als Teamplayer in einem familiären mittelständischen Unternehmen wohl
+
+Interessiert?
+Sende bitte deine vollständigen Bewerbungsunterlagen, unter Angabe deines frühestmöglichen Eintrittstermins und deiner
+Gehaltsvorstellungen, per E-Mail an: personal@z-laser.de
+
+Bei Rückfragen stehen wir dir gerne zur Verfügung!
+
+http://www.hsg-imit.de
+14842-k37591.1412-S
+2023-02-03
+PhD (m/w/d) für Digital Health & Machine Intelligence, Ingenieur/in - Biomechanik 
+Hahn-Schickard-Gesellschaft für angewandte Forschung e.V.
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '78052', 'ort': 'Villingen-Schwenningen', 'ortsteil': 'Villingen', 'strasse': 'Wilhelm-Schickard-Str. 10'}
+Hahn-Schickard steht für industrienahe, anwendungsorientierte Forschung, Entwicklung und Fertigung in der Mikrosystemtechnik. Über 300 Mitarbeiter*innen entwickeln in Freiburg, Stuttgart, Villingen-Schwenningen und Ulm Lösungen in der Mikrosystemtechnik: von der ersten Idee über die Fertigung bis zum finalen Produkt - branchenübergreifend. Auch ist Hahn-Schickard Initiator und Unterstützer zahlreicher Spin-Off-Unternehmen. Wir sind regional verwurzelt und zugleich global gefragter Partner.
+
+Für den Bereich Software Solutions suchen wir am Standort Freiburg im Breisgau ab sofort eine*n Doktorand*in /Promovend*in (m/w/d) als wissenschaftliche*n Mitarbeiter*in für
+
+PhD (m/w/d) für Digital Health & Machine Intelligence
+
+Ihre Aufgaben
+
+• Forschung & Entwicklung zur Modellierung von Physiologie und Verhalten anhand von körpergetragener Sensordaten, sowie Weiterentwicklung von Verfahren basierend auf Algorithmen der künstlichen Intelligenz(KI) zur Interpretation und Simulation von Verhalten in Alltagssituationen, insbesondere von Digitalen Zwillingen
+• Entwicklung von digitalen Gesundheitsandwendungen sowie offenen Schnittstellen
+• Durchführung von Validierungsstudien, u.a. im klinischen Umfeld mit Patienten
+• wissenschaftliche Publikation von Forschungs-ergebnissen in den Bereichen biomedizinische Technik, Informatik und Medizin
+• Erstellung einer Dissertationsschrift (Dr. rer. nat/Dr.-Ing.) unter der Leitung von Prof. Dr. Oliver Amft
+• Zusammenarbeit in fachübergreifenden Teams
+
+Ihr Profil
+
+• Hochschulabschluß (Diplom/Master) im Bereich der Informatik oder Biomedizinischen Informatik, sowie einschlägige Erfahrungen in einem oder mehreren der folgenden Felder: Maschinelles Lernen, Zeitreihenanalyse, Wearable Systeme
+• Erfahrungen in der Modellierung von Daten mit Hilfe von tiefen, neuronalen Netzen und Programmierung in Python
+• Kreativität, Eigeninitiative und teamorientierte Arbeitsweise
+• gute Deutsch- und Englischkenntnisse, bzw. Bereitschaft, Deutsch zeitnah zu erlernen
+
+Das erwartet Sie
+
+• ein attraktiver Arbeitsplatz in einem modernen, hervorragend ausgestatteten und industrienah agierenden Forschungsinstitut
+• innovative Projekte in Wachstumsmärkten
+• flexible, familienfreundliche Arbeitszeiten
+• Vergütung in Anlehnung an die Rahmenbedingungen des öffentlichen Dienstes nach TV-L
+• fachlich passende Weiterbildungsmöglichkeiten 
+• Gesundheitsmaßnahmen (u.a. Firmenfitness Hansefit)
+• betriebliche Altersvorsorge
+• Fahrtkostenzuschuss bei Nutzung öffentlicher Verkehrsmittel des ÖPNV
+• Die Stelle ist zunächst auf 3 Jahre befristet.
+
+So geht es weiter
+
+• Sofern wir Ihr Interesse & Begeisterung für "Digital Health/KI/ML"wecken konnten, so bewerben Sie sich bitte mit folgenden kompletten Bewerbungsunterlagen (Anschreiben/Lebenslauf/Zeugnisse/evtl. Publikations-liste) direkt hier online oder alternativ über unsere Karriereseite. Die interne Referenznummer lautet 23/75/04.
+• Nutzen Sie bei Fragen gerne vorab die Kontaktdaten unserer Ansprechpartnerin Frau Nadja Elkmann unter Tel. +49(0)7721/943-172.
+• Die Entscheidung über den Fortgang Ihrer Bewerbung wird direkt im Bereichsteam getroffen.
+• Da wir Ihre Bewerbungen immer persönlich auswerten, bitten wir Sie dafür bereits jetzt um etwas Geduld.
+
