@@ -4,16 +4,16 @@ import base64
 requests.packages.urllib3.disable_warnings()
 ad_number = 5
 writemode = 'w'
-
-print("\n\n# # # # # script starts here # # # # #\n")
+# TODO: refactor/cleanup: outsource functions to functions2.py
 
 def read_file(file_path):
     with open(file_path, 'r') as file:
         return [line.strip() for line in file]
 
-def store_refnr(refnr):
+def store_refnr(list_nrs):
     with open('known_refnrs.txt', writemode) as known:
-        print(refnr, file=known)
+        for nr in list_nrs:
+            print(nr, file=known)
 
 def clean_refnrs(refnrs):
     known_refnrs = read_file('known_refnrs.txt')
@@ -104,7 +104,6 @@ if __name__ == "__main__":
     for i in range(n := len(refnrs)):
         print("i is ", i)
         j_details = job_details(jwt["access_token"], refnrs[i])
-        print(j_details)
         source = "none"
         try:
             source = "externeUrl"
@@ -122,7 +121,6 @@ if __name__ == "__main__":
         profession = j_details["beruf"]
         company = j_details["arbeitgeber"]
         refnr = refnrs[i]
-        store_refnr(refnr) # TODO: collect a list of known ref_numbers and store to file
         date = j_details["aktuelleVeroeffentlichungsdatum"]
         place = j_details["arbeitgeberAdresse"]
         job_description = j_details["stellenbeschreibung"]
@@ -134,3 +132,4 @@ if __name__ == "__main__":
                     str(place) + '\n',
                     job_description.strip() + '\n\n'))
     f.close()
+    store_refnr(refnrs)
