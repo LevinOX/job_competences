@@ -1,3 +1,5 @@
+outdated file
+
 """a first try to filter the job competences out of a text"""
 # nltk-library may help with stemming and more
 # For stemming, check out: PorterStemmer, WordNetLemmatizer,

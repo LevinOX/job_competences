@@ -82,7 +82,6 @@ def job_details(jwt, job_ref):
 
 
 if __name__ == "__main__":
-    print("I'm main.")
     jwt = get_jwt()
     result = search(jwt["access_token"], "python", "freiburg")
 

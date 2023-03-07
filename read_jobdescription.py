@@ -48,7 +48,7 @@ ad_counts = 0
 for line in jdess:
     if line.startswith('http'):
         ad_counts += 1
-job_data = [[None, None, None, str(datetime.date.today()), set()]
+job_data = [[None, None, None, None, None, str(datetime.date.today()), set()]
             for i in range(ad_counts)]
 
 new_words = set()
@@ -58,17 +58,33 @@ new_competences = set()
 ad_counter = -1
 ad_start = 0
 
+# https://www.smallcases.de/
+# 10000-1193410325-S
+# 2023-03-01
+# Softwareentwickler (m/w/d) Python, Softwareentwickler/in 
+# SmallCases GmbH Softwareberatung
+# {'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79106', 'ort': 'Freiburg im Breisgau', 'strasse': 'Wentzingerstr. 23'}
+# Wir, die Smallcases
+
 for line in jdess:
     if line.startswith('http'):
         # store URL
         ad_counter += 1
         job_data[ad_counter][0] = line
         ad_start += 1
-    elif ad_start == 1:
+    elif ad_start == 2:
+        # the line after 'http' holds the job ad ref nr
+        job_data[ad_counter][3] = line
+        ad_start += 1
+    elif ad_start == 3:
+        # the line after 'http' holds the date
+        job_data[ad_counter][4] = line
+        ad_start += 1
+    elif ad_start == 4:
         # the line after 'http' holds the job title
         job_data[ad_counter][1] = line
         ad_start += 1
-    elif ad_start == 2:
+    elif ad_start == 5:
         # name of company
         job_data[ad_counter][2] = line
         ad_start = 0
@@ -81,7 +97,7 @@ for line in jdess:
             word_list, usual_words, competences, complex_competences, new_words, new_competences)
         new_words.update(newest_words)
         new_competences.update(newest_competences)
-        job_data[ad_counter][4].update(ad_competences)
+        job_data[ad_counter][6].update(ad_competences)
         print("ad_competences:", ad_competences)
         print("newest_words: ", newest_words)
 
