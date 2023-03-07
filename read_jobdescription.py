@@ -27,7 +27,7 @@ import datetime
 
 import functions2 as fu
 
-with open("job_descriptions_arbeitsagentur.txt", "r", encoding='utf-8') as f:
+with open("job_descriptions_arbeitsagentur_api.txt", "r", encoding='utf-8') as f:
     jdescriptions = f.read().split(sep='\n')
     jdess = jdescriptions
 with open("usual_words_de.csv", "r") as g:
@@ -48,7 +48,8 @@ ad_counts = 0
 for line in jdess:
     if line.startswith('http'):
         ad_counts += 1
-job_data = [[None, None, None, None, None, str(datetime.date.today()), set()]
+#            URL, jobtitle,company, refnr, date, place, todays_date, req. comp.
+job_data = [[None, None,   None,    None,  None, None, str(datetime.date.today()), set()]
             for i in range(ad_counts)]
 
 new_words = set()
@@ -72,21 +73,25 @@ for line in jdess:
         ad_counter += 1
         job_data[ad_counter][0] = line
         ad_start += 1
-    elif ad_start == 2:
+    elif ad_start == 1:
         # the line after 'http' holds the job ad ref nr
         job_data[ad_counter][3] = line
         ad_start += 1
-    elif ad_start == 3:
+    elif ad_start == 2:
         # the line after 'http' holds the date
         job_data[ad_counter][4] = line
         ad_start += 1
-    elif ad_start == 4:
+    elif ad_start == 3:
         # the line after 'http' holds the job title
         job_data[ad_counter][1] = line
         ad_start += 1
-    elif ad_start == 5:
+    elif ad_start == 4:
         # name of company
         job_data[ad_counter][2] = line
+        ad_start += 1
+    elif ad_start == 5:
+        # name of place
+        job_data[ad_counter][5] = line
         ad_start = 0
     else:
         print("jdes line: ", line)
@@ -97,7 +102,7 @@ for line in jdess:
             word_list, usual_words, competences, complex_competences, new_words, new_competences)
         new_words.update(newest_words)
         new_competences.update(newest_competences)
-        job_data[ad_counter][6].update(ad_competences)
+        job_data[ad_counter][7].update(ad_competences)
         print("ad_competences:", ad_competences)
         print("newest_words: ", newest_words)
 
