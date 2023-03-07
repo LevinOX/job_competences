@@ -3,7 +3,10 @@ import base64
 
 requests.packages.urllib3.disable_warnings()
 ad_number = 5
+searchText = "python, aws, erneuerbare energie*"
+location = "Deutschland"
 writemode = 'w'
+
 # TODO: refactor/cleanup: outsource functions to functions2.py
 
 def read_file(file_path):
@@ -65,7 +68,7 @@ def search(jwt, what, where):
     return response.json()
 
 
-def job_details(jwt, job_ref):
+def get_job_details(jwt, job_ref):
 
     headers = {
         'User-Agent': 'Jobsuche/2.9.3 (de.arbeitsagentur.jobboerse; build:1078; iOS 15.1.0) Alamofire/5.4.4',
@@ -83,7 +86,7 @@ def job_details(jwt, job_ref):
 
 if __name__ == "__main__":
     jwt = get_jwt()
-    result = search(jwt["access_token"], "python", "freiburg")
+    result = search(jwt["access_token"], searchText, location)
 
     #refnrs = result['stellenangebote'][:]["refnr"]
     refnrs = [job['refnr'] for job in result['stellenangebote']]
@@ -102,27 +105,21 @@ if __name__ == "__main__":
 
     for i in range(n := len(refnrs)):
         print("i is ", i)
-        j_details = job_details(jwt["access_token"], refnrs[i])
-        source = "none"
+        job_details = get_job_details(jwt["access_token"], refnrs[i])
         try:
-            source = "externeUrl"
-            URL = j_details["externeUrl"]
+            URL = job_details["externeUrl"]
         except:
             try:
-                source = "arbeitgeberdarstellungUrl"
-                URL = j_details["arbeitgeberdarstellungUrl"]
+                URL = job_details["arbeitgeberdarstellungUrl"]
             except:
-                source = "allianzpartnerUrl"
-                URL = j_details["allianzpartnerUrl"]
-        finally:
-            print(f"URL given by {source}.")
-        job_title = j_details["titel"]
-        profession = j_details["beruf"]
-        company = j_details["arbeitgeber"]
+                URL = job_details["allianzpartnerUrl"]
+        job_title = job_details["titel"]
+        profession = job_details["beruf"]
+        company = job_details["arbeitgeber"]
         refnr = refnrs[i]
-        date = j_details["aktuelleVeroeffentlichungsdatum"]
-        place = j_details["arbeitgeberAdresse"]
-        job_description = j_details["stellenbeschreibung"]
+        date = job_details["aktuelleVeroeffentlichungsdatum"]
+        place = job_details["arbeitgeberAdresse"]
+        job_description = job_details["stellenbeschreibung"]
         f.writelines((URL + '\n',
                     refnr + '\n',
                     date + '\n'

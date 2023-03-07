@@ -1,228 +1,176 @@
-https://www.smallcases.de/
-10000-1193410325-S
-2023-03-01
-Softwareentwickler (m/w/d) Python, Softwareentwickler/in 
-SmallCases GmbH Softwareberatung
-{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79106', 'ort': 'Freiburg im Breisgau', 'strasse': 'Wentzingerstr. 23'}
-Wir, die Smallcases Software GmbH, sind seit unserer Gründung im Jahr 2000 Softwarespezialisten für GIS-bezogene Anwendungen im Telekommunikations- und Versorgungsumfeld. Ausgangspunkt für unsere Lösungen ist das Smallworld GIS, seit 2015 haben wir unser Leistungsangebot Richtung webbasierte Anwendungen, Systemintegration und automatisierter Fttx-Planung erweitert. Unsere Leidenschaft ist die effiziente Erfüllung von Kundenanforderungen: von pfiffigen Produktanwendungen bis hin zu individuellen Projektlösungen.
+www.zsw-bw-jobs.de.de
+13788-k19921.306-S
+2022-03-24
+Testingenieur (m/w/d) für Untersuchungen an Batterien, Ingenieur/in - Erneuerbare Energien 
+ZSW Zentrum für Sonnenenergie- und Wasserstoff - Forschung
+{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '89081', 'ort': 'Ulm, Donau', 'strasse': 'Helmholtzstr. 8'}
+// Zentrum für Sonnenenergie- und Wasserstoff-
+Forschung Baden-Württemberg (ZSW)
 
-Als Teil der ITS Gruppe sind wir mit über 400 Mitarbeitern und 19 Standorten deutschlandweit und international vertreten und setzen auf ein arbeitnehmerfreundliches Umfeld und flache Hierarchien. 
+// Energie mit Zukunft
 
-Du möchtest daran mitwirken die Planung von Glasfaserausbau effizienter zu gestalten? Dich interessiert, mit welchen Technologien sich smarte Software für Versorgungsunternehmen entwickeln lässt? Dann werde Teil der Smallcases Software GmbH und verstärke unser Team mit deinem Know-how. 
+Das Zentrum für Sonnenenergie- und Wasserstoff-Forschung Baden-Württemberg (ZSW) ist eine gemeinnützige Stiftung des Landes Baden-Württemberg sowie verschiedener Institutionen und Unternehmen. Unsere Arbeitsschwerpunkte sind die wirtschaftsnahe Forschung und Entwicklung zu erneuerbaren Energien, Energiespeicherung und Energieeffizienz sowie Analysen von Energiesystemen. Als industrieorientiertes Forschungsinstitut ebnen wir gemeinsam mit unseren Partnern neuen Technologien den Weg in den Markt – dabei arbeiten wir von der Materialforschung über Systeme, Tests und Marktanalysen entlang der gesamten Wertschöpfungskette. Diese Expertise aus einer Hand ist für unsere Partner aus der Wirtschaft ein wesentlicher Erfolgsfaktor.
 
-Aktuell suchen wir einen
+Für das Fachgebiet Akkumulatoren (ECA) am Standort Ulm suchen wir zum nächstmöglichen Zeitpunkt einen
 
-Softwareentwickler (m/w/d)
+Testingenieur (m/w/d) für Untersuchungen an Batterien
 
-für unseren Standort in Freiburg. 
+Ihr Aufgabengebiet:
 
-Deine Aufgaben:
-- Programmierung mit Python und JavaScript
-- Mitarbeit in der agilen Softwareentwicklung in enger Zusammenarbeit mit dem Entwicklerteam
+• Messtechnische Untersuchungen an Li-Ionen Batterien und anderen modernen elektrischen Speichern
+• Planung, Aufbau, Programmierung, Durchführung und Auswertung von Versuchen an Batterien
+• Installation, Programmierung, Betreiben, Optimieren und Wartung von verschiedenen Prüfanlagen
+• Projektverantwortung mit Kundenkontakt für diese Projekte
 
-Dein Profil:
-- Abgeschlossenes Studium oder Berufsausbildung im Informatik Umfeld
-- Programmierkenntnisse in Python und/oder JavaScript und Erfahrung mit GIT, Jira und Confluence
-- Bereitschaft zur Einarbeitung in eine neue fachliche Thematik und Interesse an der Arbeit mit GIS und Geodaten
-- Freude am Entwickeln und Spaß an der Arbeit im Team
+Ihr Profil:
 
-Deine Benefits bei der ITS Gruppe:
-- Ein intensives 6-monatiges Schulungsprogramm
-- Flexible Arbeitszeiten und Auszeitmodelle
-- Individuelle Homeoffice-Möglichkeiten
-- Weiterbildungsmöglichkeiten
-- Sportliche Teamevents
-- Eine leistungsgerechte, attraktive Vergütung
-- Unterstützung durch ein Mentoren-Programm
-- Arbeit in starken und dynamischen Teams
-- Eine wertschätzende Kommunikationskultur und flache Hierarchien
+• Dipl.-Ing. (FH/TH), Bachelor, Master Elektrotechnik, Mechatronik oder vergleichbare Qualifikation
+• Einschlägige Berufserfahrung in den o.g. Aufgabenbereichen
+• Gute IT-Kenntnisse (CAN-Tools; Programmierkenntnisse in VBA, Python und/oder C)
+• Gute Kenntnisse in MS-Office und Englisch
+• Fähigkeit zu schneller Einarbeitung in neue Themen,Kommunikationsstärke und Teamfähigkeit
+• Hohes Maß an Engagement und Belastbarkeit, gewissenhaftes und zuverlässiges Arbeiten
+• Strukturierte, zielorientierte und selbständige Arbeitsweise
 
-Du willst Teil unseres Teams werden und hast Interesse an der Position des Softwareentwicklers (m/w/d)?
-Dann freuen wir uns über Deine Online-Bewerbung unter https://its-service.de/its-gruppe/karriere.
+Unser Angebot an Sie:
+Das ZSW bietet Ihnen eine kreative Atmosphäre, in der neues Wissen und nachhaltige Prozesse gefördert werden. Sie finden bei uns ein offenes Miteinander mit vielen Freiheiten, umfassendem Gestaltungsspielraum, flachen Hierarchien und der Möglichkeit zu selbstständigem Arbeiten. Möchten auch Sie die angewandte Energieforschung weiter voranbringen? Wir freuen uns auf Ihre Bewerbung!
 
-https://www.get-in-it.de/jobsuche/p216543?utm_source=arbeitsagentur&utm_medium=cpc&utm_campaign=launch-basic
-13644-216543-S
-2023-03-01
-Python Softwareentwickler:in (m/w/d), Anwendungsprogrammierer/in 
-JobRad
-{}
-## Werde Teil der JobRad-Erfolgsgeschichte und bewirb dich jetzt!
+Das Arbeitsverhältnis ist zunächst auf 3 Jahre befristet, hat einen Beschäftigungsumfang von 100% und ist nach den im öffentlichen Dienst üblichen Regelungen (TV-L) eingestuft. Das ZSW bietet zusätzliche Sozialleistungen an. Wenn Sie Interesse an dieser Position haben, bewerben Sie sich bitte bis spätestens 27.04.2022 ausschließlich über das Bewerbungsformular. Fachliche Fragen beantwortet Ihnen Herr Dr. Olaf Böse gern unter der Telefonnummer +49 731 9530-551. Weitere Informationen erhalten Sie unter www.zsw-bw.de.
 
-Wir haben das Rad nicht neu erfunden – aber das Dienstrad!  
- JobRad ist Markt- und Qualitätsführer der boomenden Radleasing-Branche.   
- An unserem Hauptsitz in Freiburg und in unserem Außendienst in ganz Deutschland setzen wir auf begeisterte Menschen, die mit ihrem Talent und ihren Ideen unser nachhaltiges und wachsendes Unternehmen weiter stärken und Menschen aufs Rad bringen.
+http://www.cs2-itec.de
+10000-1193425646-S
+2023-03-02
+22390: C&P Engineer Studies (HVDC) (m/w/d), Ingenieur/in - Elektrotechnik 
+Cs2 ITEC GmbH & Co. KG
+{'land': 'Deutschland', 'region': 'Bayern', 'plz': '91052', 'ort': 'Erlangen', 'strasse': 'Anton-Bruckner-Str. 2a'}
+Cs2 ITEC bietet Ihnen als Berufseinsteiger oder erfahrenem Spezialisten ausgezeichnete Möglichkeiten der fachlichen und persönlichen Weiterentwicklung.
 
-Von Anfang an bist du Teil des Teams – und voll dabei. Gemeinsam mit deinen Kolleg:innen wirst du digitale Berge versetzen und zentraler Teil unserer Digitalisierung sein. Bei uns bist du sofort wirksam. Du arbeitest in einem tollen Team, dass das gemeinsame Ziel hat, noch bessere Softwerker:innen zu werden. Dein Beitrag macht den Unterschied! Und: Jede Verbesserung macht die Welt ein Stück besser. Mehr Jobradler = bessere Umwelt und bessere Gesundheit.
+Bei spannenden und abwechslungsreichen Tätigkeiten für internationale Großkunden und Konzerne, bauen Sie, je nach Aufgabenstellung und Position tiefes Fachwissen in neuesten Technologien oder breites Projektleitungs- bzw. Führungs-Know-how auf. Durch die Vielzahl unserer Themen können wir Ihnen, je nach persönlichen Wünschen, verschiedene Technologiebereiche und Aufgabenstellungen anbieten.
 
-## Das erwartet dich
+Das bieten wir Ihnen:
 
-- Du wirst Teil eines starken, begeisterten, agilen, cross-funktionalen Teams, das sich weiter im Aufbau befindet.
-- Nur die jeweils besten Technologien sind gut genug für unsere Anforderungen.  
- Wir nutzen: Python, Webcomponents, JavaScript ES6+, CSS, HTML, nodejs, npm, git, Angular etc.
-- Wir sind überzeugt vom Open Source Mindset und arbeiten unter anderem mit Odoo und Magnolia.
+- Abwechslungsreiche Tätigkeiten in einem spannenden Aufgabenumfeld
+- Internationale Großprojekte bei namhaften Kunden
+- Mitarbeit in einem sympathischen und motiviertem Team
+- Angenehmes und kollegiales Arbeitsumfeld
+- Interessante Perspektiven für die fachliche und persönliche Weiterentwicklung
+- Attraktive Vergütung und flexible, familienfreundliche Arbeitszeiten
 
-## Das bringst du mit
+Diese Aufgaben warten auf Sie:
 
-Mit deiner Motivation und deinen Kenntnissen kannst du im Team Impulse setzen und regelmäßig für Aha-Effekte sorgen. Du arbeitest mit agilen Werten und dein Craftsmanship Mindset inspiriert andere. Zusammen stehst du mit deinem Team dafür ein, alles von Anfang an richtig zu machen.
+- Stabilisierung & Betreuung der bestehenden HPC Environment inkl. Web Visualisierung
+- Weiterentwicklung der bestehenden HPC Environment inkl. Web Visualisierung
+- Integration der AWS Lösung für bestehende HPC Environment
 
-- Keine Hacks
-- Keine Workarounds
-- Keine technischen Schulden
-- Stattdessen: Clean Code & Clean Design
-- Erfahrung mit Odoo ist ein großes Plus
+Was Sie mitbringen sollten:
 
-Du bist ein starker Spieler auf dem digitalen Spielfeld und deine Meinung ist gefragt. Neben dem hohen technischen Anspruch stellst du dir auch die Frage “Is it good enough for now?” und willst den Sinn hinter den Features verstehen.
+- Studium der Informatik oder Elektro- und Leittechnik, wünschenswert ist die Fachrichtung Energietechnik oder vergleichbare fachspezifische Berufserfahrung
+- Gut bis sehr gute Kenntnisse in MATLAB, HTML, Java, PHP, Python und Simulink erforderlich
+- Kenntnisse im Bereich transienter Simulationen von Gleichstromübertragungsanlagen wünschenswert
+- Gute Deutsch- und sehr gute Englischkenntnisse
+- Interkulturelle Erfahrungen und Fähigkeiten zur Zusammenarbeit mit internen Partnern wünschenswert
 
-## Wir bieten dir
+Wir freuen uns auf SIE !
 
-- Außergewöhnliche Leute und Technologie.
-- Die Möglichkeit, unsere Produkte maßgeblich mitzugestalten und am Erfolg eines jungen Unternehmens mit flachen Hierarchien mitzuwirken.
-- Ausprobieren und Einsatz der neuesten Technologien.
-- Eine gute Einarbeitung und ein tolles Arbeitsumfeld in einem stark wachsenden Unternehmen.
-- Dein eigenes JobRad und einen tollen Standort zum Leben, Arbeiten und Radfahren
+Cs2 ITEC GmbH & Co. KG
+Anton-Bruckner-Straße 2a
+91052 Erlangen
 
-## Das bietet JobRad
+http://www.juwi.de
+10000-1192585517-S
+2023-01-03
+Werkstudent (m/w/d) in der Geschäftsentwicklung Deutschland | Schwerpunkt Digitalisierung / Qualität, Betriebswirt/in (Hochschule) 
+JUWI AG
+{'land': 'Deutschland', 'region': 'Rheinland-Pfalz', 'plz': '55286', 'ort': 'Wörrstadt', 'strasse': 'Energie-Allee 1'}
+Ich will einen sinnvollen Job, nicht irgendeinen. In einem Unternehmen, das mir die Chance bietet, ein großes Ziel zu erreichen: 100% saubere Energie. Klingt ambitioniert, ist aber machbar. Ich arbeite bei JUWI. Wann startest Du?
+Zur Verstärkung unseres Teams suchen wir Dich als
 
-Sinn! Wir sind mit Überzeugung und Freude bei der (guten) Sache. Denn Radfahren nützt jeder:jedem Einzelnen, der Gesellschaft und der Umwelt. Wofür wir stehen, führt unser Leitbild auf.
+Werkstudent (m/w/d) in der Geschäftsentwicklung Deutschland | Schwerpunkt Digitalisierung / Qualitätsmanagement
+Teilzeit - befristet
 
-Clevere Mobilität: JobRad bringt natürlich auch die eigenen Beschäftigten aufs Rad: Wir geben bis zu 85 € monatlich zu deinem Dienstfahrrad (oder deinem ÖPNV-Ticket) dazu. Unter anderem wegen der Fahrradtiefgarage, der Umkleiden und Duschen, die dich darüber hinaus erwarten, wurde JobRad vom ADFC als fahrradfreundlicher Arbeitgeber ausgezeichnet (Kategorie Gold).
+Bei uns hast Du die Chance, ein echtes Zukunftsprojekt mitzugestalten. Seit mehr als 25 Jahren ist JUWI Vorreiter der Energiewende. Als 100%-Tochter der MVV Energie AG planen und bauen wir Projekte in den Bereichen Wind- und Solarenergie sowie Hybridsysteme mit Speichern im In- und Ausland und bieten darüber hinaus weitere Dienstleistungen rund um die technische und kaufmännische Betriebsführung. Mit mehr als 1.100 Mitarbeitern und bislang über 1.200 realisierten Windenergie- und rund 1.850 PV-Anlagen hat sich JUWI als ein bedeutender Akteur für erneuerbare Energien etabliert.
 
-Selbstbestimmtes Arbeiten: Bei JobRad gibt es Vertrauensarbeitszeit und Home Office – du sprichst dich ab und entscheidest dann, wann und wo du arbeitest.
+In der JUWI GmbH treibst Du die Energiewende voran – und das je nach Aufgabengebiet aus ganz unterschiedlichen Perspektiven. Wir planen und realisieren Wind- und Solarenergieprojekte in ganz Deutschland, unterstützen aber auch die internationalen juwi-Gesellschaften und steuern gleichzeitig die Aktivitäten der gesamten JUWI-Gruppe.
 
-JobRad bewegt – und wir sind in Bewegung. Beim mittäglichen Lunch Ride oder der Laufrunde, bei Sport- und anderen Events über Hansefit ... oder natürlich beim Feierabendbier. :)
+Deine Aufgaben
+Als Werkstudent (m/w/d) in der Geschäftsentwicklung Deutschland | Schwerpunkt Digitalisierung / Qualitätsmanagement arbeitest Du aktiv an der Implementierung und Verwaltung von digitalen Systemen sowie der kontinuierlichen Optimierung interner Prozesse in der Projektentwicklung erneuerbarer Energien in Deutschland mit.
 
-Teilzeit = voll dabei! Arbeit ist wichtig, aber nicht alles – bei JobRad kannst du auch in Teilzeit weiterkommen und sogar Bereichs- oder Teamleiter:in sein.
+Im Rahmen Deiner Tätigkeit:
+übernimmst Du eigenverantwortlich Teilprojekte zur (digitalen) Prozessoptimierung,
+bist Du Ansprechpartner:in bei Rückfragen zu bestehenden IT-Anwendungen,
+arbeitest Du an der Entwicklung und Einführung von Tools mit (z.B. auf Basis von Excel),
+führst Du Datenanalysen und Wirtschaftlichkeitsberechnungen durch,
+erstellst und pflegst Du zur Qualitätssicherung relevante Dokumente in enger Abstimmung mit den unterschiedlichen Abteilungen und
+unterstützt Du das Team bei übergreifenden Projekten, die in den Zuständigkeitsbereich der Geschäftsentwicklung fallen.
 
-Wer gut arbeitet, soll gut speisen: frisches Obst, Kaffee & Tee sind selbstverständlich inklusive!
-
-Perspektiven: JobRad wächst und du wächst mit. Interne Workshops, Weiterbildungen und ein Mentoring-Programm helfen dir dabei, dich weiterzuentwickeln.
-
-## Wir sind stolz auf unsere Kultur des Vertrauens
-
-Neue Kolleg:innen begleiten wir umfassend mit Mentor:innen und Einführungsseminaren zu Leitbild, Produkten, Prozessen und Bereichen. Außerdem bieten wir viele interne und externe Workshops zu Themen wie wertschätzende Kommunikation, Train the Trainer, Achtsamkeit und Moderation an. Ein Angebot, das entscheidend zur Zufriedenheit der Beschäftigten beiträgt.
-
-Bei einer anonymen Umfrage von „Great Place to Work“, einem international tätigen Forschungs- und Befragungsinstitut, gaben 95% der teilnehmenden JobRad-Beschäftigten an, dass ihre Führungskräfte auf die gute Arbeit der Mitarbeitenden vertrauten. Ebenso positiv fiel die Bewertung der Willkommenskultur im Unternehmen aus. Seit dieser Befragung (2021) ist JobRad als attraktiver Arbeitgeber zertifiziert.
-
-http://www.continum.de
-10000-1191013711-S
-2023-01-16
-(Junior) Software Developer (m/w/d), Informatiker/in (Hochschule) 
-Continum AG
-{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79098', 'ort': 'Freiburg im Breisgau', 'strasse': 'Bismarckallee 17'}
-Zur Verstärkung unseres Teams Entwicklung und DevOps steht eine Karriere offen für eine/n engagierte/n Mitmacher/in als
-
-(Junior) Software Developer (m/w/d) 
+Dein Profil
+Du befindest dich im Studium eines wirtschafts- oder ingenieurswissenschaftlichen bzw. umweltwissenschaftlichen Studiengangs, oder bringst als Student:in anderer Studiengebiete ein Verständnis und Interesse für die genannten Themenbereiche mit.
+Du kannst uns im Umfang von 16-20 Stunden pro Woche unterstützen.
+Kennzeichnend für Deine Arbeitsweise sind Zuverlässigkeit, ein hohes Maß an Selbstständigkeit und eine schnelle Auffassungsgabe.
+Eine hohe Einsatzbereitschaft sowie der diskrete Umgang mit vertraulichen Informationen sind für Dich selbstverständlich
+Du bringst umfangreiche Anwenderkenntnisse im MS-Office-Paket (z.B. Excel, SharePoint) mit.
+Programmierkenntnisse (z.B. VBA, Python) sind von Vorteil, aber keine Voraussetzung.
  
-Als Software Developer entwickelst und pflegst Du technologisch spannende Projekte mit vielseitigen Schnittstellen. Agile Entwicklung mit Scrum, Tests und Code Review gehören zu deinem Alltag.
+Unser Angebot
+Freundliche Arbeitsatmosphäre in modernen, energieeffizienten Gebäuden
+Barrierefreie Arbeitsplätze und Einrichtungen
+Duz-Kultur über alle Hierarchiestufen hinweg
+Flexible Arbeitszeiten und Arbeitszeitmodelle
+Möglichkeit zur Wertkontoeinzahlung und Sabbatical
+Firmeneigene Kantine "juwitality" mit saisonalen und regionalen Produkten
+Betriebseigene Kita "juwelchen" mit Betreuungsplätzen ab 1 Jahr
+Kostenlose Sportmöglichkeiten, wie professionell eingerichteter Fitnessraum, Rasen-Fußball-Kleinfeld, Beachvolleyball sowie Business-Bike im Rahmen von Entgelt-Umwandlung
+Gute Verkehrsanbindung und kostenlose Parkplätze
+Mitarbeiterrabatte über corporate benefits
 
-Deine Aufgaben:
- Weiterentwicklung von Web-Applikationen (Python / JavaScript) mit Schnittstellen zu vielen verschiedenen Systemen
- Automatisierung von Prozessen (Python)
- Enge Zusammenarbeit mit den Stakeholdern
- Tech-Stack: Debian, Docker, Kubernetes, GitLab, Django, Ember.js
+Interessiert?
+Bitte fülle die Felder im Bewerbersystem aus und füge auch gerne zu Deinem Lebenslauf weitere Unterlagen wie Anschreiben und Zeugnisse als PDF-Datei bei.
 
-Dein Profil:
- Studium oder Ausbildung im Bereich Informatik, Anwendungsentwicklung oder ähnliches
- Erfahrung in der Software Entwicklung mit Python
- Schnelle Auffassungsgabe und Lernbereitschaft
- Kommunikativ, kritikfähig, proaktiv und teamorientiert
- Eigeninitiative sowie selbstständige Arbeitsweise
- (Technisches) Englisch in Wort und Schrift
+Wir freuen uns auf Deine Energie!
 
-Gefördert durch ein innovatives und dynamisches Umfeld erwartet Dich ein vertrauensvolles und professionelles Arbeitsumfeld mit viel Gestaltungsspielraum.  Du wirkst in und aus einem leistungsstarken und erfolgreichen Unternehmen, das von der hochwertigen Lösungsumsetzung für seine Kunden jeden Tag neu begeistert ist. Die Mitarbeit in einem engagierten und kreativen Team sowie gute Fortbildungsmöglichkeiten fördern Deine Weiterentwicklung. Eine leistungsgerechte Vergütung sowie soziale Leistungen, ein kollegiales Miteinander und ein reizvoller Standort in der Toskana Deutschlands tragen dazu bei, dass Du langjährig erfolgreich bei uns arbeiten wirst.
-Haben wir Dein Interesse geweckt?
-Dann sende uns bitte Deine aussagekräftigen Bewerbungsunterlagen mit Angaben zur Verfügbarkeit und Einkommensvorstellung, vorzugsweise im PDF Format an: bewerbung@continum.net
+Ulrike Rupp
+Senior Assistant
++49 (0) 67329657-1102
 
-Weitere Infos auf unserer Webseite unter www.continum.net
+http://www.arbeitsagentur.de
+10000-1190170005-S
+2022-07-14
+Projektingenieur:in (m/w/d) für integrierte Energiesysteme in Vollzeit, Projektingenieur/in 
+Lintas Green Energy GmbH
+{'land': 'Deutschland', 'region': 'Niedersachsen', 'plz': '26122', 'ort': 'Oldenburg (Oldb)', 'strasse': 'Alter Stadthafen 3B'}
+Du hast Lust ein innovatives Projekt- und Dienstleistungsunternehmen für die europäische Energiewende bei seinem Ziel zu unterstützen, zu einem bevorzugten Partner für ganzheitliche Energielösungen von morgen zu werden? Dann bewirb Dich jetzt als
 
-Continum AG
-Bismarckallee 7b-d
-D-79098 Freiburg i.Br.
-Email: bewerbung@continum.net
+Projektingenieur:in für integrierte Energiesysteme in Vollzeit
 
-Ansprechpartner: Silvia Bühler
-Telefon (+49) 0761 / 4549-537
+Stellenbeschreibung:
+•	Beratung von Kunden bei der Konzeptionierung individueller integrierter Energiesysteme
+•	Abfrage und gezielte Identifikation von Kundenanforderungen 
+•	Energiewirtschaftliche und energierechtliche Einordnung der technischen Konzepte
+•	Erstellen von Berichten und Konzepten
+•	Kontaktaufbau zu Herstellern innovativer energietechnischer und -wirtschaftlicher Lösungen sowie Bewertung dieser Lösungen für unsere Projekte
+•	Nutzung und gezielte Weiterentwicklung unserer Software- und Modellierungslösungen
+•	Teilnahme an Fachmessen, Kongressen, Vorträgen und Schulungen zu integrierten Energiesystemen
 
-Die Continum AG ist Spezialist für hochwertiges Enterprise- und Anwendungs-Hosting und unsere DNA ist IT-Sicherheit. Continum versteht sich als Anwalt des Kunden und unterstützt Unternehmen auf dem sicheren Weg in die Cloud. In modernen Rechenzentren in Deutschland, erbringen wir „Managed Services“ nach höchsten deutschen Datenschutzrichtlinien und nach der EU-DSGVO. 
+Das bringst Du mit:
+•	Neugierige und offene Persönlichkeit mit dem Wunsch die Energiewende voranzubringen
+•	Hohe Problemlösekompetenz mit kreativer und selbstständiger Arbeitsweise
+•	Abgeschlossenes Masterstudium im Ingenieurswesen (TGA, Energietechnik, Maschinenbau, Elektrotechnik, Physik, Erneuerbare Energien, …) mit Bezug zum Thema Energieversorgung und Erneuerbare Energien
+•	Mehrjährige Berufserfahrung im Bereich Energieversorgung und/oder erneuerbare Energien
+•	Erste Erfahrungen in der Konzeptionierung dezentraler Energieversorgungskonzepte mit Überblick über die gängigen Erzeugungstechnologien (PV, Wärmepumpen, BHKW, Wasserstoff-Systeme, Batterien, …) sowie in Python oder anderen höheren Programmiersprachen im Rahmen professioneller Softwareentwicklung
+•	Energiesystemmodellierung in gängigen Tools (energyPRO, TRNSYS, Polysun, HOMER, …) ist für dich nichts Neues
+•	Grundlegende Kenntnisse des deutschen Energiemarktes sowie Rechtsrahmens
+•	MS Office sowie LaTeX Kenntnisse für das Erstellen komplexer Beratungsberichte sind von Vorteil
+•	Sehr gute Sprachkenntnisse in Deutsch und gute Kenntnisse in Englisch in Wort und Schrift
 
-Anspruchsvolle Geschäftskunden aus Deutschland und Europa vertrauen dauerhaft auf unsere herausragende und zuverlässige Kompetenz und Leistung. Zertifizierungen nach ISO/IEC 27001 und nach PCI-DSS (Payment Card Industry Data Security Standard) testieren unsere hohen Sicherheitsbemühungen.
+Das bieten wir:
+•	Ein aufgeschlossenes Team mit flachen Hierarchien in einem wachsenden Unternehmen
+•	Die Lintas Academy – unser hauseigenes Trainingsprogramm
+•	Homeoffice und flexible Arbeitszeiten, damit Arbeit und Privates perfekt zusammenpassen
+•	Ein modernes Büro in attraktiver Lage mit Blick über den Oldenburger Hafen
+•	Viele weitere tolle Benefits wie frisches Büro-Obst, Kaffeevollautomat und co, Dienstrad-Leasing, betriebliche Altersvorsorge uvm.
 
-Die Continum AG gehört zum starken Firmenverbund der Freicon Gruppe.
+Klingt perfekt für Dich? Dann komm in unser Team - wir machen gemeinsam das Beste aus guter Energie.
 
-http://www.sick.com
-10000-1191295107-S
-2023-02-08
-Embedded Software Engineer* Emerging Technologies, Informatiker/in (Hochschule) 
-SICK AG
-{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79183', 'ort': 'Waldkirch, Breisgau', 'strasse': 'Erwin-Sick-Str. 1'}
-Sie leben digitale Zukunft, wir leben intelligente Sensorkonzepte. Gemeinsam gestalten wir weltweit Industrie 4.0. Ihre Karriere: anspruchsvoll, abwechslungsreich und mit besten persönlichen Entwicklungschancen. Ihr Umfeld: hochprofessionell, international und inspirierend. Ihr neuer Arbeitgeber: ein Technologie- und Marktführer mit weltweit mehr als 11.000 Mitarbeitenden. Ihre Zukunftsadresse: sick.com/karriere
-  
-Embedded Software Engineer* Emerging Technologies
-SICK AG
-Freiburg, DE
-Vollzeit
-
-IHRE AUFGABEN:
-- Design und Implementierung moderner Algorithmen zur Auswertung von Sensordaten auf Embedded-Plattformen
-- Mitarbeit bei der Konzeption und Weiterentwicklung im Bereich Cloud- und Edge Computing 
-- Identifikation und Evaluation moderner algorithmischer Ansätze zur Messdatenverarbeitung mit konventionellen Methoden und künstlicher Intelligenz, insbesondere in Hinblick auf die Integrierbarkeit on Edge
-- Auswahl und Evaluation geeigneter Hard- und Software-Lösungen
-- Unterstützung bei der Spezifikation und Umsetzung erforderlicher Kommunikationsschnittstellen 
-- Mitgestaltung von Zukunftsthemen in einem innovativen Team zur Entwicklung neuer Technologiebereiche
- 
-IHR PROFIL:
-- Abgeschlossenes Studium in Informatik, Physik, Mathematik oder vergleichbare Qualifikation
-- Berufserfahrung als C++/Embedded Systems-Entwickler*
-- Begeisterung für hardwarenahe Entwicklung und moderne Algorithmen im Bereich Sensordatenanalyse
-- Kenntnisse in den Skriptsprachen Lua oder Python von Vorteil
-- Idealerweise Kenntnisse in modernen Kommunikationstechnologien der Industrie 4.0
-- Begeisterung für die agile Softwareentwicklung im Team
-- Kreativität und Innovationsfreude
- 
-IHRE BEWERBUNG:
-- Wir freuen uns auf Ihre Online-Bewerbung
-- Petra Kirner
-- Job-ID 31698 
-- Vertrauliche Behandlung wird zugesichert
-
-* Der Mensch zählt, nicht das Geschlecht. Wir setzen auf Vielfalt, lehnen Diskriminierung ab und denken nicht in Kategorien wie etwa Geschlecht, ethnische Herkunft, Religion, Behinderung, Alter oder sexuelle Identität.
-
-http://www.sick.com
-10000-1190678373-S
-2023-01-16
-Software Engineer* Embedded / Software Project Manager* Distance Sensors, Softwareentwickler/in 
-SICK AG
-{'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79183', 'ort': 'Waldkirch, Breisgau', 'strasse': 'Erwin-Sick-Str. 1'}
-Sie leben digitale Zukunft, wir leben intelligente Sensorkonzepte. Gemeinsam gestalten wir weltweit Industrie 4.0. Ihre Karriere: anspruchsvoll, abwechslungsreich und mit besten persönlichen Entwicklungschancen. Ihr Umfeld: hochprofessionell, international und inspirierend. Ihr neuer Arbeitgeber: ein Technologie- und Marktführer mit weltweit mehr als 11.000 Mitarbeitenden. Ihre Zukunftsadresse: sick.com/karriere
- 
-Software Engineer* Embedded / Software Project Manager* Distance Sensors
-SICK AG
-Waldkirch (bei Freiburg), DE, 79183
-Vollzeit
-
-IHRE AUFGABEN:
-- Software-Design, Implementierung, Analyse und Verifikation für Distanzsensoren
-- Projektleitung von Softwareprojekten im Produktentstehungsprozess
-- Begleitung des gesamten Entwicklungsprozesses vom ersten Konzept über das Design bis hin zu Tests zum zuverlässigen Einsatz der Produkte
-- Schnittstelle zu den Bereichen Produkt- und Projektmanagement sowie Fertigung und Entwicklung
-- Kompetenter Ansprechpartner* für Kunden, Lieferanten sowie für nationale und internationale Tochtergesellschaften
- 
-IHR PROFIL:
-- Abgeschlossenes Studium in Informatik, Elektrotechnik oder vergleichbare Qualifikation
-- Erste Berufserfahrung in vergleichbarer Position
-- Sehr gute Programmierkenntnisse in C/C++ und Skriptsprachen wie Python oder Lua sowie Erfahrung im Umgang mit Entwicklungs- und Simulationstools
-- Erste Projektleitungserfahrung von Vorteil
-- Gute Englischkenntnisse
-- Systematische sowie strukturierte Denk- und Vorgehensweise
-- Kreativität in der Lösungsfindung sowie Innovationsfreude
-- Ausgeprägte Team- und Kommunikationsfähigkeit
- 
-IHRE BEWERBUNG:
-- Wir freuen uns auf Ihre Online-Bewerbung
-- Stefanie Speil
-- Job-ID 30092 
-- Vertrauliche Behandlung wird zugesichert
-
-* Der Mensch zählt, nicht das Geschlecht.
-Wir setzen auf Vielfalt, lehnen Diskriminierung ab und denken nicht in Kategorien wie etwa Geschlecht, ethnische Herkunft, Religion, Behinderung, Alter oder sexuelle Identität.
+Bewirb Dich jetzt mit aussagekräftigen Unterlagen über info@lintas-greenenergy.de.
+Wir freuen uns auf Dich!
 
