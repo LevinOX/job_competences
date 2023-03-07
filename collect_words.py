@@ -6,7 +6,7 @@ Fills words from text document into unique set and saves in csv-file.
 import re
 # with open(....) as myfile:
 #   string = readlines()
-
+input("warning: if you continue, you overwrite the manual sorting progress")
 f = open("random_text_de.txt", "r", encoding='utf-8')
 text = f.read()
 f.close()
@@ -27,6 +27,7 @@ usual_words = sorted(list(set(text.split(sep=' '))))
 for i, word in enumerate(usual_words):
     if word.startswith('-'):
         usual_words[i] = word[1:]
+usual_words = sorted(usual_words)
 
 print(len(usual_words))
 joinstring = ','.join(usual_words)

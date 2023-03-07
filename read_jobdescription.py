@@ -46,7 +46,7 @@ with open("complex_competences.csv", "r") as h:
 #                       ['URL3', ..., [...]]] and so forth.
 ad_counts = 0
 for line in jdess:
-    if line.startswith('http'):
+    if line.startswith('http') or line.startswith('www'):
         ad_counts += 1
 #            URL, jobtitle,company, refnr, date, place, todays_date, req. comp.
 job_data = [[None, None,   None,    None,  None, None, str(datetime.date.today()), set()]
@@ -67,63 +67,64 @@ ad_start = 0
 # {'land': 'Deutschland', 'region': 'Baden-Württemberg', 'plz': '79106', 'ort': 'Freiburg im Breisgau', 'strasse': 'Wentzingerstr. 23'}
 # Wir, die Smallcases
 
-for line in jdess:
-    if line.startswith('http'):
-        # store URL
-        ad_counter += 1
-        job_data[ad_counter][0] = line
-        ad_start += 1
-    elif ad_start == 1:
-        # the line after 'http' holds the job ad ref nr
-        job_data[ad_counter][3] = line
-        ad_start += 1
-    elif ad_start == 2:
-        # the line after 'http' holds the date
-        job_data[ad_counter][4] = line
-        ad_start += 1
-    elif ad_start == 3:
-        # the line after 'http' holds the job title
-        job_data[ad_counter][1] = line
-        ad_start += 1
-    elif ad_start == 4:
-        # name of company
-        job_data[ad_counter][2] = line
-        ad_start += 1
-    elif ad_start == 5:
-        # name of place
-        job_data[ad_counter][5] = line
-        ad_start = 0
-    else:
-        print("jdes line: ", line)
-        # filter competences in job description
-        text_input = fu.filter_string(line)
-        word_list = tuple(filter(None, text_input.split(sep=' ')))
-        ad_competences, newest_words, newest_competences = fu.sort_competences(
-            word_list, usual_words, competences, complex_competences, new_words, new_competences)
-        new_words.update(newest_words)
-        new_competences.update(newest_competences)
-        job_data[ad_counter][7].update(ad_competences)
-        print("ad_competences:", ad_competences)
-        print("newest_words: ", newest_words)
+try:
+    for line in jdess:
+        if line.startswith('http') or line.startswith('www'):
+            # store URL
+            ad_counter += 1
+            job_data[ad_counter][0] = line
+            ad_start += 1
+        elif ad_start == 1:
+            # the line after 'http' holds the job ad ref nr
+            job_data[ad_counter][3] = line
+            ad_start += 1
+        elif ad_start == 2:
+            # the line after 'http' holds the date
+            job_data[ad_counter][4] = line
+            ad_start += 1
+        elif ad_start == 3:
+            # the line after 'http' holds the job title
+            job_data[ad_counter][1] = line
+            ad_start += 1
+        elif ad_start == 4:
+            # name of company
+            job_data[ad_counter][2] = line
+            ad_start += 1
+        elif ad_start == 5:
+            # name of place
+            job_data[ad_counter][5] = line
+            ad_start = 0
+        else:
+            print("jdes line: ", line)
+            # filter competences in job description
+            text_input = fu.filter_string(line)
+            word_list = tuple(filter(None, text_input.split(sep=' ')))
+            ad_competences, newest_words, newest_competences = fu.sort_competences(
+                word_list, usual_words, competences, complex_competences, new_words, new_competences)
+            new_words.update(newest_words)
+            new_competences.update(newest_competences)
+            job_data[ad_counter][7].update(ad_competences)
+            print("ad_competences:", ad_competences)
+            print("newest_words: ", newest_words)
 
-    # TODO: backup: if len new_words or new_competences > X: save to file.
+        # TODO: backup: if len new_words or new_competences > X: save to file.
+finally:
+    # print("job_data: ", job_data)
+    # print("new_competences: ", new_competences)
+    # print("new_words: ", new_words)
+    print("\nsaving progress\n")
 
-print("job_data: ", job_data)
-print("new_competences: ", new_competences)
-print("new_words: ", new_words)
+    with open("usual_words_de.csv", "a", encoding='utf-8') as g:
+        # TODO: use utf8?
+        writer = csv.writer(g)
+        writer.writerow(new_words)
 
+    with open("competences.csv", "a", encoding='utf-8') as g:
+        # TODO: use utf8?
+        writer = csv.writer(g)
+        writer.writerow(new_competences)
 
-with open("usual_words_de.csv", "a", encoding='utf-8') as g:
-    # TODO: use utf8?
-    writer = csv.writer(g)
-    writer.writerow(new_words)
-
-with open("competences.csv", "a", encoding='utf-8') as g:
-    # TODO: use utf8?
-    writer = csv.writer(g)
-    writer.writerow(new_competences)
-
-with open("job_data.csv", "a", newline='', encoding='utf-8') as g:
-    # TODO: use utf8
-    writer = csv.writer(g, dialect='excel')
-    writer.writerows(job_data)
+    with open("job_data.csv", "a", newline='', encoding='utf-8') as g:
+        # TODO: use utf8
+        writer = csv.writer(g, dialect='excel')
+        writer.writerows(job_data)
