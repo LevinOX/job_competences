@@ -4,9 +4,10 @@ requests.packages.urllib3.disable_warnings()
 
 
 # parameters
-ad_number = 5
-searchText = "python, aws, erneuerbare energie*"
-location = "Deutschland"
+ad_number = 100 # max 100 per request
+searchText = "python, devops, erneuerbare energie*"
+location = "Freiburg im Breisgau"
+distance = '1000'
 writemode = 'w'
 
 
@@ -60,7 +61,7 @@ def search(jwt, what, where):
         ('page', '1'),
         ('pav', 'false'),
         ('size', ad_number),
-        ('umkreis', '25'),
+        ('umkreis', distance),
         ('was', what),
         ('wo', where),
     )
@@ -101,7 +102,11 @@ if __name__ == "__main__":
     jwt = get_jwt()
     # get job headers and extract the refnrs
     result = search(jwt["access_token"], searchText, location)
-    refnrs = [job['refnr'] for job in result['stellenangebote']]
+    try: 
+        refnrs = [job['refnr'] for job in result['stellenangebote']]
+    except:
+        print(result.get('messages') or result)
+        exit(1)
     # clean for known refnrs
     refnrs = clean_refnrs(refnrs)
     print("len(refnrs): ", len(refnrs))
@@ -114,15 +119,11 @@ if __name__ == "__main__":
         print("i is ", i)
         job_details = get_job_details(jwt["access_token"], refnrs[i])
         # extract job ad details
-        try:
-            URL = job_details["externeUrl"]
-        except:
-            try:
-                URL = job_details["arbeitgeberdarstellungUrl"]
-            except:
-                URL = job_details["allianzpartnerUrl"]
+        URL = job_details.get("externeUrl") \
+            or job_details.get("arbeitgeberdarstellungUrl") \
+            or job_details.get("allianzpartnerUrl")
 
-        job_title = job_details["titel"]
+        job_title = job_details.get("titel")
         profession = job_details["beruf"]
         company = job_details["arbeitgeber"]
         refnr = refnrs[i]

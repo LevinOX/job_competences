@@ -1,3 +1,51 @@
+http://www.gp-joule.de
+10000-1191390948-S
+2022-12-22
+DevOps Engineer:in für Softwareprodukte und -entwicklungen Elektromobilität, DevOps Engineer 
+GP JOULE Connect GmbH
+{'land': 'Deutschland', 'region': 'Schleswig-Holstein', 'plz': '25821', 'ort': 'Reußenköge', 'strasse': 'Cecilienkoog 16'}
+MIT ENERGIE BEI DER SACHE
+GP JOULE engagiert sich für eine 100% regenerative Strom- und Wärmeversorgung. Als universeller und innovativer Anbieter für erneuerbare Energien wird Experimentierfreude und Entdeckertum bei uns großgeschrieben, wir gehen lieber einen Schritt weiter, als stehen zu bleiben. Als Teil der mittelständischen Unternehmensgruppe stellt die GP JOULE Connect GmbH vollumfängliche wie modulare Lösungen für E-Mobilität bereit, die nicht nur auf die Bedarfe von Kommunen sowie von Wohnungs-, Energie- und Tourismuswirtschaft ausgerichtet sind, sondern sich bis zum Endkunden erstrecken.
+
+Mit Bereitschaft zur anteiligen Präsenz (50%) an den Standorten Reußenköge oder Hamburg suchen wir ab sofort:
+
+DevOps Engineer:in für Softwareprodukte und -entwicklungen Elektromobilität
+GP JOULE CONNECT
+
+DEINE AUFGABEN
+- Sicherstellung des Betriebs unserer AWS Umgebung für die Bereitstellung unserer eigenen Softwarelösungen im Umfeld der Elektromobilität 
+- Unterstützung der Softwareentwicklung insbesondere in den Bereichen CI/CD u.a. zur Erstellung von Deployment-Pipelines und Automatisierungen sowie gelegentliche Unterstützung der Backendentwicklung für Ladeinfrastruktur
+- Sicherstellung der IT-Security und Unterstützung im Umfeld des Datenschutzes für die von uns betriebenen sowie entwickelten Softwarelösungen
+- Entwicklung von neuen Ideen sowie proaktive Mitgestaltung der Enterprise Architektur mit dem Ziel die Digitalisierung aktiv voranzutreiben
+- Unterstützung und Beraten der Fachbereiche bei der Einführung und Auswahl von neuen Softwarelösungen, insbesondere in Hinblick auf Integrationsfähigkeit in die Enterprise Architektur und die Digitalisierungsstrategie
+
+DEIN PROFIL
+- Einschlägige Berufserfahrung in den oben genannten Aufgabengebieten o.ä., idealerweise im Umfeld der Energieversorgung, Elektromobilität oder IoT-Lösungen
+- Fundierte Erfahrung im Betrieb von Softwarelösungen und entsprechenden Systemen sowie gutes Wissen in IT- und Softwarearchitekturen
+- Insbesondere ausgeprägtes Wissen im Umfeld Containerisierung, VMs, CI/CD Pipelines und Datenbanken sowie Automatisierungen z.B. Bash Skripting
+- Kenntnisse im Umgang mit SOA, MicrosServices, agilen Entwicklungsmethoden, AWS und Cloudservices sowie idealerweise in der Beratung von internen Fachabteilungen hinsichtlich Systemauswahl etc.
+- Ganzheitliche, visionsgetriebene und offene Denkweise, Hands-On-Mentalität, sehr gute Kommunikationskompetenz in Deutsch und Englisch sowie experimentelle und zielorientierte Arbeitsweise
+
+Unsere Profilbeschreibung enthält eine Vielzahl unterschiedlicher Kompetenzen, welche wir für diese Stelle relevant finden. Bitte bewirb Dich auch, wenn nicht alle Punkte zu 100% auf dich zutreffen.
+
+UNSER ANGEBOT
+- Mobiles und flexibles Arbeiten an modernen Arbeitsplätzen
+- Abwechslungsreiche Tätigkeiten in einer innovativen, wachsenden Branche
+- Einzigartiger Teamspirit mit Firmenfesten und vielen Aktivitäten
+- Individuelle Aus- und Weiterbildungsmöglichkeiten für Deine Karriere
+- Mitarbeiterbenefits wie betriebliche Altersvorsorge u.ä.
+- Bezuschusste Mittagsgerichte, Obst & Getränke im Büro
+- Betriebliches Gesundheitsmanagement inkl. psychologischer Betreuung
+
+LUST, MIT UNS AM FORTSCHRITT ZU ARBEITEN?
+Dann bewirb Dich hier unter Angabe Deines frühestmöglichen Eintrittstermins und Gehaltsvorstellung.
+Bitte nimm zudem Bezug darauf, wie Du auf unsere Stellenanzeige aufmerksam geworden bist.
+
+Für Rückfragen steht Dir unser Team Recruiting gerne zur Verfügung. Wir freuen uns auf Dich!
+
+GP JOULE Connect GmbH
+Cecilienkoog 16 · 25821 Reußenköge
+
 www.zsw-bw-jobs.de.de
 13788-k19921.306-S
 2022-03-24
@@ -37,44 +85,53 @@ Das ZSW bietet Ihnen eine kreative Atmosphäre, in der neues Wissen und nachhalt
 
 Das Arbeitsverhältnis ist zunächst auf 3 Jahre befristet, hat einen Beschäftigungsumfang von 100% und ist nach den im öffentlichen Dienst üblichen Regelungen (TV-L) eingestuft. Das ZSW bietet zusätzliche Sozialleistungen an. Wenn Sie Interesse an dieser Position haben, bewerben Sie sich bitte bis spätestens 27.04.2022 ausschließlich über das Bewerbungsformular. Fachliche Fragen beantwortet Ihnen Herr Dr. Olaf Böse gern unter der Telefonnummer +49 731 9530-551. Weitere Informationen erhalten Sie unter www.zsw-bw.de.
 
-http://www.cs2-itec.de
-10000-1193425646-S
-2023-03-02
-22390: C&P Engineer Studies (HVDC) (m/w/d), Ingenieur/in - Elektrotechnik 
-Cs2 ITEC GmbH & Co. KG
-{'land': 'Deutschland', 'region': 'Bayern', 'plz': '91052', 'ort': 'Erlangen', 'strasse': 'Anton-Bruckner-Str. 2a'}
-Cs2 ITEC bietet Ihnen als Berufseinsteiger oder erfahrenem Spezialisten ausgezeichnete Möglichkeiten der fachlichen und persönlichen Weiterentwicklung.
+http://www.tq-group.com/karriere
+10000-1188260510-S
+2022-09-29
+DevOps Engineer (m/w/d), Softwareentwickler/in 
+TQ-Systems GmbH
+{'land': 'Deutschland', 'region': 'Bayern', 'plz': '82229', 'ort': 'Seefeld, Oberbayern', 'strasse': 'Gut Delling Mühlstr. 2'}
+Kann man die Welt mit Technologie besser machen? Dafür steht TQ und jeder unserer 1.700 Mitarbeiter. Als einer der größten Elektronik-Spezialisten in Deutschland entwickeln und produzieren wir für namhafte Kunden aus unterschiedlichen Branchen maßgeschneiderte und innovative Lösungen. Darüber hinaus bietet TQ fertige Lösungsbausteine, wie Mikrocontroller-Module, Elektro-Antriebe für die Robotik und für Hochleistungs-E-Bikes sowie Lösungen für das Energie-Management, die Luftfahrt und Medizintechnik.
 
-Bei spannenden und abwechslungsreichen Tätigkeiten für internationale Großkunden und Konzerne, bauen Sie, je nach Aufgabenstellung und Position tiefes Fachwissen in neuesten Technologien oder breites Projektleitungs- bzw. Führungs-Know-how auf. Durch die Vielzahl unserer Themen können wir Ihnen, je nach persönlichen Wünschen, verschiedene Technologiebereiche und Aufgabenstellungen anbieten.
+Kommen Sie in unser Team: für unseren Standort in Leipzig suchen wir einen
 
-Das bieten wir Ihnen:
+DevOps Engineer (m/w/d)
+(Referenznummer 50011174)
 
-- Abwechslungsreiche Tätigkeiten in einem spannenden Aufgabenumfeld
-- Internationale Großprojekte bei namhaften Kunden
-- Mitarbeit in einem sympathischen und motiviertem Team
-- Angenehmes und kollegiales Arbeitsumfeld
-- Interessante Perspektiven für die fachliche und persönliche Weiterentwicklung
-- Attraktive Vergütung und flexible, familienfreundliche Arbeitszeiten
+Ihre Aufgaben
+● Mitarbeit in einem Scrum-Team zur Entwicklung von Softwarelösungen im Bereich Energiemanagement
+● Anforderungsanalyse sowie Definition der CI/CD-Architektur
+● Konzeptionierung von neuen Bestandteilen der Toolchain
+● Weiterentwicklung und Pflege eines umfassenden CI/CD Systems
+● Evaluierung und Konfiguration von Entwicklungswerkzeugen
+● Konzeption und Integration von Testtools
+● Enge Zusammenarbeit mit internen Abteilungen (z. B. Produktionsmanagement, Prüfmittelbau etc.)
 
-Diese Aufgaben warten auf Sie:
+Ihr Profil
+● Erfolgreich abgeschlossenes technisches Studium der Informatik, Elektrotechnik, Luft- und Raumfahrt, Physik, Mechatronik
+● Fundierte Erfahrung in der Softwareentwicklung
+● Programmierkenntnisse in C und C++
+● Kenntnisse in Python
+● Grundlegendes Verständnis für Embedded Systeme und Softwaretests
+● Sehr gute Deutschkenntnisse in Wort und Schrift und gute Englischkenntnisse
 
-- Stabilisierung & Betreuung der bestehenden HPC Environment inkl. Web Visualisierung
-- Weiterentwicklung der bestehenden HPC Environment inkl. Web Visualisierung
-- Integration der AWS Lösung für bestehende HPC Environment
+Bei TQ erwartet Sie unter anderem
+● Sicherer Arbeitsplatz
+● Gleitzeit
+● 30 Urlaubstage im Jahr
+● Erfolgs- und leistungsabhängige Prämien
+● Individuelle Weiterbildungsmöglichkeiten
+● Kostenfreie Getränke (Kaffee, Tee, Wasser, Softgetränke)
+● Kantine
+● Regelmäßige Firmenevents
+● Bikeleasing
+● Firmenfitness mit Qualitrain
+● TQ-Badeplatz am Wörthsee
+● Berghütte im Spitzing
 
-Was Sie mitbringen sollten:
+Wollen Sie Teil des TQ-Teams sein? Dann senden Sie uns Ihre Bewerbungsunterlagen mit Angabe der frühestmöglichen Verfügbarkeit sowie des Gehaltswunsches.
 
-- Studium der Informatik oder Elektro- und Leittechnik, wünschenswert ist die Fachrichtung Energietechnik oder vergleichbare fachspezifische Berufserfahrung
-- Gut bis sehr gute Kenntnisse in MATLAB, HTML, Java, PHP, Python und Simulink erforderlich
-- Kenntnisse im Bereich transienter Simulationen von Gleichstromübertragungsanlagen wünschenswert
-- Gute Deutsch- und sehr gute Englischkenntnisse
-- Interkulturelle Erfahrungen und Fähigkeiten zur Zusammenarbeit mit internen Partnern wünschenswert
-
-Wir freuen uns auf SIE !
-
-Cs2 ITEC GmbH & Co. KG
-Anton-Bruckner-Straße 2a
-91052 Erlangen
+Sämtliche Personenbezeichnungen gelten gleichermaßen für alle Geschlechter.
 
 http://www.juwi.de
 10000-1192585517-S
@@ -132,6 +189,68 @@ Ulrike Rupp
 Senior Assistant
 +49 (0) 67329657-1102
 
+https://www.kisters.de
+10000-1193084563-S
+2023-03-08
+Software-Entwickler:in (w/m/d) Team Installation&Betrieb, Informatiker/in (Hochschule) 
+KISTERS AG
+{'land': 'Deutschland', 'region': 'Nordrhein-Westfalen', 'plz': '52076', 'ort': 'Aachen', 'strasse': 'Pascalstr. 8/10'}
+Software-Entwickler:in (w/m/d) Team Installation&Betrieb
+
+Erneuerbare Energien stärker nutzen, die Energiewende voranbringen, die Auswirkungen des Klimawandels abschwächen – das ist unsere Leidenschaft und unsere Motivation. Als Wegbereiter für die intelligente Nutzung erneuerbarer Energien entwickeln wir digitale Lösungen, um mit den Ressourcen unserer Erde verantwortungsbewusster umzugehen. In unserem Energie-Team wirkst Du aktiv daran mit, gemeinsam mit uns und unseren Kund:innen eine nachhaltigere Zukunft zu gestalten.
+
+Im täglichen Miteinander unserer 700 Kolleg:innen aus mehr als 30 Nationen sind Fairness, internationale Vielfalt, Team-Geist und gegenseitige Wertschätzung eine Selbstverständlichkeit – ein Familienunternehmen mit Leib und Seele.
+
+Wir wachsen weiter und suchen Dich zur Verstärkung unseres Projektmanager-Teams vor Ort an einem unserer Standorte oder im Home-Office (deutschlandweit).
+Komm in die KISTERS-Family!
+
+Job-ID: NRG-DINI-X
+
+Dein Team und Deine zukünftigen Aufgaben:
+
+Wir sind das Team ‚Installation und Betrieb‘ und die Ergebnisse unserer Arbeit sind die Basis für die Softwarelandschaft des Geschäftsbereichs ‚Energie‘ der KISTERS AG. Dies bedeutet für Dich, dass es bei uns viele spannende Themen gibt bei denen Du Deine Energie einbringen kannst. Zu unseren Aufgaben gehört:
+
+Konfigurations- und Installationsmanagement
+Zur Installation und Konfiguration unserer Software haben wir den ‚ConfigurationManager‘ entwickelt. Hiermit können wir Installations- und Betriebsparameter bei Erstinstallation bzw. Update unserer Software konfigurieren und dies sowohl direkt auf dem Host als auch in Container-Umgebungen.
+Zentrale Logging-Lösung
+In einer Software-Welt mit vielen verteilten Software-Komponenten, die miteinander agieren um eine gemeinsame Aufgabe zu lösen, ist ein zentrales und ‚intelligentes‘ Logging essentiell. Wir ermöglichen mit unserer Logging-Lösung das gezielte Auffinden und Verstehen von Fehlerzuständen in den Abläufen unserer Fachapplikationen.
+Basis-Softwareangebote
+Als Teil der Solution-Area ‚Infrastructure‘ sind die Kolleg:innen des Geschäftsbereichs Energie auch unsere Kund:innen und diese unterstützen wir mit einem Softwareangebot, welches das Fundament für viele unserer Fachanwendungen bildet.
+Deine Aufgaben im Team:
+
+Du entwickelst innovative neue Features für unsere Software-Lösungen.
+Du sicherst durch automatisierte Testmethoden die hohe Qualität unserer Software.
+Du unterstützt bei der Erarbeitung technischer Konzepte.
+Du arbeitest in einem kleinen motivierten Team und hast Spaß daran eigene Ideen einzubringen und Dein Wissen zu teilen.
+
+Das bringst Du mit:
+
+Um gut für die Aufgaben in unserem agilen Team gerüstet zu sein, bringst Du folgende Eigenschaften mit:
+
+Du hast Erfahrung in der Backend-Entwicklung mit Java und Spring Boot oder in der Frontend-Entwicklung mit Angular.
+Du hast bereits Kenntnisse in Docker und Kubernetes oder möchtest diese sehr gerne aufbauen.
+Du bist vertraut im Umgang mit Softwareentwicklungswerkzeugen wie Git und  Maven.
+Die Erstellung automatisierter Tests gehört für dich zur Software-Entwicklung einfach dazu.
+Du hast sichere Deutsch-  und gute Englischkenntnisse
+Bonus: Du hast bereits praktische Erfahrung mit Docker und Kubernetes.
+Bonus: Du hast Erfahrung mit Linux-Systemen.
+Bonus: Du hast bereits Erfahrung mit der Entwicklung von Akzeptanztests oder Systemtests.
+
+Deine Benefits:
+
+Eine spannende, abwechslungsreiche und herausfordernde Tätigkeit als Teil eines hochmotivierten Teams und die Möglichkeit, eigene Ideen einzubringen
+Flexible Arbeitszeiten, betriebliche Altersvorsorge, Weiterbildungsmöglichkeiten, Angebote zur Gesundheitsvorsorge, gemeinsame Events und Team-Building-Aktivitäten, Kantine (standortabhängig) und [mehr]
+Eine langfristige Perspektive und ein attraktives Arbeitsumfeld in einem international agierenden Familienunternehmen
+Flexibilität durch 13 Standorte in Deutschland, viele weitere auf der ganzen Welt und Home-Office-Möglichkeit
+… und mehr als 700 engagierte Kolleginnen und Kollegen, die sich auf Dich freuen. Komm in die KISTERS-Family!
+Reizt Dich die Tätigkeit in einem zukunftsorientierten Unternehmen, die tägliche Herausforderung aktueller Technologien und die Mitarbeit in einem schlagkräftigen Team?
+
+Wir freuen uns auf Deine Bewerbung, vorzugsweise per E-Mail, an:
+
+KISTERS AG, z.H. Frau Ina Donath
+Pascalstraße 8+10 · D-52076 Aachen
++49 2408 9385-0 · jobs(at)kisters.de
+
 http://www.arbeitsagentur.de
 10000-1190170005-S
 2022-07-14
@@ -173,4 +292,547 @@ Klingt perfekt für Dich? Dann komm in unser Team - wir machen gemeinsam das Bes
 
 Bewirb Dich jetzt mit aussagekräftigen Unterlagen über info@lintas-greenenergy.de.
 Wir freuen uns auf Dich!
+
+http://www.denkerwulf.de/
+10000-1188665103-S
+2023-03-06
+Ingenieur (m/w/d) Bereich Stromvermarktung, Ingenieur/in - Energietechnik 
+Denker & Wulf AG
+{'land': 'Deutschland', 'region': 'Schleswig-Holstein', 'plz': '24814', 'ort': 'Sehestedt, Eider', 'strasse': 'Windmühlenberg'}
+Deine Zukunft beginnt heute! Im Zeitalter der Digitalisierung setzen wir auf neue Wege sowie motivierte Mitarbeiter und kreative Köpfe.
+Die Denker & Wulf AG zählt zu den führenden Windparkentwicklern Deutschlands. Mit rund 180 Mitarbeitern bietet das Unternehmen von der Projektierung bis zur Inbetriebnahme sämtliche Dienstleistungen rund um die Windenergie an Land aus einer Hand. Unser modernes Windparkmanagement sorgt dafür, dass auch in der Betriebsphase alles rund läuft – und dies nicht nur in technischer Hinsicht, denn auch kaufmännisch holen unsere Experten das Optimum aus jedem Windpark heraus. Strom aus Erneuerbaren Energien überführt auch den Verkehrs- und Wärmesektor in eine nachhaltige Zukunft. Dazu entwickeln kreative Köpfe individuelle Lösungen jenseits des eigentlichen Kerngeschäfts. So gehört die Denker & Wulf AG mit ihrem Hauptsitz in Sehestedt und Niederlassungen in Rerik und Eberswalde zweifellos zu den spannendsten Unternehmen in Schleswig-Holstein.
+Starte auch du deinen nächsten Karriereschritt mit weitreichenden Perspektiven und trage gemeinsam mit uns einen Teil zum Klimaschutz bei. 
+
+Referent (m/w/d) im Bereich Stromvermarktung
+
+FREUE DICH AUF VIELFÄLTIGE AUFGABEN:
+
+-Vermarktung der Energiemengen aus dem DWAG-Portfolio
+-Vorbereitung / Durchführung von Ausschreibungen
+-Preis- / Vertragsverhandlungen mit Vermarktern
+-Vertragsprüfungen (Zusammenarbeit mit anderen internen Abteilungen)
+-Kommunikation mir externen Betreibern und Banken
+-Allgemeines Vertragsmanagement
+
+BEREICHERE UNSER TEAM:
+
+- mit einem überdurchschnittlich erfolgreich abgeschlossenem Studium mit Bezug zu energiewirtschaftlichen Themen oder sehr gute kaufmännische Ausbildung bspw. in einer Bank oder Versicherung mit Fokus auf modernem Vertragsmanagement, Börsen- bzw. Kurzfristhandel, Hedging und Risikomanagement oder direkt erneuerbare Energien
+-Du hast Freude in der Kommunikation mit Kunden, Vermarktern, Banken und vielen anderen Akteuren
+-Zahlen, Daten und Analysen des Strommarktes aus Wind- und PV-Parks wecken Deine Neugier und Kreativität
+-Ein hohes Maß an Eigeninitiative und Selbstständigkeit zeichnen Deine Arbeit aus und öffnen Räume für die Übernahme von Verantwortung
+-"Pivot" und "SVERWEIS" in Excel sind keine Herausforderung für Dich; Datenbanken, Kanban-Baords und Kollaborationstools sind gern genutzte Hilfsmittel, um Aufgaben effizient zu erledigen
+-Programmiererfahrungen in Sprachen wie z.B. Python/Matlab/JavaScript sind die Voraussetzungen, damit wir gemeinsam die Vermarktung auf die nächste Stufe heben können!
+-Wenn Du bereits in der Energiebranche tätig warst, freuen wir uns auf Deinen unmittelbaren Erfahrungsschatz
+
+DAS SIND WIR! EIN STARKES TEAM MIT KLAREN WERTEN:
+-	Miteinander und füreinander arbeiten
+o	Sehr gutes Betriebsklima und Kommunikation auf Augenhöhe
+o	Flache Hierarchien und kooperativer Führungsstil
+o	Spezialisten und kreative Köpfe mit viel Sorgfalt und Liebe zum Detail
+o	Leidenschaft für die Energiewende und der Wunsch, die Zukunft aktiv mitzugestalten
+-	Sich wohl fühlen und identifizieren
+o	Attraktives Arbeitsumfeld direkt am Nord-Ostsee-Kanal 
+o	Flexible Arbeitszeiten
+o	Gesundheitsfördernde betriebliche Angebote wie Bikeleasing und Hansefit
+o	Betriebliche Altersvorsorge und Mitarbeiter-Unfallversicherung zu deinem Schutz
+
+GEMEINSAM VOM WIND TRAGEN LASSEN – DAFÜR FREUEN WIR UNS AUF DEINE BEWERBUNG
+
+Sende bitte deine Bewerbungsunterlagen mit Angabe Deiner Gehaltsvorstellung und dem frühestmöglichen Eintrittstermin an:
+
+Denker & Wulf AG, Personalabteilung, Windmühlenberg, 24814 Sehestedt
+
+Bevorzugt per E-Mail an jobs-48@denkerwulf-all.rexx-systems.com - das geht schnell und schont die Umwelt.
+
+http://www.offis.de
+10000-1193443790-S
+2023-03-02
+Wissenschaftliche*r Mitarbeiter*in (w/m/d) Co-Simulation für hyBit – Wasserstoffwirtschaft in Bremen, Informatiker/in (Hochschule) 
+OFFIS e.V.
+{'land': 'Deutschland', 'region': 'Niedersachsen', 'plz': '26121', 'ort': 'Oldenburg (Oldb)', 'strasse': 'Escherweg 2'}
+Für die nächsten zwei Jahre und ggf. auch darüber hinaus suchen wir am Standort Oldenburg tatkräftige Unterstützung in Vollzeit für unseren Forschungs- und Entwicklungsbereich Energie in der Gruppe "Co-Simulation multimodaler Energiesysteme".
+
+Die Herausforderungen des zukünftigen Energieversorgungssystems sind ein spannendes Arbeitsumfeld und Lösungsansätze können wichtige Beiträge zur Bewältigung der Energiewende darstellen. In diesem Rahmen erarbeitet die Gruppe „Co-Simulation multimodaler Energiesysteme“ grundlegende Simulationsverfahren, Schnittstellen zur Integration verfügbarer Simulationstools, Modelle für Komponenten des Energiesystems und Prozesse für den einfachen Entwurf und die effiziente Durchführung von Simulationsexperimenten.
+
+In dem Projekt hyBit – Hydrogen for Bremen’s Industrial Transformation wird der Aufbau einer Wasserstoffwirtschaft in Bremen erforscht, die im Industriebereich großes Potential zur Reduktion der Treibhausgasemissionen hat. In dem Projekt arbeiten wir zusammen mit den Partnern an Simulationen, dem Datenhandling und der Kopplung von Modellen, um unterschiedliche Aspekte, wie ökonomische und ökologische, dieser Transformation untersuchbar zu machen.
+
+Das machen Sie möglich:
+- Forschung in Themen der Co-Simulation von (zellulären) Energiesystemen zusammen mit Projektpartnern und unserem internen Team
+- Weiterentwicklung des open-source Simulationstools mosaik, hauptsächlich in Python (https://gitlab.com/mosaik)
+- Automatisieren und Strukturieren unserer Entwicklungsprozesse in mosaik (CI/CD, DevOps)
+- Entwickeln von Softwareschnittstellen zwischen Simulationstools
+- Veröffentlichen von wissenschaftlichen Veröffentlichungen zusammen mit den Projektpartnern
+
+Das bringen Sie mit:
+- Sie haben ein Studium der Informatik oder Wirtschaftsinformatik im Master erfolgreich abgeschlossen.
+- Sie haben Interessen an einer Promotion, an wissenschaftlicher Arbeit, dem Veröffentlichen und Präsentieren von wissenschaftlichen Ergebnissen und der Zusammenarbeit mit wissenschaftlichen Partnern.
+- Sie haben Interesse an Softwareentwicklung (Softwarearchitektur, Schnittstellenentwicklung, Programmierung neuer Komponenten) und arbeiten sich gerne in bestehende (open source) Software ein.
+- Sie können objektorientiert in Hochsprachen programmieren (z.B. Python, Java, C#, ...).
+- Git, REST und Docker sind keine Fremdworte für Sie.
+- Sie lernen selbstständig gerne auch neue Themen in der Informatik und Energietechnik.
+- Sie verfügen über sehr gute Deutsch- und Englischkenntnisse (Sprachniveau B2 oder besser) für direkte Abstimmungen mit Industriepartnern und den wissenschaftlichen Austausch.
+
+Das bieten wir Ihnen:
+- Freuen Sie sich auf ein menschlich sehr angenehmes und fachlich äußerst interessantes Arbeitsumfeld.
+- Wir unterstützen Sie aktiv bei Ihrer beruflichen und wissenschaftlichen Weiterqualifikation
+- Vereinbarkeit von Beruf und Familie sind uns wichtig – dies unterstützen wir u.a. mit flexiblen Arbeitszeiten, Prüfung von Teilzeitmöglichkeiten und Homeoffice.
+- Toleranz, Offenheit und Chancengleichheit gegenüber Personen aller Geschlechter (m/w/d) sind uns wichtig.
+- Unseren seit Jahren steigenden Frauenanteil möchten wir gerne weiterhin wachsen lassen.
+- Bewerbungen schwerbehinderter Menschen bevorzugen wir bei fachlicher Eignung.
+- Ihre Stelle ist auf 24 Monate befristet mit der Option auf Verlängerung und wird nach TV-L 13 vergütet.
+
+Ansprechpartner:
+Dr. Jürgen Meister
+bewerbung(at)offis.de
+
+Weitergehende Informationen zum Bewerbungsverfahren und zum Datenschutz erhalten Sie unter https://t1p.de/OFFIS-Bewerbungsinfos.
+
+http://www.offis.de
+10000-1193443664-S
+2023-03-02
+Software- und System-Architekt*in (w/m/d) Digitale Zwillinge für Wasserstoff-Elektrolyseure, Informatiker/in (Hochschule) 
+OFFIS e.V.
+{'land': 'Deutschland', 'region': 'Niedersachsen', 'plz': '26121', 'ort': 'Oldenburg (Oldb)', 'strasse': 'Escherweg 2'}
+Für die nächsten zwei Jahre und ggf. auch darüber hinaus suchen wir am Standort Oldenburg tatkräftige Unterstützung in Vollzeit für unseren Forschungs- und Entwicklungsbereich Energie in der Gruppe "Co-Simulation multimodaler Energiesysteme".
+
+Die Herausforderungen des zukünftigen Energieversorgungssystems sind ein spannendes Arbeitsumfeld und Lösungsansätze können wichtige Beiträge zur Bewältigung der Energiewende darstellen. In diesem Rahmen erarbeitet die Gruppe „Co-Simulation multimodaler Energiesysteme“ grundlegende Simulationsverfahren, Schnittstellen zur Integration verfügbarer Simulationstools, Modelle für Komponenten des Energiesystems und Prozesse für den einfachen Entwurf und die effiziente Durchführung von Simulationsexperimenten. In diesem Projekt wird ein Digitaler Zwilling für Elektrolyseure entwickelt, in dem auch Simulationen und Modelle zum Einsatz kommen.
+
+Das machen Sie möglich:
+- Eigenständige Einarbeitung und Forschung in Themen der Co-Simulation, der Wasserstoffproduktion und Stromnetze
+- Entwicklung von Simulationslösungen für den Bereich der Elektrolyse zusammen mit den internen und externen Projektpartnern
+- Weiterentwicklung des Open Source Tools mosaik, hauptsächlich in Python (https://gitlab.com/mosaik)
+- Automatisieren und Strukturieren unserer Entwicklungsprozesse in mosaik (CI/CD, DevOps)
+- Austausch und Koordination der Entwicklungstätigkeiten mit unseren Projektpartnern
+- Veröffentlichen von wissenschaftlichen Papern zusammen mit den Projektpartnern
+
+Das bringen Sie mit:
+- Sie haben einen Master in Informatik oder einem informatiknahen Fachgebiet.
+- Sie haben Interesse an einer Promotion, an wissenschaftlicher Arbeit, dem Veröffentlichen und Präsentieren von wissenschaftlichen Ergebnissen und der Zusammenarbeit mit wissenschaftlichen Partnern.
+- Sie haben Interesse und Erfahrung in der Softwareentwicklung und Softwarearchitektur und arbeiten sich gerne in bestehende (open source) Software ein.
+- Sie können objektorientiert in Hochsprachen programmieren (z.B. Python, Java, C#, ...).
+- Git, REST und Docker sind im besten Fall keine Fremdworte für Sie.
+-Sie lernen selbstständig gerne auch neue Themen in der Informatik.
+- Sie haben sehr gute Deutsch- und Englischkenntnisse (Sprachniveau B2 oder besser) für direkte Abstimmungen mit Industriepartnern und den wissenschaftlichen Austausch.
+
+Das bieten wir Ihnen:
+- Freuen Sie sich auf ein menschlich sehr angenehmes und fachlich äußerst interessantes Arbeitsumfeld.
+- Wir unterstützen Sie aktiv bei Ihrer beruflichen und wissenschaftlichen Weiterqualifikation
+- Vereinbarkeit von Beruf und Familie sind uns wichtig – dies unterstützen wir u.a. mit flexiblen Arbeitszeiten, Prüfung von Teilzeitmöglichkeiten und Homeoffice.
+- Toleranz, Offenheit und Chancengleichheit gegenüber Personen aller Geschlechter (m/w/d) sind uns wichtig.
+- Unseren seit Jahren steigenden Frauenanteil möchten wir gerne weiterhin wachsen lassen.
+- Bewerbungen schwerbehinderter Menschen bevorzugen wir bei fachlicher Eignung.
+- Ihre Stelle ist auf 24 Monate befristet mit der Option auf Verlängerung und wird nach TV-L 13 vergütet.
+
+Ansprechpartner:
+Dr. Jürgen Meister
+bewerbung(at)offis.de
+
+Wenn Sie mit der Berücksichtigung Ihrer Bewerbung auch für andere offene Stellen einverstanden sind, teilen Sie uns dies bitte formlos im Rahmen Ihres E-Mailanschreibens mit oder fügen Sie Ihrer Bewerbung unser Einwilligungsformular (PDF-Download) als Anlage bei.
+
+Weitergehende Informationen zum Bewerbungsverfahren und zum Datenschutz erhalten Sie unter https://t1p.de/OFFIS-Bewerbungsinfos.
+
+http://www.offis.de
+10000-1193443889-S
+2023-03-02
+Wiss. Mitarbeiter*in (w/m/d) Forschungsgruppe „Co-Simulation multimodaler Energiesysteme" (COM), Informatiker/in (Hochschule) 
+OFFIS e.V.
+{'land': 'Deutschland', 'region': 'Niedersachsen', 'plz': '26121', 'ort': 'Oldenburg (Oldb)', 'strasse': 'Escherweg 2'}
+Für die nächsten zwei Jahre und ggf. auch darüber hinaus suchen wir am Standort Oldenburg tatkräftige Unterstützung in Vollzeit für unseren Forschungs- und Entwicklungsbereich Energie in der Gruppe "Co-Simulation multimodaler Energiesysteme".
+
+Die Herausforderungen des zukünftigen Energieversorgungssystems sind ein spannendes Arbeitsumfeld und Lösungsansätze können wichtige Beiträge zur Bewältigung der Energiewende darstellen. In diesem Rahmen erarbeitet die Gruppe „Co-Simulation multimodaler Energiesysteme“ grundlegende Simulationsverfahren, Schnittstellen zur Integration verfügbarer Simulationstools, Modelle für Komponenten des Energiesystems und Prozesse für den einfachen Entwurf und die effiziente Durchführung von Simulationsexperimenten.
+
+Unser open-source Co-Simulationsframework „mosaik“ (https://gitlab.com/mosaik) ist in der Community weit verbreitet und wird in der Energieforschung vielfach eingesetzt. In einem neuen Projekt geht es darum, dieses Tool im Kern weiterzuentwickeln und die Kopplungen zu weiteren Tools der Domäne auszubauen.
+
+Das machen Sie möglich:
+- Sie steigen tief in den Aufbau und die Funktionsweise von mosaik ein und entwickeln eigenständig und mit unserem mosaik-Team unser Framework weiter und bereiten es für die nächsten Herausforderungen in der Energieforschung vor.
+- Sie forschen im Themenbereich Co-Simulation von Energiesystemen zusammen mit Projektpartnern und unserem internen Team und arbeiten an wissenschaftlichen Veröffentlichungen.
+- Sie gehen selbstständig Teile der Weiterentwicklung von mosaik an und entwickeln zusammen mit dem Team auch die Entwicklung selbst weiter.
+- Entwickeln von Softwareschnittstellen zwischen Simulationstools.
+
+Das bringen Sie mit:
+- Sie haben ein Studium der Informatik oder Wirtschaftsinformatik im Master erfolgreich abgeschlossen.
+- Sie haben Interessen an einer Promotion, an wissenschaftlicher Arbeit, dem Veröffentlichen und Präsentieren von wissenschaftlichen Ergebnissen und der Zusammenarbeit mit wissenschaftlichen Partnern.
+- Sie haben Interesse an Softwareentwicklung  (Softwarearchitektur, Schnittstellenentwicklung, Programmierung neuer Komponenten) und arbeiten sich gerne in bestehende (open source) Software ein.
+- Dazu haben Sie ein hervorragendes Verständnis für Programmierung, arbeiten sich gerne in komplexe Software ein und bringen am besten auch Vorkenntnisse in Python  und / oder anderen objektorientierten Hochsprachen mit und haben erste Erfahrungen mit dem Automatisieren und Strukturieren von Entwicklungsprozessen (Stichworte CI/CD, DevOps).
+- Git, REST und Docker sind keine Fremdworte für Sie.
+- Sie lernen selbstständig gerne auch neue Themen in der Informatik und Energietechnik.
+- Sehr gute Deutsch- und Englischkenntnisse (Sprachniveau B2 oder besser) für direkte Abstimmungen mit Industriepartnern und den wissenschaftlichen Austausch.
+
+Das bieten wir Ihnen:
+- Freuen Sie sich auf ein menschlich sehr angenehmes und fachlich äußerst interessantes Arbeitsumfeld.
+- Wir unterstützen Sie aktiv bei Ihrer beruflichen und wissenschaftlichen Weiterqualifikation
+- Vereinbarkeit von Beruf und Familie sind uns wichtig – dies unterstützen wir u.a. mit flexiblen Arbeitszeiten, Prüfung von Teilzeitmöglichkeiten und Homeoffice.
+- Toleranz, Offenheit und Chancengleichheit gegenüber Personen aller Geschlechter (m/w/d) sind uns wichtig.
+- Unseren seit Jahren steigenden Frauenanteil möchten wir gerne weiterhin wachsen lassen.
+- Bewerbungen schwerbehinderter Menschen bevorzugen wir bei fachlicher Eignung.
+- Ihre Stelle ist auf 24 Monate befristet mit der Option auf Verlängerung und wird nach TV-L 13 vergütet.
+
+Ansprechpartner:
+Dr. Jürgen Meister
+bewerbung(at)offis.de
+
+Weitergehende Informationen zum Bewerbungsverfahren und zum Datenschutz erhalten Sie unter https://t1p.de/OFFIS-Bewerbungsinfos.
+
+http://www.eneka.de
+10000-1193157169-S
+2023-02-10
+Green-IT-Tech Start-up sucht Frontend Entwickler:in am Standort Rostock, Frontend-Entwickler/in 
+ENEKA Energie & Karten GmbH
+{'land': 'Deutschland', 'region': 'Mecklenburg-Vorpommern', 'plz': '18055', 'ort': 'Rostock', 'strasse': 'Richard-Wagner-Str. 1a'}
+Wir glauben an die lokale Energiewende. Mit unserem Produkt wollen wir das entscheidend voran bringen und setzen dabei auf kartografische Visualisierung: denn "Sehen heißt Verstehen".
+Wir bieten: flexible Arbeitszeiten, sowie Gleitzeit, Homeoffice-Möglichkeit (bis zu 2 Tage die Woche) sowie Remote-Working, angemessene Entlohnung.
+
+Das bringst du mit: Teamfähigkeit, den Willen, Software sauber umzusetzen, einen kühlen Kopf, Problemlösungskompetenz mit Pragmatismus und Vorstellungskraft, Zuverlässigkeit und Pünktlichkeit, dir zugetragene Aufgaben müssen nicht kontrolliert werden
+
+Von Vorteil sind Kenntnisse in: Erfahrungen mit Docker, Test Driven Development, Cypress, Storybook, Django, Python, AWS, IaC, DevOps-Themen, relationalen Datenbanken, vorzugsweise Postgres, geografische Themen in der Informatik
+
+Hier packst du an: als Mitglied eines agilen Teams betreust du die von dir oder uns geschriebene Software von der Entwicklung über Build und Pipeline bis hin zum Betrieb, du entwicklest eigene Komponenten, um unseren Technologie-Stack zu erweitern, dafür greifst du auf deine Kenntnisse in JavaScript, React, Redux, Webpack, CSS, Tailwind, OpenAPI Specification, REST-FULL-API zurück und bist sicher im Umgang mit linuxbasierten Shells (Linux, Mac, WSL) und kennst CI/CD-System (Github Actions).
+
+Die Stelle ist auch geeignet für Berufs- und Quereinsteiger mit Vorerfahrungen.
+
+Alles Weitere erzählen wir dir gern in einem persönlichen Gespräch. Für Fragen steht dir Juliane zur Verfügung (+381 26053420). Wir freuen uns auf deine aussagekräftige Bewerbung (ohne Foto) in digitaler Form an bewerbung@eneka.de mit Angaben zum frühstmöglichen Beginn und deinen Gehaltsvorstellungen.
+
+http://www.gp-joule.de
+10000-1193171757-S
+2023-02-13
+Teamleitung Portfoliomanagement - Optimierung Stromerzeugung und -verbrauch, Betriebswirt/in (Ausbildung) - Textil 
+GP Joule GmbH
+{'land': 'Deutschland', 'region': 'Schleswig-Holstein', 'plz': '25821', 'ort': 'Reußenköge', 'strasse': 'Cecilienkoog 16'}
+MIT ENERGIE IN DIE ZUKUNFT
+DEINE KARRIERE BEI DER GP JOULE GRUPPE
+
+Mit Strom aus Wind und Sonne, mit Grünem Wasserstoff, mit CO2-freier Mobilität, mit smarter Speicherung und Nutzung bauen wir das Energiesystem der Zukunft. So stellt GP JOULE als universeller Anbieter für erneuerbare Energien die Energieversorgung für Generationen sicher. Den gesamten Energieverbrauch erneuerbar zu produzieren, ist für uns mehr als ein Ziel. Es ist unsere Verantwortung. Seit 2009 setzt GP JOULE diese Verantwortung in die Tat um. Auf Augenhöhe mit den Menschen, Gemeinden und Unternehmen schaffen wir die echte Energiewende.
+
+GP JOULE PLUS bringt Erzeuger und Verbraucher zusammen. Egal ob Privathaushalt, Unternehmen oder kommunaler Betrieb – GP JOULE PLUS liefert erneuerbaren Strom zu stabilen Preisen. Das schafft langfristige Versorgungs- und Planungssicherheit.
+
+Wir suchen für die GP JOULE PLUS zum nächstmöglichen Zeitpunkt in Vollzeit an einem der Standorte Reußenköge bei Husum, Hamburg oder Pohnstorf/Malchin (auch mobiles Arbeiten regelmäßig möglich):
+
+Teamleitung Portfoliomanagement - Optimierung Stromerzeugung und -verbrauch
+ 
+DEINE AUFGABEN
+
+- Du verantwortest als Teamlead den Aufbau der an EE-Erzeugung optimierten Fahrweise unserer flexiblen Verbraucher
+- Du baust schlanke Prozesse für die Optimierung (Dayahead / Intraday) und die entsprechende Fahrplanerstellung / Steuerung auf
+- Du entwickelst Randbedingungen für die Programmierung von Steuerungsalgorithmen
+- Du unterstützt mit energiewirtschaftlichem Sachverstand den Ausbau und die Strukturierung unseres Portfolios von Power-Purchase-Agreements (PPA)
+ 
+
+DEIN PROFIL
+
+- Kaufmännische Ausbildung oder Studium (z.B. BWL, VWL, Physik, Mathematik o.ä.)
+- Einschlägige Berufserfahrung im Bereich Stromhandel, Bilanzkreisoptimierung und/oder Portfoliomanagement sowie  in der Analyse und Strukturierung von Energieprodukten
+- Kenntnisse energiewirtschaftlicher Modellierungen bspw. mit Python (Python-Verständnis wünschenswert, aber nicht vorausgesetzt)
+- Flexible, dynamische und dennoch konzeptionelle, strukturierte sowie selbständige Arbeitsweise 
+
+Unsere Profilbeschreibung enthält eine Vielzahl unterschiedlicher Kompetenzen, die für die Position relevant sind. Bitte bewirb Dich auch, wenn Du noch nicht alle Punkte zu 100% erfüllst. Denn wir sind der Meinung, dass man alles lernen kann und unterstützen Dich gerne dabei.
+
+UNSER ANGEBOT
+
+- GP JOULE PLUS ist ein motiviertes Team. Spannende Jahre des Aufbaus liegen vor uns.
+- Vielseitige zukunftsweisende Tätigkeit bei einem Pionier der EE-Branche mit Freiraum für Eigeninitiative und Ideen
+- Flexible Arbeitszeiten, mobiles Arbeiten und Vereinbarkeit von Beruf und Familie
+- Attraktive Entwicklungsperspektiven durch Aus- und Weiterbildungsmöglichkeiten unter Berücksichtigung Deiner persönlichen Interessen
+- Großartige Firmenfeiern mit der gesamten GP JOULE Familie, Weihnachtsfeiern und Afterwork-Events
+- Wertschätzender und kollegialer Umgang sowie einzigartiger Teamspirit in einem begeisterten und familiären Umfeld
+
+VOLLER ENERGIE FÜR NEUE HERAUSFORDERUNGEN?
+
+Dann freuen wir uns über Deine vollständige Bewerbung (Anschreiben, Lebenslauf, Zeugnisse). Bitte gib Deine Gehaltsvorstellung und Dein frühestmögliches Eintrittsdatum an.
+
+Es spielt bei uns keine Rolle, woher Du kommst, wo Du zur Schule gegangen bist oder in welcher Branche Du aktuell tätig bist. Wenn Du außergewöhnliche Dinge leisten willst, solltest Du bei uns mitmachen, um die Zukunft der erneuerbaren Energie mitzugestalten.
+
+Bei Fragen stehen wir gerne zur Verfügung.
+
+www.siemens-energy.com
+15170-265574065-S
+2022-12-01
+Product Line Support Digitalization (f/m/d), Betriebswirt/in (Hochschule) 
+Siemens Energy Global GmbH & Co. KG
+{'land': 'Deutschland', 'region': 'Bayern', 'plz': '80333', 'ort': 'München', 'strasse': 'Werner-von-Siemens-Str 1'}
+Momentaufnahme von Ihrem Tag 
+
+Nach einem morgendlichen Check-In mit dem Team wechseln sich die Tage zwischen konzentrierter Arbeit an eignen Themen und der Koordination verschiedenen Abteilungen ab.
+
+Wie Sie etwas bewirken können 
+     * Betreuung einer Blockchain-Software im Bereich Einkauf inkl. Erstellung Schulungsunterlagen und Durchführung von Schulungen
+     * Unterstützung im Product Line Support bei Digitalisierungsprojekten und weiteren Automatisierungsvorhaben
+     * Analyse und Optimierung von Geschäftsprozessen sowie die selbstständige Arbeit an Digitalisierungsprojekten
+     * Vor- und Nachbereitung von Workshops im Bereich Digitalisierung
+
+Was Sie mitbringen   
+     * Derzeitiges Studium in einer wirtschaftswissenschaftlichen oder informationstechnischen Fachrichtung (BWL, Wirtschaftsinformatik, Wirtschaftsingenieurwesen o. Ä.)
+     * Hohe IT-Affinität: Excel- und Programmierkenntnisse (z. B. Python), Kenntnisse von Automatisierungssoftware (z.B. UI Path) sowie erste Schritte im Umgang mit Datenbanken / Datawarehouses wie Snowflake oder Oracle
+     * Leichte Einarbeitung in komplexe Systeme wie SAP, Teamcenter, Alteryx oder Tableau
+     * Sehr gute Englisch- und Deutschkenntnisse in Wort und Schrift
+
+Über das Team  
+ 
+Durch unsere Division Generation verbessern wir die konventionelle und erneuerbare Stromversorgung und bringen Innovationen ein. Derzeit reduzieren wir die Kohlenstoffemissionen vorhandener Anlagen und entwickeln Technologien zur Veränderung von Stromerzeugungsanwendungen.
+
+Wie ist es, bei Siemens Energy zu arbeiten? Werfen Sie einen Blick darauf: https://bit.ly/3hD9pvK 
+
+Wer ist Siemens Energy? 
+
+Wir bei Siemens Energy sind mehr als nur ein Energietechnologieunternehmen. Wir decken den wachsenden Energiebedarf in über 90 Ländern und sorgen dabei für den Schutz unseres Klimas. Mit über 92.000 engagierten Mitarbeitern erzeugen wir nicht nur Elektrizität für über 16 % der Weltbevölkerung, sondern setzen unsere Technologie auch für den Schutz von Mensch und Umwelt ein. 
+
+Unser globales Team engagiert sich dafür, nachhaltige, zuverlässige und erschwingliche Energie Wirklichkeit werden zu lassen, indem es die Grenzen des Möglichen immer weiter ausdehnt. Wir blicken stolz auf unser 150-jähriges Erbe der Innovation zurück, das uns ermutigt, nach Menschen zu suchen, die unseren Fokus auf die Reduzierung von CO2, neue Technologien und Energiewende unterstützen. 
+ 
+Unser Engagement für Vielfalt 
+
+Gut, dass wir nicht alle gleich sind. Vielfalt macht uns leistungsstark. Wir leben von Inklusion und unsere gemeinsame kreative Energie wird von über 130 Nationalitäten gespeist. Siemens Energy setzt auf den Charakter - unabhängig von ethnischem Hintergrund, Geschlecht, Alter, Religion, Identität oder Behinderung. Wir versorgen die Gesellschaft mit Energie - die ganze Gesellschaft - und wir diskriminieren nicht aufgrund von Unterschieden, die zwischen uns bestehen. 
+
+Benefits 
+     * Spannende Einblicke in ein internationales Unternehmen
+     * Begleite die Produktlinie Large Gas Turbine auf dem Weg der digitalen Transformation
+     * Erlerne die neuesten digitalen Technologien und bringe sie zur Anwendung
+
+Wir legen Wert auf Chancengleichheit und freuen uns über Bewerbungen von Menschen mit Behinderung. 
+
+https://jobs.siemens-energy.com/jobs 
+
+#RPO
+
+http://www.centrotec.de
+10000-1189602949-S
+2022-06-09
+Junior Developer (m/w/d), Informatiker/in (Hochschule) 
+CENTROTEC SE
+{'land': 'Deutschland', 'region': 'Nordrhein-Westfalen', 'plz': '59929', 'ort': 'Brilon', 'strasse': 'Am Patbergschen Dorn 9'}
+Die CENTROTEC SE ist eine in Deutschland ansässige und weltweit vertretene Unternehmensgruppe. International sind wir mit über 4.000 Mitarbeitern und Mitarbeiterinnen sehr erfolgreich in den Branchen Heizung-Lüftung-Klima, Bauprodukte und Erneuerbare Energien sowie der Industriekunststoffe und Medizintechnik tätig. Mit unseren Marken Wolf, BRINK, Ubbink, IVT, Centrotherm und der Sonnenstromfabrik helfen wir, mit ausgereiften Produkten und integrierten Systemlösungen Energie einzusparen und Lebenskomfort zu erhöhen. Wir sind einer der führenden Anbieter auf diesem Gebiet und besetzen in diesen Segmenten alle bei der globalen CO2-Reduzierung relevanten Technologien und Systemlösungen. Darüber hinaus sind wir mit unseren Tochtergesellschaften Centroplast und Rolf Schmidt Industri Plast im Geschäftsfeld der Hochleistungskunststoffe aktiv. Unsere Gesellschaft Möller Medical bietet erfolgreich zukunftsweisende Technologien in Medizintechnik und Life Sciences an.
+
+Um unser Wachstum weiter zu unterstützen, suchen wir für sofort einen
+
+Junior Developer (m/w/d)
+
+in Vollzeit mit teilweiser Home-Office-Option.
+
+Deine Aufgaben:
+- Planen, Konzipieren und Entwickeln von Softwarelösungen
+- Softwareentwicklung zur Umsetzung von Digitalisierungs-/IT-Projekten zur Verbesserung von Unternehmensprozessen – z. B. in den Bereichen Fertigung, Lager, Vertrieb etc.
+- Entwicklung und Design von Erweiterungen und kundenspezifischen Anpassungen als Ergänzung zur bestehenden Applikationslandschaft
+
+Dein Profil:
+- Idealerweise hast du ein abgeschlossenes Informatikstudium (Univ. / FH) oder Berufserfahrung in einer vergleichbaren Position.
+- Erste Praxiserfahrungen als Fullstack Developer sind erwünscht
+- C# .Net, VisualStudio 2022, HTML, CSS, MSSQL, Net 6 Blazor, MongoDB, Azure Services, App Service, Azure AD B2C, CosmosDB, Blob storage, Bootstrap, DevXpress, MS Azure DevOps
+- Sehr gute Deutsch- und Englischkenntnisse
+
+Das bringst du mit:
+- Du bist teamfähig und kannst gut mit Menschen unterschiedlicher Kulturen umgehen
+- Du hast Spaß am Entwickeln von Software- Lösungen
+- Du bist engagiert, kreativ und innovativ
+- Du arbeitest gerne im Team und bist begeisterungsfähig
+
+Wir bieten dir:
+- Eine abwechslungsreiche Tätigkeit in immer wieder neuen Kundensituationen mit langfristiger Perspektive
+- Eine der Position angemessene Vergütung
+- Umfangreiche Benefits und attraktive Zusatzangebote (Mobiles Arbeiten, Flexible Arbeitszeiten, Bike-Leasing, Gesundheitsvorsorge etc.)
+- Eine innovative, international tätige Unternehmensgruppe mit flachen Hierarchien und einer wertschätzenden Unternehmenskultur
+- Ein dynamisches Arbeitsumfeld mit hoher Eigenverantwortung
+- Hervorragendes Betriebsklima in einem international agierenden Team mit starkem Zusammenhalt
+
+Sind Sie an dieser spannenden Aufgabe in einem stark wachsenden Unternehmen mit führender Position im Zukunftsmarkt der Gebäudetechnik interessiert?
+
+Dann freuen wir uns auf Ihre aussagekräftigen und vollständigen Bewerbungsunterlagen unter Angabe Ihrer Gehaltsvorstellung und des möglichen Eintrittstermins an jobs@centrotec.de
+
+CENTROTEC SE | Am Patbergschen Dorn 9 |59929 Brilon | E-Mail: jobs@centrotec.de
+
+www.centrotec.de
+
+http://www.bayer.com
+12708-709910-1-S
+2022-11-23
+None, Softwareentwickler/in 
+Bayer AG
+{'land': 'Deutschland', 'region': 'Nordrhein-Westfalen', 'plz': '51373', 'ort': 'Leverkusen', 'strasse': 'Kaiser-Wilhelm-Allee 1'}
+Bei Bayer sind wir Visionäre und entschlossen, die größten Herausforderungen unseres Planeten zu überwinden und zu einer Welt beizutragen, in der genug Nahrung und ausreichende medizinische Versorgung für alle Menschen keine unerreichbaren Ziele mehr darstellen. Wir tun dies mit Energie, Neugier und purer Hingabe, lernen stets von den Menschen um uns herum, erweitern unsere Denkweise, verbessern unsere Fähigkeiten und definieren das „Unmögliche“ neu. Es gibt viele Gründe, sich uns anzuschließen: Wenn Sie nach einer abwechslungsreichen und bedeutungsvollen beruflichen Zukunft streben, in der Sie gemeinsam mit anderen brillanten Köpfen wirklich etwas bewegen können, möchten wir Sie in unserem Team haben.
+
+
+Full Stack Web Developer (m/w/d)
+
+
+- Leite die Entwicklung von Front End-Anwendungen und von Back End-Services, die unsere Aktivitäten in den Bereichen IoT, Computer Vision, Machine Learning und Big Data unterstützen
+- Entwerfe und entwickle Full Stack-Webanwendungen, sowohl Prototypen als auch robuste und skalierbare produktive Software
+- Werde ein wichtiger Bestandteil des Bayer Crop Protection Innovation Lab-Teams und unterstütze Landwirte weltweit bei der Qualifizierung und Quantifizierung von Unkraut-, Krankheits- und Schädlingsproblemen auf ihren Feldern
+- Arbeite in einem funktionsübergreifenden Team bestehend aus Entwicklern, Datenwissenschaftlern, Agronomen und Softwareingenieuren und übernehme End to End-Produktverantwortung
+- Nutze einen hochmodernen Technologiestack, sowie den Zugang zu Beratern, Schulungen und Konferenzen, um deine Expertise zu vertiefen, dich kontinuierlich weiterzuentwickeln und unsere Produkte zu verbessern
+- Entwerfe und implementiere mittels der Infrastruktur als Code (IaC) Methodik, Testautomatisierung, und CI/ CD gemäß DevOps-Praktiken
+
+
+WAS SIE MITBRINGEN
+
+
+- Bachelor oder Master of Science in Informatik, Statistik, Operations-Research, angewandter Mathematik oder verwandten Bereichen
+- Berufserfahrung in der Entwicklung von Full Stack-Webanwendungen mit modernen JavaScript-Frameworks (React bevorzugt) einschließlich Automatisierung wie Grunt, Gulp, Brunch, etc.
+- Erfahrung in der Entwicklung von REST-APIs mit Python, Java etc. und vertiefte Kenntnisse von Standards wie HTML5, CSS3, Browser-APIs, OAuth und Websicherheit
+- Erfahrung mit SQL, relationalen und nicht-relationalen Datenbanken
+- Erfahrung mit Amazon Web Services (AWS) und Serverless Computing
+- Erfahrung mit DevOps-Praktiken und Tools für CI/ CD, Testautomatisierung und Monitoring
+- Erfahrung mit Software-Tests und Praktiken wie TDD, Unit-, End2End-Tests und Test-Frameworks
+- Sehr gute Englischkenntnisse, sowohl in Wort als auch in Schrift
+
+
+#LI-DE
+
+
+IHRE BEWERBUNG
+
+
+Dies ist Ihre Chance, sich mit uns gemeinsam den größten globalen Herausforderungen unserer Zeit zu stellen: die Gesundheit der Menschen zu erhalten, die wachsende Weltbevölkerung zu ernähren und den Klimawandel zu verlangsamen. Sie haben eine Stimme, Ideen und Perspektiven, die wir hören möchten. Denn unser Erfolg beginnt mit Ihnen. Seien Sie dabei!Bayer begrüßt Bewerbungen aller Menschen ungeachtet von ethnischer Herkunft, nationaler Herkunft, Geschlecht, Alter, körperlichen Merkmalen, sozialer Herkunft, Behinderung, Mitgliedschaft in einer Gewerkschaft, Religion, Familienstand, Schwangerschaft, sexueller Orientierung, Geschlechtsidentität oder einem anderen sachfremden Kriterium nach geltendem Recht. Wir bekennen uns zu dem Grundsatz, alle Bewerberinnen und Bewerber fair zu behandeln und Benachteiligungen zu vermeiden.
+
+
+Standort:           ​​ ​   Leverkusen​​​
+
+
+Division: ​               Crop Science​
+
+
+Referenzcode:      539146​
+
+http://www.deutschebahn.com/karriere
+12456-829127-1-S
+2022-09-01
+Softwareentwickler:in für Digitalisierung der Eisenbahninfrastruktur, Informatiker/in (Hochschule) 
+Deutsche Bahn AG
+{'land': 'Deutschland', 'region': 'Berlin', 'plz': '10557', 'ort': 'Berlin', 'strasse': 'Europaplatz 1'}
+30.000 Züge pro Tag auf 34.000 km Gleislänge. Für die Digitalisierung der Eisenbahninfrastruktur brauchen wir eine leistungsfähige und zukunftsweisende IT. In DevOps Teams, entwickeln wir, in verschiedenen Programmiersprachen, innovative IT-Systeme und betreiben diese in der Cloud. Wenn du uns dabei unterstützen möchtest die Verkehrswende mitzugestalten, im Bereich Energie für weniger CO2 Ausstoß oder im Bereich DB Netz, um mehr Verkehr auf der Schiene zu ermöglichen oder im Bereich Bahnhöfe, um intermodale Reisen zu ermöglichen, dann bewirb dich JETZT!
+
+
+Zum nächstmöglichen Zeitpunkt suchen wir dich als Softwareentwickler:in für Digitalisierung der Eisenbahninfrastruktur (w/m/d) für die DB Systel GmbH am Standort Berlin, Erfurt oder Frankfurt (Main).
+Dies ist ein "Wo du Willst-Job": Du kannst dir aussuchen, ob du von einem unserer Standorte Frankfurt am Main, Berlin oder Erfurt oder größtenteils remote arbeiten möchtest. Sobald es wieder möglich ist, kommt das Team regelmäßig vor Ort zusammen, bei entsprechenden Projekterfordernissen auch öfter.
+Deine Aufgaben:
+
+- Softwareentwicklung in mind. einer Main-Programmiersprache (insbesondere in Java und C++ oder Python, JavaScript, und Smalltalk)
+- Entwicklung mit APIs und API-Design, gerne auch mit messaging middleware
+- Betrieb in der Cloud (AWS/Azure)
+- Durchführen von Test- und Beachtung von Cyber Security-Vorgaben
+
+
+Dein Profil:
+
+- Du bringst ein erfolgreich abgeschlossenes Hochschulstudium oder eine Berufsausbildung im Bereich von IT bzw. Informatik (oder vergleichbare Qualifikation) mit und verfügst über ausgeprägte analytische Fähigkeiten, außerdem hast du bereits relevante Berufserfahrung gesammelt
+- Du verfügst über Erfahrung in der Softwareentwicklung, zudem fällt es dir leicht komplexe Ausgangssituationen zu analysieren und entsprechende User Stories umzusetzen
+- Eigenverantwortliches Arbeiten ist für dich selbstverständlich
+- In agilen Teams fühlst du dich wohl und du bist auch in der Lage mit vielen anderen Teams erfolgreich zusammen zu arbeiten
+- Sehr gute Deutschkenntnisse runden dein Profil ab
+
+
+Deine Vorteile
+* Du schaffst Großes und bekommst nicht weniger zurück: ein marktübliches Gehaltspaket mit i.d.R. unbefristeten Arbeitsverträgen und Beschäftigungssicherung sowie vielfältige Nebenleistungen und eine betriebliche Altersvorsorge.
+* Wir unterstützen dich bei der Suche nach Kitaplätzen oder Ferienbetreuung für deine Kinder. Außerdem kannst du Auszeiten für die Pflege von Angehörigen oder Sabbaticals nehmen. Je nach Job ist eine flexible Gestaltung von Arbeitszeit/-ort möglich.
+* Du profitierst von Vergünstigungen in den Bereichen Shopping, Freizeitwelt, Reisen und Bahnangebote. Die monatlich wechselnden Angebote beinhalten z.B. Mobilfunkverträge, Versicherungen, Stromtarife, Vergünstigungen bei Hotelketten, Mode und Lifestyle.
+* Du erhältst bis zu 16 Freifahrten innerhalb Deutschlands pro Jahr und weitere Fahrvergünstigungen für deine Freunde und Familie.
+* Wir fördern flexible, individuelle Arbeitszeitmodelle und unterstützen, wo es betrieblich möglich ist, durch moderne Arbeitsformen wie Homeoffice oder mobiles Arbeiten.
+
+Chancengleichheit und selbstbestimmte Teilhabe Schwerbehinderter und Gleichgestellter sowie eine respektvolle Zusammenarbeit sind innerhalb des DB Konzerns fest verankerte Grundsätze. Deshalb werden schwerbehinderte und gleichgestellte Bewerber:innen bei gleicher Eignung bevorzugt berücksichtigt.
+Darüber hinaus haben wir den Anspruch, unabhängig von der sozialen oder ethnischen Herkunft, des Geschlechts, der Religion oder Weltanschauung, des Alters oder der sexuellen Identität und Orientierung allen Kandidat:innen die gleichen Möglichkeiten des Berufseinstieges und der Aus- und Weiterbildung zu bieten. Wir fördern bewusst die Vielfalt und das Miteinander in unseren Teams.
+
+http://www.deutschebahn.com/karriere
+12456-805585-1-S
+2022-05-11
+Senior Data Engineer (w/m/d), Informatiker/in (Hochschule) 
+Deutsche Bahn AG
+{'land': 'Deutschland', 'region': 'Berlin', 'plz': '10557', 'ort': 'Berlin', 'strasse': 'Europaplatz 1'}
+Bei der DB Systel gestaltest Du aktiv die Digitalisierung im Konzern und formst entscheidend die digitale Zukunft der Bahn mit. Dazu arbeitest Du bei uns in agilen, selbstorganisierten Netzwerkstrukturen und mit entsprechendem Gestaltungsspielraum. Wir setzen auf eigenverantwortliche, motivierte Menschen, die persönlich und gemeinsam wachsen wollen.
+
+Im Team Data For Your Success (D4YS) arbeiten wir eng mit unseren konzerninternen Kunden an Themen im Bereich Big Data: Data Lake, Everything as Code sowie DevOps zusammen. Diese sind bei uns nicht nur Buzzwords, sondern gelebter Arbeitsalltag. D4YS ist zusammen mit Kollegen der DB Energie Teil eines virtuellen DevOps-Teams. Gemeinsam bauen wir eine technische Plattform rund um das Thema Daten, die von verschiedenen Fachbereichen der DB Energie genutzt wird, auf und betreiben diese. Zusätzlich hast Du bei uns die Möglichkeit als technischer Vorreiter alle Services rund um Data Lakes im DB Konzern mit voranzutreiben. Worauf wartest Du also?
+Zum nächstmöglichen Zeitpunkt suchen wir Dich als Senior Data Engineer für die DB Systel. Du kannst Dir aussuchen, ob Du größtenteils remote oder an einem unserer Standorte Berlin, Erfurt oder Frankfurt am Main arbeiten möchtest. Sobald es wieder möglich ist, kommen wir regelmäßig in Frankfurt am Main zusammen, bei entsprechenden Projekterfordernissen auch öfter.
+Deine Aufgaben:
+
+- Du unterstützt bei der Lösungsarchitektur unserer Plattform im Bereich Data Lake, Big Data und Analytics
+- Unsere konzerninternen Kunden berätst Du aktiv hinsichtlich aktueller Architekturen im Big Data und Analytics Umfeld, dabei bewegst Du Dich sowohl intern als auch extern auf allen Ebenen
+- Gemäß den Kundenanforderungen übernimmst Du Entwicklung und Betrieb komplexer ETL-Prozesse im Sinne des DevOps Ansatzes
+- Gemeinsam mit dem Team operationalisierst Du komplexe technologische Anforderungen
+- Du erarbeitest sehr anspruchsvolle und umfangreiche Konzepte zur Datenintegration mit Nutzung von Apache Spark/Scala auf Basis von AWS Technologien aus
+- Deine innovativen Ideen bringst Du ein und treibst diese voran, um uns als Team weiterzuentwickeln
+
+
+Dein Profil:
+
+- Du bringst ein abgeschlossenes (Fach-)Hochschulstudium in (Wirtschafts-)Informatik oder vergleichbarer Fachrichtung oder eine Ausbildung im IT-Bereich mit langjähriger Berufserfahrung mit
+- Im BI- und Big Data-Umfeld verfügst Du über ausgeprägte praktische Erfahrung, idealerweise mit Scala und Spark sowie Cloudtechnologien
+- Mit agiler Softwareentwicklung und Betrieb von ETL-Strecken kennst Du Dich bestens aus
+- Du konntest bereits Erfahrungen im Umfeld von Big Data Architekturen sowie mit Datenbanken, v.a. Postgres sammeln, außerdem sind Python, IaC und CI/CD keine Fremdwörter für Dich
+- Dein Verantwortungsbewusstsein und Kommunikationsfähigkeiten zeichnen Dich aus, Du lebst Agilität und treibst Themen auch mal proaktiv voran
+
+
+Deine Vorteile
+* Du erhältst bis zu 16 Freifahrten innerhalb Deutschlands pro Jahr und weitere Fahrvergünstigungen für deine Freunde und Familie.
+* Wir unterstützen dich bei der Suche nach Kitaplätzen oder Ferienbetreuung für deine Kinder. Außerdem kannst du Auszeiten für die Pflege von Angehörigen oder Sabbaticals nehmen. Je nach Job ist eine flexible Gestaltung von Arbeitszeit/-ort möglich.
+* Faszinierende Projekte und Aufgaben – von der Digitalisierung eines Großkonzerns bis zum Projekt Zukunft Bahn – fordern dein Können und warten auf deine Handschrift.
+* Du schaffst Großes und bekommst nicht weniger zurück: ein marktübliches Gehaltspaket mit i.d.R. unbefristeten Arbeitsverträgen und Beschäftigungssicherung sowie vielfältige Nebenleistungen und eine betriebliche Altersvorsorge.
+
+Chancengleichheit und selbstbestimmte Teilhabe Schwerbehinderter und Gleichgestellter sowie eine respektvolle Zusammenarbeit sind innerhalb des DB Konzerns fest verankerte Grundsätze. Deshalb werden schwerbehinderte und gleichgestellte Bewerberinnen und Bewerber bei gleicher Eignung bevorzugt berücksichtigt.
+Darüber hinaus haben wir den Anspruch, unabhängig von der sozialen oder ethnischen Herkunft, des Geschlechts, der Religion oder Weltanschauung, des Alters oder der sexuellen Identität und Orientierung allen Kandidatinnen und Kandidaten die gleichen Möglichkeiten des Berufseinstieges und der Aus- und Weiterbildung zu bieten. Wir fördern bewusst die Vielfalt und das Miteinander in unseren Teams.
+
+http://www.bayer.com
+12708-808464-1-S
+2022-05-12
+None, Softwareentwickler/in 
+Bayer AG
+{'land': 'Deutschland', 'region': 'Nordrhein-Westfalen', 'plz': '51373', 'ort': 'Leverkusen', 'strasse': 'Kaiser-Wilhelm-Allee 1'}
+Bei Bayer sind wir Visionäre und entschlossen, die größten Herausforderungen unseres Planeten zu überwinden und zu einer Welt beizutragen, in der genug Nahrung und ausreichende medizinische Versorgung für alle Menschen keine unerreichbaren Ziele mehr darstellen. Wir tun dies mit Energie, Neugier und purer Hingabe, lernen stets von den Menschen um uns herum, erweitern unsere Denkweise, verbessern unsere Fähigkeiten und definieren das „Unmögliche“ neu. Es gibt viele Gründe, sich uns anzuschließen: Wenn Sie nach einer abwechslungsreichen und bedeutungsvollen beruflichen Zukunft streben, in der Sie gemeinsam mit anderen brillanten Köpfen wirklich etwas bewegen können, möchten wir Sie in unserem Team haben.
+
+
+Software Engineer (m/w/d)
+
+
+- Werde ein wichtiger Bestandteil des Bayer Crop Protection Innovation Lab-Teams und unterstütze Landwirte weltweit bei der Qualifizierung und Quantifizierung von Unkraut-, Krankheits- und Schädlingsproblemen auf ihren Feldern
+- Arbeite an der Verbesserung der Cloud-Strategie, der KI-Strategie und der Software-Entwicklungsstrategie des Crop Protection Innovation Lab
+- Unterstütze bei der Übersetzung von Geschäftsanforderungen in technische Anforderungen durch Erfassen, Strukturieren, Analysieren und Visualisieren von Anforderungen
+
+
+- Entwerfe und entwickle Back- und Frontend-Komponenten unter Verwendung etablierter Frameworks, Datenbanken  (SQL- und NoSQL-Datenbanken) und AWS-Cloud-Services, insbesondere Serverless-Komponenten
+
+
+- Identifiziere und teste Technologie-Trends, um die bereits eingesetzten Technologien weiterzuentwickeln und anzupassen
+- Etabliere Best Practices und Richtlinien für die Softwareentwicklung
+- Sei Teil eines Entwicklungsteams, das die technische Implementierung sicherzustellen
+- Stelle sicher, dass etablierte und modernste Methoden und Werkzeuge, z.B. agilen Softwareentwicklung (SCRUM), Rapid Prototyping im Web-  und Backend-Bereich, Requirements Engineering, Solution Designs, etc., eingesetzt werden
+
+
+- Arbeite mit Produkt- und Software-Ingenieuren (m/w/d) zusammen und verbessere mit zusammen dem Infrastruktur-Team unsere  DevOps-Methodik
+
+
+- Nimm teil an allen Phasen des Produktentwicklungslebenszyklus, einschließlich Anforderungserfassung und -analyse, Design, Build, Test,  Deployment und erweiterte Hyper-Care-Phasen
+
+
+WAS SIE MITBRINGEN
+
+
+- Master of Science oder Promotion in Informatik oder verwandten Bereichen
+- Berufserfahrung in der Softwareentwicklung auf professionellem Level
+- Sehr gute Kenntnisse in objektorientierten Programmiersprachen wie Python, Java, Go
+- Erfahrung in modernen Softwareentwicklungsprozessen, Softwarearchitektur, Qualitätssicherung, Versionierung, Testen, CI/CD, UML und Design  Patterns
+
+
+- Tiefes Verständnis von Cloud-Architekturen und -Konzepten (AWS-Zertifizierung ist ein Plus, aber nicht erforderlich) sowie Infrastructure as Code  (IaC)
+
+
+- Professionelle Nutzung von Git
+- Mehrjährige Erfahrung in agilen Entwicklungsmodellen (Scrum, Kanban, XP, etc.)
+- Leidenschaft für die Bereitstellung qualitativ hochwertiger Lösungen und das Erlernen neuer Technologien
+- Tiefes Verständnis von Cloud-Architekturen und -Konzepten (AWS-Zertifizierung ist von Vorteil, aber nicht erforderlich) sowie von Infrastructure as  Code (IaC)
+
+
+- Erfahrung in der Schulung und Betreuung von Teammitgliedern zu neuen Konzepten und Technologien
+- Sehr gute Englischkenntnisse, in Wort und Schrift
+
+
+#LI-DE
+
+
+IHRE BEWERBUNG
+
+
+Dies ist Ihre Chance, sich mit uns gemeinsam den größten globalen Herausforderungen unserer Zeit zu stellen: die Gesundheit der Menschen zu erhalten, die wachsende Weltbevölkerung zu ernähren und den Klimawandel zu verlangsamen. Sie haben eine Stimme, Ideen und Perspektiven, die wir hören möchten. Denn unser Erfolg beginnt mit Ihnen. Seien Sie dabei!Bayer begrüßt Bewerbungen aller Menschen ungeachtet von ethnischer Herkunft, nationaler Herkunft, Geschlecht, Alter, körperlichen Merkmalen, sozialer Herkunft, Behinderung, Mitgliedschaft in einer Gewerkschaft, Religion, Familienstand, Schwangerschaft, sexueller Orientierung, Geschlechtsidentität oder einem anderen sachfremden Kriterium nach geltendem Recht. Wir bekennen uns zu dem Grundsatz, alle Bewerberinnen und Bewerber fair zu behandeln und Benachteiligungen zu vermeiden.
+
+
+Standort:           ​​ ​   Leverkusen​​​
+
+
+Division: ​               Crop Science​
+
+
+Referenzcode:      632621​
 
