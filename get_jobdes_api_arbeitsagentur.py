@@ -1,13 +1,15 @@
 import requests
 import base64
-
 requests.packages.urllib3.disable_warnings()
+
+
+# parameters
 ad_number = 5
 searchText = "python, aws, erneuerbare energie*"
 location = "Deutschland"
 writemode = 'w'
 
-# TODO: refactor/cleanup: outsource functions to functions2.py
+
 
 def read_file(file_path):
     with open(file_path, 'r') as file:
@@ -25,7 +27,10 @@ def clean_refnrs(refnrs):
     return clean_numbers
 
 def get_jwt():
-    """fetch the jwt token object"""
+    """fetch the jwt token object
+    function taken from:
+    https://github.com/bundesAPI/jobsuche-api/blob/main/api_example.py
+    """
     headers = {
         'User-Agent': 'Jobsuche/2.9.2 (de.arbeitsagentur.jobboerse; build:1077; iOS 15.1.0) Alamofire/5.4.4',
         'Host': 'rest.arbeitsagentur.de',
@@ -44,8 +49,12 @@ def get_jwt():
 
     return response.json()
 
+
 def search(jwt, what, where):
-    """search for jobs. params can be found here: https://jobsuche.api.bund.dev/"""
+    """search for jobs. params can be found here: https://jobsuche.api.bund.dev/
+    function taken from:
+    https://github.com/bundesAPI/jobsuche-api/blob/main/api_example.py
+    """
     params = (
         ('angebotsart', '1'),
         ('page', '1'),
@@ -69,7 +78,10 @@ def search(jwt, what, where):
 
 
 def get_job_details(jwt, job_ref):
-
+    """get the details of a job
+    function taken from:
+    https://github.com/bundesAPI/jobsuche-api/blob/main/api_example.py
+    """
     headers = {
         'User-Agent': 'Jobsuche/2.9.3 (de.arbeitsagentur.jobboerse; build:1078; iOS 15.1.0) Alamofire/5.4.4',
         'Host': 'rest.arbeitsagentur.de',
@@ -85,27 +97,23 @@ def get_job_details(jwt, job_ref):
 
 
 if __name__ == "__main__":
+    # fetch the jwt token object
     jwt = get_jwt()
+    # get job headers and extract the refnrs
     result = search(jwt["access_token"], searchText, location)
-
-    #refnrs = result['stellenangebote'][:]["refnr"]
     refnrs = [job['refnr'] for job in result['stellenangebote']]
+    # clean for known refnrs
     refnrs = clean_refnrs(refnrs)
     print("len(refnrs): ", len(refnrs))
 
-
-    # save the data in txt-file with the lines:
-    #   URL             externeUrl
-    #   job title       titel
-    #   company:        arbeitgeber
-    #   job description:stellenbeschreibung
+    ## get job details and write to file
     f = open("job_descriptions_arbeitsagentur_api.txt",
              writemode, encoding='utf-8')
-    # print(result['stellenangebote'][0])
 
     for i in range(n := len(refnrs)):
         print("i is ", i)
         job_details = get_job_details(jwt["access_token"], refnrs[i])
+        # extract job ad details
         try:
             URL = job_details["externeUrl"]
         except:
@@ -113,6 +121,7 @@ if __name__ == "__main__":
                 URL = job_details["arbeitgeberdarstellungUrl"]
             except:
                 URL = job_details["allianzpartnerUrl"]
+
         job_title = job_details["titel"]
         profession = job_details["beruf"]
         company = job_details["arbeitgeber"]
@@ -120,6 +129,7 @@ if __name__ == "__main__":
         date = job_details["aktuelleVeroeffentlichungsdatum"]
         place = job_details["arbeitgeberAdresse"]
         job_description = job_details["stellenbeschreibung"]
+
         f.writelines((URL + '\n',
                     refnr + '\n',
                     date + '\n'
@@ -128,4 +138,5 @@ if __name__ == "__main__":
                     str(place) + '\n',
                     job_description.strip() + '\n\n'))
     f.close()
+    # prevent duplicate reading of job ads
     store_refnr(refnrs)

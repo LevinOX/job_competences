@@ -14,7 +14,9 @@ print("len(competences): ", len(competences))
 
 false_words = []
 for word in competences:
-    if nlp(word).has_vector:
+    # check if word is in vocabulary
+    #if nlp(word).has_vector:
+    if nlp(word).vector_norm == 0:
         false_words.append(word)
 
 print(len(false_words))
